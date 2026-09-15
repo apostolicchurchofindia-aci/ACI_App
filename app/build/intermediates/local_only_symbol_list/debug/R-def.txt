@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color gold
+color ic_launcher_background
+color navy
+color white
+drawable ic_cross
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.ACIChurch
+style Theme.ACIChurch.Splash

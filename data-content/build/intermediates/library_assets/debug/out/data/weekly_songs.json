@@ -1,0 +1,41 @@
+[
+    {
+        "id": "ws-bharath-nagar-2026-09-20",
+        "sundayDate": "2026-09-20",
+        "branchId": "branch-bharath-nagar",
+        "songId": "song-goodness-of-god",
+        "key": "A",
+        "bpm": 63,
+        "worshipLeaderName": "Esther Paul",
+        "practiceAudioUrl": "sample://audio/goodness-of-god-practice.mp3",
+        "youtubeVideoId": "",
+        "notes": "Start softly on verse 1, build from the chorus. Capo 1 for guitar.",
+        "status": "PUBLISHED"
+    },
+    {
+        "id": "ws-mannurpet-2026-09-20",
+        "sundayDate": "2026-09-20",
+        "branchId": "branch-mannurpet",
+        "songId": "song-10000-reasons",
+        "key": "G",
+        "bpm": 73,
+        "worshipLeaderName": "Daniel Vincent",
+        "practiceAudioUrl": "sample://audio/10000-reasons-practice.mp3",
+        "youtubeVideoId": "",
+        "notes": "Congregation favorite — keep energy up through the bridge.",
+        "status": "PUBLISHED"
+    },
+    {
+        "id": "ws-ponneri-2026-09-20",
+        "sundayDate": "2026-09-20",
+        "branchId": "branch-ponneri",
+        "songId": "song-build-my-life",
+        "key": "E",
+        "bpm": 68,
+        "worshipLeaderName": "Esther Paul",
+        "practiceAudioUrl": "sample://audio/build-my-life-practice.mp3",
+        "youtubeVideoId": "",
+        "notes": "New song for the team — rehearsal Friday 6 PM.",
+        "status": "SCHEDULED"
+    }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aci.data.content.SongCsvParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-15T18:28:41" hostname="LH3Y1JN2W2-sureshbabuisreal" time="0.167">
+  <properties/>
+  <testcase name="parses the live ACI spreadsheet CSV export, whose rows were pasted as raw text into a single column" classname="com.aci.data.content.SongCsvParserTest" time="0.073"/>
+  <testcase name="parses the repo-root song import template" classname="com.aci.data.content.SongCsvParserTest" time="0.01"/>
+  <testcase name="round-trips the full bilingual catalog CSV generated for Drive import" classname="com.aci.data.content.SongCsvParserTest" time="0.081"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "svc-branch-bharath-nagar-sun",
+        "branchId": "branch-bharath-nagar",
+        "dayOfWeek": 7,
+        "startTime": "07:30",
+        "endTime": "10:00",
+        "name": "Sunday Service",
+        "language": "Tamil/Telugu"
+    },
+    {
+        "id": "svc-branch-mannurpet-sun",
+        "branchId": "branch-mannurpet",
+        "dayOfWeek": 7,
+        "startTime": "11:00",
+        "endTime": "13:30",
+        "name": "Sunday Service",
+        "language": "Tamil/Telugu"
+    },
+    {
+        "id": "svc-branch-ponneri-sun",
+        "branchId": "branch-ponneri",
+        "dayOfWeek": 7,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "name": "Sunday Service",
+        "language": "Tamil/Telugu"
+    },
+    {
+        "id": "svc-branch-bharath-nagar-fasting",
+        "branchId": "branch-bharath-nagar",
+        "dayOfWeek": 6,
+        "startTime": "10:00",
+        "endTime": "15:00",
+        "name": "Monthly Fasting Prayer (2nd Saturday)",
+        "language": "Tamil/Telugu"
+    }
+]

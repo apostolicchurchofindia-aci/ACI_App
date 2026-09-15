@@ -1,0 +1,92 @@
+[
+    {
+        "id": "user-founder",
+        "email": "founder@aci.church",
+        "phone": "",
+        "role": "PASTOR",
+        "fullName": "Pastor Dr. Rev. D.D.K. Ratna Raju",
+        "createdAt": "1970-01-01T00:00:00Z"
+    },
+    {
+        "id": "user-coleader",
+        "email": "coleader@aci.church",
+        "phone": "",
+        "role": "PASTOR",
+        "fullName": "Mother Shanthi Ratna Raju",
+        "createdAt": "1970-01-01T00:00:00Z"
+    },
+    {
+        "id": "user-guest",
+        "email": "",
+        "phone": "",
+        "role": "GUEST",
+        "fullName": "Guest Visitor",
+        "createdAt": "2026-08-01T00:00:00Z"
+    },
+    {
+        "id": "user-member",
+        "email": "priya.member@example.com",
+        "phone": "+91 98400 00001",
+        "role": "MEMBER",
+        "fullName": "Priya Suresh",
+        "createdAt": "2022-03-14T00:00:00Z"
+    },
+    {
+        "id": "user-ss-student",
+        "email": "ananya.student@example.com",
+        "phone": "",
+        "role": "SS_STUDENT",
+        "fullName": "Ananya Joel",
+        "createdAt": "2023-06-01T00:00:00Z"
+    },
+    {
+        "id": "user-ss-teacher",
+        "email": "grace.teacher@example.com",
+        "phone": "",
+        "role": "SS_TEACHER",
+        "fullName": "Grace Devadason",
+        "createdAt": "2018-01-10T00:00:00Z"
+    },
+    {
+        "id": "user-worship-member",
+        "email": "daniel.music@example.com",
+        "phone": "",
+        "role": "WORSHIP_MEMBER",
+        "fullName": "Daniel Vincent",
+        "createdAt": "2019-05-20T00:00:00Z"
+    },
+    {
+        "id": "user-worship-leader",
+        "email": "esther.worship@example.com",
+        "phone": "",
+        "role": "WORSHIP_LEADER",
+        "fullName": "Esther Paul",
+        "createdAt": "2016-11-02T00:00:00Z"
+    },
+    {
+        "id": "user-branch-admin",
+        "email": "samuel.admin@example.com",
+        "phone": "",
+        "role": "BRANCH_ADMIN",
+        "fullName": "Samuel Jebaraj",
+        "createdAt": "2015-02-18T00:00:00Z"
+    },
+    {
+        "id": "user-aci-admin",
+        "email": "ruth.aciadmin@example.com",
+        "phone": "",
+        "role": "ACI_ADMIN",
+        "fullName": "Ruth Abraham",
+        "createdAt": "2014-07-09T00:00:00Z",
+        "pin": "2468"
+    },
+    {
+        "id": "user-super-admin",
+        "email": "admin@aci.church",
+        "phone": "",
+        "role": "SUPER_ADMIN",
+        "fullName": "ACI IT Administrator",
+        "createdAt": "2014-01-01T00:00:00Z",
+        "pin": "1357"
+    }
+]

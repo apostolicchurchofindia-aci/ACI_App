@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="gold">#C9A227</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="navy">#0B1E3F</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">ACI Church</string>
+    <style name="Theme.ACIChurch" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="Theme.ACIChurch.Splash" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="android:windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.ACIChurch</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>

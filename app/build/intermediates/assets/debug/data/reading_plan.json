@@ -1,0 +1,3837 @@
+[
+  {
+    "dayNumber": 1,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 10,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 14,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 17,
+        "endChapter": 19
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 20,
+        "endChapter": 22
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 23,
+        "endChapter": 26
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 27,
+        "endChapter": 29
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 30,
+        "endChapter": 32
+      }
+    ]
+  },
+  {
+    "dayNumber": 11,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 33,
+        "endChapter": 35
+      }
+    ]
+  },
+  {
+    "dayNumber": 12,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 36,
+        "endChapter": 39
+      }
+    ]
+  },
+  {
+    "dayNumber": 13,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 40,
+        "endChapter": 42
+      }
+    ]
+  },
+  {
+    "dayNumber": 14,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 43,
+        "endChapter": 45
+      }
+    ]
+  },
+  {
+    "dayNumber": 15,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 46,
+        "endChapter": 48
+      }
+    ]
+  },
+  {
+    "dayNumber": 16,
+    "readings": [
+      {
+        "bookId": "genesis",
+        "startChapter": 49,
+        "endChapter": 50
+      },
+      {
+        "bookId": "exodus",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 17,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 3,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 18,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 6,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 19,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 9,
+        "endChapter": 11
+      }
+    ]
+  },
+  {
+    "dayNumber": 20,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 12,
+        "endChapter": 15
+      }
+    ]
+  },
+  {
+    "dayNumber": 21,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 16,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 22,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 19,
+        "endChapter": 21
+      }
+    ]
+  },
+  {
+    "dayNumber": 23,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 22,
+        "endChapter": 24
+      }
+    ]
+  },
+  {
+    "dayNumber": 24,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 25,
+        "endChapter": 28
+      }
+    ]
+  },
+  {
+    "dayNumber": 25,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 29,
+        "endChapter": 31
+      }
+    ]
+  },
+  {
+    "dayNumber": 26,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 32,
+        "endChapter": 34
+      }
+    ]
+  },
+  {
+    "dayNumber": 27,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 35,
+        "endChapter": 37
+      }
+    ]
+  },
+  {
+    "dayNumber": 28,
+    "readings": [
+      {
+        "bookId": "exodus",
+        "startChapter": 38,
+        "endChapter": 40
+      },
+      {
+        "bookId": "leviticus",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 29,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 30,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 31,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 32,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 11,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 33,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 15,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 34,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 18,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 35,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 21,
+        "endChapter": 24
+      }
+    ]
+  },
+  {
+    "dayNumber": 36,
+    "readings": [
+      {
+        "bookId": "leviticus",
+        "startChapter": 25,
+        "endChapter": 27
+      }
+    ]
+  },
+  {
+    "dayNumber": 37,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 38,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 39,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 7,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 40,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 41,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 14,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 42,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 17,
+        "endChapter": 19
+      }
+    ]
+  },
+  {
+    "dayNumber": 43,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 20,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 44,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 24,
+        "endChapter": 26
+      }
+    ]
+  },
+  {
+    "dayNumber": 45,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 27,
+        "endChapter": 29
+      }
+    ]
+  },
+  {
+    "dayNumber": 46,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 30,
+        "endChapter": 32
+      }
+    ]
+  },
+  {
+    "dayNumber": 47,
+    "readings": [
+      {
+        "bookId": "numbers",
+        "startChapter": 33,
+        "endChapter": 36
+      }
+    ]
+  },
+  {
+    "dayNumber": 48,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 49,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 50,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 51,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 10,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 52,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 14,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 53,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 17,
+        "endChapter": 19
+      }
+    ]
+  },
+  {
+    "dayNumber": 54,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 20,
+        "endChapter": 22
+      }
+    ]
+  },
+  {
+    "dayNumber": 55,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 23,
+        "endChapter": 26
+      }
+    ]
+  },
+  {
+    "dayNumber": 56,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 27,
+        "endChapter": 29
+      }
+    ]
+  },
+  {
+    "dayNumber": 57,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 30,
+        "endChapter": 32
+      }
+    ]
+  },
+  {
+    "dayNumber": 58,
+    "readings": [
+      {
+        "bookId": "deuteronomy",
+        "startChapter": 33,
+        "endChapter": 34
+      },
+      {
+        "bookId": "joshua",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 59,
+    "readings": [
+      {
+        "bookId": "joshua",
+        "startChapter": 2,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 60,
+    "readings": [
+      {
+        "bookId": "joshua",
+        "startChapter": 6,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 61,
+    "readings": [
+      {
+        "bookId": "joshua",
+        "startChapter": 9,
+        "endChapter": 11
+      }
+    ]
+  },
+  {
+    "dayNumber": 62,
+    "readings": [
+      {
+        "bookId": "joshua",
+        "startChapter": 12,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 63,
+    "readings": [
+      {
+        "bookId": "joshua",
+        "startChapter": 15,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 64,
+    "readings": [
+      {
+        "bookId": "joshua",
+        "startChapter": 19,
+        "endChapter": 21
+      }
+    ]
+  },
+  {
+    "dayNumber": 65,
+    "readings": [
+      {
+        "bookId": "joshua",
+        "startChapter": 22,
+        "endChapter": 24
+      }
+    ]
+  },
+  {
+    "dayNumber": 66,
+    "readings": [
+      {
+        "bookId": "judges",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 67,
+    "readings": [
+      {
+        "bookId": "judges",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 68,
+    "readings": [
+      {
+        "bookId": "judges",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 69,
+    "readings": [
+      {
+        "bookId": "judges",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 70,
+    "readings": [
+      {
+        "bookId": "judges",
+        "startChapter": 14,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 71,
+    "readings": [
+      {
+        "bookId": "judges",
+        "startChapter": 18,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 72,
+    "readings": [
+      {
+        "bookId": "judges",
+        "startChapter": 21,
+        "endChapter": 21
+      },
+      {
+        "bookId": "ruth",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 73,
+    "readings": [
+      {
+        "bookId": "ruth",
+        "startChapter": 3,
+        "endChapter": 4
+      },
+      {
+        "bookId": "1-samuel",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 74,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 2,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 75,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 6,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 76,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 9,
+        "endChapter": 11
+      }
+    ]
+  },
+  {
+    "dayNumber": 77,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 12,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 78,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 15,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 79,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 19,
+        "endChapter": 21
+      }
+    ]
+  },
+  {
+    "dayNumber": 80,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 22,
+        "endChapter": 24
+      }
+    ]
+  },
+  {
+    "dayNumber": 81,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 25,
+        "endChapter": 27
+      }
+    ]
+  },
+  {
+    "dayNumber": 82,
+    "readings": [
+      {
+        "bookId": "1-samuel",
+        "startChapter": 28,
+        "endChapter": 31
+      }
+    ]
+  },
+  {
+    "dayNumber": 83,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 84,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 85,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 86,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 10,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 87,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 14,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 88,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 17,
+        "endChapter": 19
+      }
+    ]
+  },
+  {
+    "dayNumber": 89,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 20,
+        "endChapter": 22
+      }
+    ]
+  },
+  {
+    "dayNumber": 90,
+    "readings": [
+      {
+        "bookId": "2-samuel",
+        "startChapter": 23,
+        "endChapter": 24
+      },
+      {
+        "bookId": "1-kings",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 91,
+    "readings": [
+      {
+        "bookId": "1-kings",
+        "startChapter": 3,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 92,
+    "readings": [
+      {
+        "bookId": "1-kings",
+        "startChapter": 6,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 93,
+    "readings": [
+      {
+        "bookId": "1-kings",
+        "startChapter": 9,
+        "endChapter": 11
+      }
+    ]
+  },
+  {
+    "dayNumber": 94,
+    "readings": [
+      {
+        "bookId": "1-kings",
+        "startChapter": 12,
+        "endChapter": 15
+      }
+    ]
+  },
+  {
+    "dayNumber": 95,
+    "readings": [
+      {
+        "bookId": "1-kings",
+        "startChapter": 16,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 96,
+    "readings": [
+      {
+        "bookId": "1-kings",
+        "startChapter": 19,
+        "endChapter": 21
+      }
+    ]
+  },
+  {
+    "dayNumber": 97,
+    "readings": [
+      {
+        "bookId": "1-kings",
+        "startChapter": 22,
+        "endChapter": 22
+      },
+      {
+        "bookId": "2-kings",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 98,
+    "readings": [
+      {
+        "bookId": "2-kings",
+        "startChapter": 3,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 99,
+    "readings": [
+      {
+        "bookId": "2-kings",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 100,
+    "readings": [
+      {
+        "bookId": "2-kings",
+        "startChapter": 10,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 101,
+    "readings": [
+      {
+        "bookId": "2-kings",
+        "startChapter": 13,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 102,
+    "readings": [
+      {
+        "bookId": "2-kings",
+        "startChapter": 17,
+        "endChapter": 19
+      }
+    ]
+  },
+  {
+    "dayNumber": 103,
+    "readings": [
+      {
+        "bookId": "2-kings",
+        "startChapter": 20,
+        "endChapter": 22
+      }
+    ]
+  },
+  {
+    "dayNumber": 104,
+    "readings": [
+      {
+        "bookId": "2-kings",
+        "startChapter": 23,
+        "endChapter": 25
+      }
+    ]
+  },
+  {
+    "dayNumber": 105,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 1,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 106,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 107,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 108,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 109,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 14,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 110,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 18,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 111,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 21,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 112,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 24,
+        "endChapter": 26
+      }
+    ]
+  },
+  {
+    "dayNumber": 113,
+    "readings": [
+      {
+        "bookId": "1-chronicles",
+        "startChapter": 27,
+        "endChapter": 29
+      },
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 114,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 115,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 116,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 117,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 11,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 118,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 15,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 119,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 18,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 120,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 21,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 121,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 24,
+        "endChapter": 27
+      }
+    ]
+  },
+  {
+    "dayNumber": 122,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 28,
+        "endChapter": 30
+      }
+    ]
+  },
+  {
+    "dayNumber": 123,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 31,
+        "endChapter": 33
+      }
+    ]
+  },
+  {
+    "dayNumber": 124,
+    "readings": [
+      {
+        "bookId": "2-chronicles",
+        "startChapter": 34,
+        "endChapter": 36
+      }
+    ]
+  },
+  {
+    "dayNumber": 125,
+    "readings": [
+      {
+        "bookId": "ezra",
+        "startChapter": 1,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 126,
+    "readings": [
+      {
+        "bookId": "ezra",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 127,
+    "readings": [
+      {
+        "bookId": "ezra",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 128,
+    "readings": [
+      {
+        "bookId": "nehemiah",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 129,
+    "readings": [
+      {
+        "bookId": "nehemiah",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 130,
+    "readings": [
+      {
+        "bookId": "nehemiah",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 131,
+    "readings": [
+      {
+        "bookId": "nehemiah",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 132,
+    "readings": [
+      {
+        "bookId": "esther",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 133,
+    "readings": [
+      {
+        "bookId": "esther",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 134,
+    "readings": [
+      {
+        "bookId": "esther",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 135,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 136,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 137,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 138,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 139,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 14,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 140,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 17,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 141,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 21,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 142,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 24,
+        "endChapter": 26
+      }
+    ]
+  },
+  {
+    "dayNumber": 143,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 27,
+        "endChapter": 29
+      }
+    ]
+  },
+  {
+    "dayNumber": 144,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 30,
+        "endChapter": 33
+      }
+    ]
+  },
+  {
+    "dayNumber": 145,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 34,
+        "endChapter": 36
+      }
+    ]
+  },
+  {
+    "dayNumber": 146,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 37,
+        "endChapter": 39
+      }
+    ]
+  },
+  {
+    "dayNumber": 147,
+    "readings": [
+      {
+        "bookId": "job",
+        "startChapter": 40,
+        "endChapter": 42
+      }
+    ]
+  },
+  {
+    "dayNumber": 148,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 1,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 149,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 150,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 151,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 152,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 14,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 153,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 18,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 154,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 21,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 155,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 24,
+        "endChapter": 26
+      }
+    ]
+  },
+  {
+    "dayNumber": 156,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 27,
+        "endChapter": 30
+      }
+    ]
+  },
+  {
+    "dayNumber": 157,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 31,
+        "endChapter": 33
+      }
+    ]
+  },
+  {
+    "dayNumber": 158,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 34,
+        "endChapter": 36
+      }
+    ]
+  },
+  {
+    "dayNumber": 159,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 37,
+        "endChapter": 39
+      }
+    ]
+  },
+  {
+    "dayNumber": 160,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 40,
+        "endChapter": 43
+      }
+    ]
+  },
+  {
+    "dayNumber": 161,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 44,
+        "endChapter": 46
+      }
+    ]
+  },
+  {
+    "dayNumber": 162,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 47,
+        "endChapter": 49
+      }
+    ]
+  },
+  {
+    "dayNumber": 163,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 50,
+        "endChapter": 52
+      }
+    ]
+  },
+  {
+    "dayNumber": 164,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 53,
+        "endChapter": 56
+      }
+    ]
+  },
+  {
+    "dayNumber": 165,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 57,
+        "endChapter": 59
+      }
+    ]
+  },
+  {
+    "dayNumber": 166,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 60,
+        "endChapter": 62
+      }
+    ]
+  },
+  {
+    "dayNumber": 167,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 63,
+        "endChapter": 66
+      }
+    ]
+  },
+  {
+    "dayNumber": 168,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 67,
+        "endChapter": 69
+      }
+    ]
+  },
+  {
+    "dayNumber": 169,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 70,
+        "endChapter": 72
+      }
+    ]
+  },
+  {
+    "dayNumber": 170,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 73,
+        "endChapter": 75
+      }
+    ]
+  },
+  {
+    "dayNumber": 171,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 76,
+        "endChapter": 79
+      }
+    ]
+  },
+  {
+    "dayNumber": 172,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 80,
+        "endChapter": 82
+      }
+    ]
+  },
+  {
+    "dayNumber": 173,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 83,
+        "endChapter": 85
+      }
+    ]
+  },
+  {
+    "dayNumber": 174,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 86,
+        "endChapter": 88
+      }
+    ]
+  },
+  {
+    "dayNumber": 175,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 89,
+        "endChapter": 92
+      }
+    ]
+  },
+  {
+    "dayNumber": 176,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 93,
+        "endChapter": 95
+      }
+    ]
+  },
+  {
+    "dayNumber": 177,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 96,
+        "endChapter": 98
+      }
+    ]
+  },
+  {
+    "dayNumber": 178,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 99,
+        "endChapter": 101
+      }
+    ]
+  },
+  {
+    "dayNumber": 179,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 102,
+        "endChapter": 105
+      }
+    ]
+  },
+  {
+    "dayNumber": 180,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 106,
+        "endChapter": 108
+      }
+    ]
+  },
+  {
+    "dayNumber": 181,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 109,
+        "endChapter": 111
+      }
+    ]
+  },
+  {
+    "dayNumber": 182,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 112,
+        "endChapter": 114
+      }
+    ]
+  },
+  {
+    "dayNumber": 183,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 115,
+        "endChapter": 118
+      }
+    ]
+  },
+  {
+    "dayNumber": 184,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 119,
+        "endChapter": 121
+      }
+    ]
+  },
+  {
+    "dayNumber": 185,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 122,
+        "endChapter": 124
+      }
+    ]
+  },
+  {
+    "dayNumber": 186,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 125,
+        "endChapter": 127
+      }
+    ]
+  },
+  {
+    "dayNumber": 187,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 128,
+        "endChapter": 131
+      }
+    ]
+  },
+  {
+    "dayNumber": 188,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 132,
+        "endChapter": 134
+      }
+    ]
+  },
+  {
+    "dayNumber": 189,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 135,
+        "endChapter": 137
+      }
+    ]
+  },
+  {
+    "dayNumber": 190,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 138,
+        "endChapter": 140
+      }
+    ]
+  },
+  {
+    "dayNumber": 191,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 141,
+        "endChapter": 144
+      }
+    ]
+  },
+  {
+    "dayNumber": 192,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 145,
+        "endChapter": 147
+      }
+    ]
+  },
+  {
+    "dayNumber": 193,
+    "readings": [
+      {
+        "bookId": "psalms",
+        "startChapter": 148,
+        "endChapter": 150
+      }
+    ]
+  },
+  {
+    "dayNumber": 194,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 195,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 196,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 197,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 198,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 14,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 199,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 17,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 200,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 21,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 201,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 24,
+        "endChapter": 26
+      }
+    ]
+  },
+  {
+    "dayNumber": 202,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 27,
+        "endChapter": 30
+      }
+    ]
+  },
+  {
+    "dayNumber": 203,
+    "readings": [
+      {
+        "bookId": "proverbs",
+        "startChapter": 31,
+        "endChapter": 31
+      },
+      {
+        "bookId": "ecclesiastes",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 204,
+    "readings": [
+      {
+        "bookId": "ecclesiastes",
+        "startChapter": 3,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 205,
+    "readings": [
+      {
+        "bookId": "ecclesiastes",
+        "startChapter": 6,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 206,
+    "readings": [
+      {
+        "bookId": "ecclesiastes",
+        "startChapter": 9,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 207,
+    "readings": [
+      {
+        "bookId": "song-of-solomon",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 208,
+    "readings": [
+      {
+        "bookId": "song-of-solomon",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 209,
+    "readings": [
+      {
+        "bookId": "song-of-solomon",
+        "startChapter": 7,
+        "endChapter": 8
+      },
+      {
+        "bookId": "isaiah",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 210,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 2,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 211,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 6,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 212,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 9,
+        "endChapter": 11
+      }
+    ]
+  },
+  {
+    "dayNumber": 213,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 12,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 214,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 15,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 215,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 19,
+        "endChapter": 21
+      }
+    ]
+  },
+  {
+    "dayNumber": 216,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 22,
+        "endChapter": 24
+      }
+    ]
+  },
+  {
+    "dayNumber": 217,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 25,
+        "endChapter": 27
+      }
+    ]
+  },
+  {
+    "dayNumber": 218,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 28,
+        "endChapter": 31
+      }
+    ]
+  },
+  {
+    "dayNumber": 219,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 32,
+        "endChapter": 34
+      }
+    ]
+  },
+  {
+    "dayNumber": 220,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 35,
+        "endChapter": 37
+      }
+    ]
+  },
+  {
+    "dayNumber": 221,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 38,
+        "endChapter": 40
+      }
+    ]
+  },
+  {
+    "dayNumber": 222,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 41,
+        "endChapter": 44
+      }
+    ]
+  },
+  {
+    "dayNumber": 223,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 45,
+        "endChapter": 47
+      }
+    ]
+  },
+  {
+    "dayNumber": 224,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 48,
+        "endChapter": 50
+      }
+    ]
+  },
+  {
+    "dayNumber": 225,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 51,
+        "endChapter": 53
+      }
+    ]
+  },
+  {
+    "dayNumber": 226,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 54,
+        "endChapter": 57
+      }
+    ]
+  },
+  {
+    "dayNumber": 227,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 58,
+        "endChapter": 60
+      }
+    ]
+  },
+  {
+    "dayNumber": 228,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 61,
+        "endChapter": 63
+      }
+    ]
+  },
+  {
+    "dayNumber": 229,
+    "readings": [
+      {
+        "bookId": "isaiah",
+        "startChapter": 64,
+        "endChapter": 66
+      }
+    ]
+  },
+  {
+    "dayNumber": 230,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 1,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 231,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 232,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 233,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 11,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 234,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 15,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 235,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 18,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 236,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 21,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 237,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 24,
+        "endChapter": 27
+      }
+    ]
+  },
+  {
+    "dayNumber": 238,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 28,
+        "endChapter": 30
+      }
+    ]
+  },
+  {
+    "dayNumber": 239,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 31,
+        "endChapter": 33
+      }
+    ]
+  },
+  {
+    "dayNumber": 240,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 34,
+        "endChapter": 36
+      }
+    ]
+  },
+  {
+    "dayNumber": 241,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 37,
+        "endChapter": 40
+      }
+    ]
+  },
+  {
+    "dayNumber": 242,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 41,
+        "endChapter": 43
+      }
+    ]
+  },
+  {
+    "dayNumber": 243,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 44,
+        "endChapter": 46
+      }
+    ]
+  },
+  {
+    "dayNumber": 244,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 47,
+        "endChapter": 49
+      }
+    ]
+  },
+  {
+    "dayNumber": 245,
+    "readings": [
+      {
+        "bookId": "jeremiah",
+        "startChapter": 50,
+        "endChapter": 52
+      },
+      {
+        "bookId": "lamentations",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 246,
+    "readings": [
+      {
+        "bookId": "lamentations",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 247,
+    "readings": [
+      {
+        "bookId": "lamentations",
+        "startChapter": 5,
+        "endChapter": 5
+      },
+      {
+        "bookId": "ezekiel",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 248,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 3,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 249,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 6,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 250,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 10,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 251,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 13,
+        "endChapter": 15
+      }
+    ]
+  },
+  {
+    "dayNumber": 252,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 16,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 253,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 19,
+        "endChapter": 22
+      }
+    ]
+  },
+  {
+    "dayNumber": 254,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 23,
+        "endChapter": 25
+      }
+    ]
+  },
+  {
+    "dayNumber": 255,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 26,
+        "endChapter": 28
+      }
+    ]
+  },
+  {
+    "dayNumber": 256,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 29,
+        "endChapter": 31
+      }
+    ]
+  },
+  {
+    "dayNumber": 257,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 32,
+        "endChapter": 35
+      }
+    ]
+  },
+  {
+    "dayNumber": 258,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 36,
+        "endChapter": 38
+      }
+    ]
+  },
+  {
+    "dayNumber": 259,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 39,
+        "endChapter": 41
+      }
+    ]
+  },
+  {
+    "dayNumber": 260,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 42,
+        "endChapter": 44
+      }
+    ]
+  },
+  {
+    "dayNumber": 261,
+    "readings": [
+      {
+        "bookId": "ezekiel",
+        "startChapter": 45,
+        "endChapter": 48
+      }
+    ]
+  },
+  {
+    "dayNumber": 262,
+    "readings": [
+      {
+        "bookId": "daniel",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 263,
+    "readings": [
+      {
+        "bookId": "daniel",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 264,
+    "readings": [
+      {
+        "bookId": "daniel",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 265,
+    "readings": [
+      {
+        "bookId": "daniel",
+        "startChapter": 10,
+        "endChapter": 12
+      },
+      {
+        "bookId": "hosea",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 266,
+    "readings": [
+      {
+        "bookId": "hosea",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 267,
+    "readings": [
+      {
+        "bookId": "hosea",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 268,
+    "readings": [
+      {
+        "bookId": "hosea",
+        "startChapter": 8,
+        "endChapter": 11
+      }
+    ]
+  },
+  {
+    "dayNumber": 269,
+    "readings": [
+      {
+        "bookId": "hosea",
+        "startChapter": 12,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 270,
+    "readings": [
+      {
+        "bookId": "joel",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 271,
+    "readings": [
+      {
+        "bookId": "amos",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 272,
+    "readings": [
+      {
+        "bookId": "amos",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 273,
+    "readings": [
+      {
+        "bookId": "amos",
+        "startChapter": 8,
+        "endChapter": 9
+      },
+      {
+        "bookId": "obadiah",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 274,
+    "readings": [
+      {
+        "bookId": "jonah",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 275,
+    "readings": [
+      {
+        "bookId": "jonah",
+        "startChapter": 4,
+        "endChapter": 4
+      },
+      {
+        "bookId": "micah",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 276,
+    "readings": [
+      {
+        "bookId": "micah",
+        "startChapter": 3,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 277,
+    "readings": [
+      {
+        "bookId": "micah",
+        "startChapter": 7,
+        "endChapter": 7
+      },
+      {
+        "bookId": "nahum",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 278,
+    "readings": [
+      {
+        "bookId": "nahum",
+        "startChapter": 3,
+        "endChapter": 3
+      },
+      {
+        "bookId": "habakkuk",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 279,
+    "readings": [
+      {
+        "bookId": "habakkuk",
+        "startChapter": 3,
+        "endChapter": 3
+      },
+      {
+        "bookId": "zephaniah",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 280,
+    "readings": [
+      {
+        "bookId": "zephaniah",
+        "startChapter": 3,
+        "endChapter": 3
+      },
+      {
+        "bookId": "haggai",
+        "startChapter": 1,
+        "endChapter": 2
+      },
+      {
+        "bookId": "zechariah",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 281,
+    "readings": [
+      {
+        "bookId": "zechariah",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 282,
+    "readings": [
+      {
+        "bookId": "zechariah",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 283,
+    "readings": [
+      {
+        "bookId": "zechariah",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 284,
+    "readings": [
+      {
+        "bookId": "zechariah",
+        "startChapter": 11,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 285,
+    "readings": [
+      {
+        "bookId": "malachi",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 286,
+    "readings": [
+      {
+        "bookId": "malachi",
+        "startChapter": 4,
+        "endChapter": 4
+      },
+      {
+        "bookId": "matthew",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 287,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 3,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 288,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 6,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 289,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 10,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 290,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 13,
+        "endChapter": 15
+      }
+    ]
+  },
+  {
+    "dayNumber": 291,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 16,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 292,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 19,
+        "endChapter": 22
+      }
+    ]
+  },
+  {
+    "dayNumber": 293,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 23,
+        "endChapter": 25
+      }
+    ]
+  },
+  {
+    "dayNumber": 294,
+    "readings": [
+      {
+        "bookId": "matthew",
+        "startChapter": 26,
+        "endChapter": 28
+      }
+    ]
+  },
+  {
+    "dayNumber": 295,
+    "readings": [
+      {
+        "bookId": "mark",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 296,
+    "readings": [
+      {
+        "bookId": "mark",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 297,
+    "readings": [
+      {
+        "bookId": "mark",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 298,
+    "readings": [
+      {
+        "bookId": "mark",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 299,
+    "readings": [
+      {
+        "bookId": "mark",
+        "startChapter": 14,
+        "endChapter": 16
+      },
+      {
+        "bookId": "luke",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 300,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 301,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 5,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 302,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 303,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 11,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 304,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 15,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 305,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 18,
+        "endChapter": 20
+      }
+    ]
+  },
+  {
+    "dayNumber": 306,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 21,
+        "endChapter": 23
+      }
+    ]
+  },
+  {
+    "dayNumber": 307,
+    "readings": [
+      {
+        "bookId": "luke",
+        "startChapter": 24,
+        "endChapter": 24
+      },
+      {
+        "bookId": "john",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 308,
+    "readings": [
+      {
+        "bookId": "john",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 309,
+    "readings": [
+      {
+        "bookId": "john",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 310,
+    "readings": [
+      {
+        "bookId": "john",
+        "startChapter": 10,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 311,
+    "readings": [
+      {
+        "bookId": "john",
+        "startChapter": 13,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 312,
+    "readings": [
+      {
+        "bookId": "john",
+        "startChapter": 17,
+        "endChapter": 19
+      }
+    ]
+  },
+  {
+    "dayNumber": 313,
+    "readings": [
+      {
+        "bookId": "john",
+        "startChapter": 20,
+        "endChapter": 21
+      },
+      {
+        "bookId": "acts",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 314,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 315,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 5,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 316,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 9,
+        "endChapter": 11
+      }
+    ]
+  },
+  {
+    "dayNumber": 317,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 12,
+        "endChapter": 14
+      }
+    ]
+  },
+  {
+    "dayNumber": 318,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 15,
+        "endChapter": 17
+      }
+    ]
+  },
+  {
+    "dayNumber": 319,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 18,
+        "endChapter": 21
+      }
+    ]
+  },
+  {
+    "dayNumber": 320,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 22,
+        "endChapter": 24
+      }
+    ]
+  },
+  {
+    "dayNumber": 321,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 25,
+        "endChapter": 27
+      }
+    ]
+  },
+  {
+    "dayNumber": 322,
+    "readings": [
+      {
+        "bookId": "acts",
+        "startChapter": 28,
+        "endChapter": 28
+      },
+      {
+        "bookId": "romans",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 323,
+    "readings": [
+      {
+        "bookId": "romans",
+        "startChapter": 3,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 324,
+    "readings": [
+      {
+        "bookId": "romans",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 325,
+    "readings": [
+      {
+        "bookId": "romans",
+        "startChapter": 10,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 326,
+    "readings": [
+      {
+        "bookId": "romans",
+        "startChapter": 13,
+        "endChapter": 15
+      }
+    ]
+  },
+  {
+    "dayNumber": 327,
+    "readings": [
+      {
+        "bookId": "romans",
+        "startChapter": 16,
+        "endChapter": 16
+      },
+      {
+        "bookId": "1-corinthians",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 328,
+    "readings": [
+      {
+        "bookId": "1-corinthians",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 329,
+    "readings": [
+      {
+        "bookId": "1-corinthians",
+        "startChapter": 7,
+        "endChapter": 9
+      }
+    ]
+  },
+  {
+    "dayNumber": 330,
+    "readings": [
+      {
+        "bookId": "1-corinthians",
+        "startChapter": 10,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 331,
+    "readings": [
+      {
+        "bookId": "1-corinthians",
+        "startChapter": 13,
+        "endChapter": 16
+      }
+    ]
+  },
+  {
+    "dayNumber": 332,
+    "readings": [
+      {
+        "bookId": "2-corinthians",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 333,
+    "readings": [
+      {
+        "bookId": "2-corinthians",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 334,
+    "readings": [
+      {
+        "bookId": "2-corinthians",
+        "startChapter": 7,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 335,
+    "readings": [
+      {
+        "bookId": "2-corinthians",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 336,
+    "readings": [
+      {
+        "bookId": "galatians",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 337,
+    "readings": [
+      {
+        "bookId": "galatians",
+        "startChapter": 4,
+        "endChapter": 6
+      }
+    ]
+  },
+  {
+    "dayNumber": 338,
+    "readings": [
+      {
+        "bookId": "ephesians",
+        "startChapter": 1,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 339,
+    "readings": [
+      {
+        "bookId": "ephesians",
+        "startChapter": 5,
+        "endChapter": 6
+      },
+      {
+        "bookId": "philippians",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 340,
+    "readings": [
+      {
+        "bookId": "philippians",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 341,
+    "readings": [
+      {
+        "bookId": "colossians",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 342,
+    "readings": [
+      {
+        "bookId": "colossians",
+        "startChapter": 4,
+        "endChapter": 4
+      },
+      {
+        "bookId": "1-thessalonians",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 343,
+    "readings": [
+      {
+        "bookId": "1-thessalonians",
+        "startChapter": 4,
+        "endChapter": 5
+      },
+      {
+        "bookId": "2-thessalonians",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 344,
+    "readings": [
+      {
+        "bookId": "2-thessalonians",
+        "startChapter": 2,
+        "endChapter": 3
+      },
+      {
+        "bookId": "1-timothy",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 345,
+    "readings": [
+      {
+        "bookId": "1-timothy",
+        "startChapter": 2,
+        "endChapter": 4
+      }
+    ]
+  },
+  {
+    "dayNumber": 346,
+    "readings": [
+      {
+        "bookId": "1-timothy",
+        "startChapter": 5,
+        "endChapter": 6
+      },
+      {
+        "bookId": "2-timothy",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 347,
+    "readings": [
+      {
+        "bookId": "2-timothy",
+        "startChapter": 3,
+        "endChapter": 4
+      },
+      {
+        "bookId": "titus",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 348,
+    "readings": [
+      {
+        "bookId": "titus",
+        "startChapter": 2,
+        "endChapter": 3
+      },
+      {
+        "bookId": "philemon",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 349,
+    "readings": [
+      {
+        "bookId": "hebrews",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 350,
+    "readings": [
+      {
+        "bookId": "hebrews",
+        "startChapter": 4,
+        "endChapter": 7
+      }
+    ]
+  },
+  {
+    "dayNumber": 351,
+    "readings": [
+      {
+        "bookId": "hebrews",
+        "startChapter": 8,
+        "endChapter": 10
+      }
+    ]
+  },
+  {
+    "dayNumber": 352,
+    "readings": [
+      {
+        "bookId": "hebrews",
+        "startChapter": 11,
+        "endChapter": 13
+      }
+    ]
+  },
+  {
+    "dayNumber": 353,
+    "readings": [
+      {
+        "bookId": "james",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 354,
+    "readings": [
+      {
+        "bookId": "james",
+        "startChapter": 4,
+        "endChapter": 5
+      },
+      {
+        "bookId": "1-peter",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 355,
+    "readings": [
+      {
+        "bookId": "1-peter",
+        "startChapter": 3,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 356,
+    "readings": [
+      {
+        "bookId": "2-peter",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 357,
+    "readings": [
+      {
+        "bookId": "1-john",
+        "startChapter": 1,
+        "endChapter": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 358,
+    "readings": [
+      {
+        "bookId": "1-john",
+        "startChapter": 4,
+        "endChapter": 5
+      },
+      {
+        "bookId": "2-john",
+        "startChapter": 1,
+        "endChapter": 1
+      },
+      {
+        "bookId": "3-john",
+        "startChapter": 1,
+        "endChapter": 1
+      }
+    ]
+  },
+  {
+    "dayNumber": 359,
+    "readings": [
+      {
+        "bookId": "jude",
+        "startChapter": 1,
+        "endChapter": 1
+      },
+      {
+        "bookId": "revelation",
+        "startChapter": 1,
+        "endChapter": 2
+      }
+    ]
+  },
+  {
+    "dayNumber": 360,
+    "readings": [
+      {
+        "bookId": "revelation",
+        "startChapter": 3,
+        "endChapter": 5
+      }
+    ]
+  },
+  {
+    "dayNumber": 361,
+    "readings": [
+      {
+        "bookId": "revelation",
+        "startChapter": 6,
+        "endChapter": 8
+      }
+    ]
+  },
+  {
+    "dayNumber": 362,
+    "readings": [
+      {
+        "bookId": "revelation",
+        "startChapter": 9,
+        "endChapter": 12
+      }
+    ]
+  },
+  {
+    "dayNumber": 363,
+    "readings": [
+      {
+        "bookId": "revelation",
+        "startChapter": 13,
+        "endChapter": 15
+      }
+    ]
+  },
+  {
+    "dayNumber": 364,
+    "readings": [
+      {
+        "bookId": "revelation",
+        "startChapter": 16,
+        "endChapter": 18
+      }
+    ]
+  },
+  {
+    "dayNumber": 365,
+    "readings": [
+      {
+        "bookId": "revelation",
+        "startChapter": 19,
+        "endChapter": 22
+      }
+    ]
+  }
+]

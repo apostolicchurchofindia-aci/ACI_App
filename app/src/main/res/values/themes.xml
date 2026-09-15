@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ACIChurch" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- MainActivity is a plain ComponentActivity, not AppCompatActivity, so AppCompat's
+             NoActionBar handling doesn't fully suppress the platform window title — it falls
+             back to showing android:label ("ACI Church") as a native title bar on top of the
+             app's own Compose ACITopBar, duplicating the header. Explicitly disable it. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="Theme.ACIChurch.Splash" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="android:windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.ACIChurch</item>
+        <!-- Belt-and-suspenders: postSplashScreenTheme only takes effect once
+             installSplashScreen() runs in MainActivity, so also disable the title bar here
+             directly in case this theme is ever left active. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>

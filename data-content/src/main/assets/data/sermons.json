@@ -1,0 +1,53 @@
+[
+    {
+        "id": "sermon-faith-that-moves",
+        "title": "The Faith That Moves Mountains",
+        "seriesId": "series-faith-in-action",
+        "speaker": "Pastor Dr. Rev. D.D.K. Ratna Raju",
+        "topic": "Faith",
+        "description": "A message on Mark 11:24 — praying with unwavering belief and trusting God's provision.",
+        "bibleRefsJson": "[\"Mark 11:22-24\",\"Hebrews 11:1\"]",
+        "thumbnailUrl": "",
+        "videoUrl": "",
+        "audioUrl": "",
+        "transcriptText": "",
+        "notesPdfUrl": "",
+        "preachedAt": "2026-09-13T09:00:00Z",
+        "language": "ENGLISH",
+        "durationSeconds": 2760
+    },
+    {
+        "id": "sermon-walk-humbly",
+        "title": "What the Lord Requires of You",
+        "seriesId": "series-walking-in-grace",
+        "speaker": "Mother Shanthi Ratna Raju",
+        "topic": "Justice, Mercy, Humility",
+        "description": "Unpacking Micah 6:8 — living justly, loving mercy, and walking humbly with God.",
+        "bibleRefsJson": "[\"Micah 6:8\"]",
+        "thumbnailUrl": "",
+        "videoUrl": "",
+        "audioUrl": "",
+        "transcriptText": "",
+        "notesPdfUrl": "",
+        "preachedAt": "2026-09-06T09:00:00Z",
+        "language": "TAMIL",
+        "durationSeconds": 2940
+    },
+    {
+        "id": "sermon-god-sings-over-you",
+        "title": "God Sings Over You",
+        "seriesId": "series-walking-in-grace",
+        "speaker": "Pastor Dr. Rev. D.D.K. Ratna Raju",
+        "topic": "God's Love",
+        "description": "Resting in the truth of Zephaniah 3:17 — God rejoices over His people with singing.",
+        "bibleRefsJson": "[\"Zephaniah 3:17\"]",
+        "thumbnailUrl": "",
+        "videoUrl": "",
+        "audioUrl": "",
+        "transcriptText": "",
+        "notesPdfUrl": "",
+        "preachedAt": "2026-08-30T09:00:00Z",
+        "language": "TELUGU",
+        "durationSeconds": 2580
+    }
+]

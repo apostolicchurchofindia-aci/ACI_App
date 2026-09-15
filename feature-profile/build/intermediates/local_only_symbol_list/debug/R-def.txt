@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+drawable aci_logo
+drawable photo_church_exterior
+drawable photo_coleader
+drawable photo_founder

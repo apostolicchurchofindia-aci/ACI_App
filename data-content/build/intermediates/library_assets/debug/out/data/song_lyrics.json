@@ -1,0 +1,2022 @@
+[
+    {
+        "id": "lyr-aayane-chorus",
+        "songId": "song-aayane-naa-sangeethamu",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆయనే నా సంగీతము బలమైన కోటయును\nజీవాధిపతియు ఆయనే\nజీవిత కాలమెల్ల స్తుతించెదము ||ఆయనే||",
+        "translitLyrics": "Aayane naa sangeethamu balamaina kotayanu\nJeevaadhipathiyu aayane\nJeevitha kaalamella sthuthinchedamu ||Aayane||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "lyr-aayane-v1",
+        "songId": "song-aayane-naa-sangeethamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "స్తుతుల మధ్యలో నివాసం చేసి\nదూతలెల్ల పొగడే దేవుడాయనే (2)\nవేడుచుండు భక్తుల స్వరము విని\nదిక్కు లేని పిల్లలకు దేవుడాయనే (2) ||ఆయనే||",
+        "translitLyrics": "Stutula Madhyalo Nivaasan Chesi\nDootalella Pogade Devudaayane (2)\nVeduchundu Bhaktula Svaramu Vini\nDikku Leni Pillalaku Devudaayane (2) ||Aayane||",
+        "orderIndex": 1,
+        "translationTa": "ஸ்துதுல மத்யலோ நிவாஸம் சேஸி\nதூதலெல்ல பொகடே தேவுடாயநே (2)\nவேடுசும்டு பக்துல ஸ்வரமு விநி\nதிக்கு லேநி பில்லலகு தேவுடாயநே (2) ||ஆயநே||"
+    },
+    {
+        "id": "lyr-aayane-v2",
+        "songId": "song-aayane-naa-sangeethamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "ఇద్దరు ముగ్గురు నా నామమున\nఏకీభవించిన వారి మధ్యలోన (2)\nఉండెదననిన మన దేవుని\nకరములు తట్టి నిత్యం స్తుతించెదము (2) ||ఆయనే||",
+        "translitLyrics": "Iddaru Mugguru Naa Naamamuna\nEkeebhavinchina Vaari Madhyalona (2)\nUndedananina Mana Devuni\nKaramulu Tatti Nityan Stutinchedamu (2) ||Aayane||",
+        "orderIndex": 2,
+        "translationTa": "இத்தரு முக்குரு நா நாமமுந\nஏகீபவிம்சிந வாரி மத்யலோந (2)\nஉம்டெதநநிந மந தேவுநி\nகரமுலு தட்டி நித்யம் ஸ்துதிம்செதமு (2) ||ஆயநே||"
+    },
+    {
+        "id": "lyr-aayane-v3",
+        "songId": "song-aayane-naa-sangeethamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "సృష్టికర్త క్రీస్తు యేసు నామమున\nజీవిత కాలమెల్ల కీర్తించెదము (2)\nరాకడలో ప్రభుతో నిత్యముందుము\nమ్రొక్కెదము స్తుతించెదం పొగడెదము (2) ||ఆయనే||",
+        "translitLyrics": "Srishtikarta Kreestu Yesu Naamamuna\nJeevita Kaalamella Keertinchedamu (2)\nRaakadalo Prabhuto Nityamundumu\nMrokkedamu Stutinchedan Pogadedamu (2) ||Aayane||",
+        "orderIndex": 3,
+        "translationTa": "ஸ்ரு'ஷ்டிகர்த க்ரீஸ்து யேஸு நாமமுந\nஜீவித காலமெல்ல கீர்திம்செதமு (2)\nராகடலோ ப்ரபுதோ நித்யமும்துமு\nம்ரொக்கெதமு ஸ்துதிம்செதம் பொகடெதமு (2) ||ஆயநே||"
+    },
+    {
+        "id": "lyr-amazing-grace-v1-en",
+        "songId": "song-amazing-grace",
+        "language": "ENGLISH",
+        "sectionLabel": "Verse 1",
+        "lyrics": "Amazing grace, how sweet the sound\nThat saved a wretch like me\nI once was lost, but now am found\nWas blind but now I see",
+        "translitLyrics": "Aamashing Grache, How Sweet The Sound\nThat Saved A Wretchh Like Me\nEe Onche Was Lost, But Now Am Found\nWas Blind But Now Ee See",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "lyr-amazing-grace-v2-en",
+        "songId": "song-amazing-grace",
+        "language": "ENGLISH",
+        "sectionLabel": "Verse 2",
+        "lyrics": "'Twas grace that taught my heart to fear\nAnd grace my fears relieved\nHow precious did that grace appear\nThe hour I first believed",
+        "translitLyrics": "'Twas Grache That Taught My Heart To Fear\nAand Grache My Fears Relieved\nHow Prechious Did That Grache Appear\nThe Hour Ee First Believed",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "lyr-andaala-aashaakiranam-chorus",
+        "songId": "song-andaala-aashaakiranam",
+        "language": "TELUGU",
+        "sectionLabel": "Pallavi",
+        "lyrics": "అందాల ఆశాకిరణం - డెందాల చీకటి బాపెన్\nఉదయించె చూడు సదయుండు యేసు - నిజ సంతస క్రిస్మస్ నేడు",
+        "translitLyrics": "Andaala Aashaakiranan - Dendaala Cheekati Baapen\nUdayinche Choodu Sadayundu Yesu - Nija Santasa Krismas Nedu",
+        "orderIndex": 0,
+        "translationTa": "அம்தால ஆஶாகிரணம் - டெம்தால சீகடி பாபெந்\nஉதயிம்செ சூடு ஸதயும்டு யேஸு - நிஜ ஸம்தஸ க்ரிஸ்மஸ் நேடு"
+    },
+    {
+        "id": "lyr-andaala-aashaakiranam-v1",
+        "songId": "song-andaala-aashaakiranam",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 1",
+        "lyrics": "యువతర భవితవ్యం యేసే - నవతర చైతన్యం యేసే\nప్రభవించెను దివిరాజ్యం ధరలో - ప్రభువిచ్చెను శుభసందేశం.",
+        "translitLyrics": "Yuvatara Bhavitavyan Yese - Navatara Chaitanyan Yese\nPrabhavinchenu Diviraajyan Dharalo - Prabhuvichchenu Shubhasandeshan.",
+        "orderIndex": 1,
+        "translationTa": "யுவதர பவிதவ்யம் யேஸே - நவதர சைதந்யம் யேஸே\nப்ரபவிம்செநு திவிராஜ்யம் தரலோ - ப்ரபுவிச்செநு ஶுபஸம்தேஶம்."
+    },
+    {
+        "id": "lyr-andaala-aashaakiranam-v2",
+        "songId": "song-andaala-aashaakiranam",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 2",
+        "lyrics": "దరిలేని దూరాలలో- గురిలేని వలయాలలో\nతిరుగాడు మానవులకుతోడై - భరియించున్ పలు భారములన్.",
+        "translitLyrics": "Darileni Dooraalalo- Gurileni Valayaalalo\nTirugaadu Maanavulakutodai - Bhariyinchun Palu Bhaaramulan.",
+        "orderIndex": 2,
+        "translationTa": "தரிலேநி தூராலலோ- குரிலேநி வலயாலலோ\nதிருகாடு மாநவுலகுதோடை - பரியிம்சுந் பலு பாரமுலந்."
+    },
+    {
+        "id": "lyr-andaala-aashaakiranam-v3",
+        "songId": "song-andaala-aashaakiranam",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 3",
+        "lyrics": "అరుణోదయ దర్శనమిదియే - అసమాన తేజోమయుడే\nఅరుదెంచెను ఆశ్చర్యకరుడై - అందించెను అద్భుత ప్రేమన్.",
+        "translitLyrics": "Arunodaya Darshanamidiye - Asamaana Tejomayude\nArudenchenu Aashcharyakarudai - Andinchenu Adbhuta Preman.",
+        "orderIndex": 3,
+        "translationTa": "அருணோதய தர்ஶநமிதியே - அஸமாந தேஜோமயுடே\nஅருதெம்செநு ஆஶ்சர்யகருடை - அம்திம்செநு அத்புத ப்ரேமந்."
+    },
+    {
+        "id": "lyr-anjoorapu-chetlu-chorus",
+        "songId": "song-anjoorapu-chetlu",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "అంజూరపు చెట్లు పూయకుండినను ద్రాక్షచెట్లు ఫలియింపకను\nఓలీవచెట్లు కాయకను చేనిలోని పైరు పంటకు రాకపోయినను\nగొర్రెలు దొడ్డిలో లేకున్నా - శాలలో పశువులు లేకున్నా\nయెహోవయందానందము - నా దేవునిలో సంతోషము\nప్రభువగు యెహోవయే నాకు గల బలము\nనాదు కాళ్ళను లేడి కాళ్ళగ చేయువాడు ఆయనే\nఉన్నతంబౌ స్థలములందున - నన్ను నడిపించున్\nగొర్రెలు దొడ్డిలో లేకున్నా - శాలలో పశువులు లేకున్నా\nయెహోవయందానందము - నా దేవునిలో సంతోషము",
+        "translitLyrics": "Anjoorapu Chetlu Pooyakundinanu Draakshachetlu Phaliyinpakanu\nOleevachetlu Kaayakanu Cheniloni Pairu Pantaku Raakapoyinanu\nGorrelu Doddilo Lekunnaa - Shaalalo Pashuvulu Lekunnaa\nYehovayandaanandamu - Naa Devunilo Santoshamu\nPrabhuvagu Yehovaye Naaku Gala Balamu\nNaadu Kaallanu Ledi Kaallaga Cheyuvaadu Aayane\nUnnatanbau Sthalamulanduna - Nannu Nadipinchun\nGorrelu Doddilo Lekunnaa - Shaalalo Pashuvulu Lekunnaa\nYehovayandaanandamu - Naa Devunilo Santoshamu",
+        "orderIndex": 0,
+        "translationTa": "அம்ஜூரபு செட்லு பூயகும்டிநநு த்ராக்ஷசெட்லு பலியிம்பகநு\nஓலீவசெட்லு காயகநு சேநிலோநி பைரு பம்டகு ராகபோயிநநு\nகொர்ரெலு தொட்டிலோ லேகுந்நா - ஶாலலோ பஶுவுலு லேகுந்நா\nயெஹோவயம்தாநம்தமு - நா தேவுநிலோ ஸம்தோஷமு\nப்ரபுவகு யெஹோவயே நாகு கல பலமு\nநாது காள்ளநு லேடி காள்ளக சேயுவாடு ஆயநே\nஉந்நதம்பௌ ஸ்தலமுலம்துந - நந்நு நடிபிம்சுந்\nகொர்ரெலு தொட்டிலோ லேகுந்நா - ஶாலலோ பஶுவுலு லேகுந்நா\nயெஹோவயம்தாநம்தமு - நா தேவுநிலோ ஸம்தோஷமு"
+    },
+    {
+        "id": "lyr-anthaa-noothaname-chorus",
+        "songId": "song-anthaa-noothaname",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "అంతా నూతనమే యేసులో అంతా నూతనమే\nపాతవి గతించి క్రొత్తవి వచ్చెన్ అంతా నూతనమే\nచింతలు బాధలు శోధన వ్యధలే పీడించెను మునుపు\nపాపము తుడిచి నూతనపర్చి ప్రేమతో నింపెను నా ప్రభువే",
+        "translitLyrics": "Antaa Nootaname Yesulo Antaa Nootaname\nPaatavi Gatinchi Krottavi Vachchen Antaa Nootaname\nChintalu Baadhalu Shodhana Vyadhale Peedinchenu Munupu\nPaapamu Tudichi Nootanaparchi Premato Ninpenu Naa Prabhuve",
+        "orderIndex": 0,
+        "translationTa": "அம்தா நூதநமே யேஸுலோ அம்தா நூதநமே\nபாதவி கதிம்சி க்ரொத்தவி வச்செந் அம்தா நூதநமே\nசிம்தலு பாதலு ஶோதந வ்யதலே பீடிம்செநு முநுபு\nபாபமு துடிசி நூதநபர்சி ப்ரேமதோ நிம்பெநு நா ப்ரபுவே"
+    },
+    {
+        "id": "lyr-anudinam-ninu-dhyaaninthumu-chorus",
+        "songId": "song-anudinam-ninu-dhyaaninthumu",
+        "language": "TELUGU",
+        "sectionLabel": "Pallavi",
+        "lyrics": "అనుదినం నిను ధ్యానింతుము\nఅనుక్షణం నిను స్తుతియింతుము\nనీవే అండగా నీ తోడుండగా\nప్రేమించి ప్రార్ధించి పని చేసెదం",
+        "translitLyrics": "Anudinan Ninu Dhyaanintumu\nAnukshanan Ninu Stutiyintumu\nNeeve Andagaa Nee Todundagaa\nPreminchi Praardhinchi Pani Chesedan",
+        "orderIndex": 0,
+        "translationTa": "அநுதிநம் நிநு த்யாநிம்துமு\nஅநுக்ஷணம் நிநு ஸ்துதியிம்துமு\nநீவே அம்டகா நீ தோடும்டகா\nப்ரேமிம்சி ப்ரார்திம்சி பநி சேஸெதம்"
+    },
+    {
+        "id": "lyr-anudinam-ninu-dhyaaninthumu-v1",
+        "songId": "song-anudinam-ninu-dhyaaninthumu",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 1",
+        "lyrics": "ప్రథమము ప్రభువని ప్రస్తుతిన్ చేసెదం\nనీ పరిపూర్ణ పరిశుద్ధ మార్గం\nపయనించుటే మాకు జీవం",
+        "translitLyrics": "Prathamamu Prabhuvani Prastutin Chesedan\nNee Paripoorna Parishuddha Maargan\nPayaninchute Maaku Jeevan",
+        "orderIndex": 1,
+        "translationTa": "ப்ரதமமு ப்ரபுவநி ப்ரஸ்துதிந் சேஸெதம்\nநீ பரிபூர்ண பரிஶுத்த மார்கம்\nபயநிம்சுடே மாகு ஜீவம்"
+    },
+    {
+        "id": "lyr-anudinam-ninu-dhyaaninthumu-v2",
+        "songId": "song-anudinam-ninu-dhyaaninthumu",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 2",
+        "lyrics": "వాక్యము ధ్యానము మరువక చేసెదం\nనీ దివ్య మధురంపు వాక్యం\nధ్యానించుటే గొప్ప భాగ్యం",
+        "translitLyrics": "Vaakyamu Dhyaanamu Maruvaka Chesedan\nNee Divya Madhuranpu Vaakyan\nDhyaaninchute Goppa Bhaagyan",
+        "orderIndex": 2,
+        "translationTa": "வாக்யமு த்யாநமு மருவக சேஸெதம்\nநீ திவ்ய மதுரம்பு வாக்யம்\nத்யாநிம்சுடே கொப்ப பாக்யம்"
+    },
+    {
+        "id": "lyr-anudinam-ninu-dhyaaninthumu-v3",
+        "songId": "song-anudinam-ninu-dhyaaninthumu",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 3",
+        "lyrics": "ప్రభుపని చేయుచూ రయమున వెళ్ళెదం\nనీ సువార్త చాటింతుం నిత్యం\nప్రకటించి నీ ప్రేమ సత్యం",
+        "translitLyrics": "Prabhupani Cheyuchoo Rayamuna Velledan\nNee Suvaarta Chaatintun Nityan\nPrakatinchi Nee Prema Satyan",
+        "orderIndex": 3,
+        "translationTa": "ப்ரபுபநி சேயுசூ ரயமுந வெள்ளெதம்\nநீ ஸுவார்த சாடிம்தும் நித்யம்\nப்ரகடிம்சி நீ ப்ரேம ஸத்யம்"
+    },
+    {
+        "id": "lyr-anudinam-ninu-dhyaaninthumu-v4",
+        "songId": "song-anudinam-ninu-dhyaaninthumu",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 4",
+        "lyrics": "నశించు ఆత్మలన్ విడువక గెలిచెదం\nనీ కృపచేత కరుణించి మమ్ము\nనీ పరిచర్యనే చేయనిమ్ము",
+        "translitLyrics": "Nashinchu Aatmalan Viduvaka Gelichedan\nNee Kripacheta Karuninchi Mammu\nNee Paricharyane Cheyanimmu",
+        "orderIndex": 4,
+        "translationTa": "நஶிம்சு ஆத்மலந் விடுவக கெலிசெதம்\nநீ க்ரு'பசேத கருணிம்சி மம்மு\nநீ பரிசர்யநே சேயநிம்மு"
+    },
+    {
+        "id": "lyr-anudinam-ninu-dhyaaninthumu-v5",
+        "songId": "song-anudinam-ninu-dhyaaninthumu",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 5",
+        "lyrics": "శ్రమలలో మనసులో సంతసం పొందెదం\nఆ దాతృత్వ పరిచర్యన్ మేము\nసాగింప సామర్థ్య మిమ్ము",
+        "translitLyrics": "Shramalalo Manasulo Santasan Pondedan\nAa Daatritva Paricharyan Memu\nSaaginpa Saamarthya Mimmu",
+        "orderIndex": 5,
+        "translationTa": "ஶ்ரமலலோ மநஸுலோ ஸம்தஸம் பொம்தெதம்\nஆ தாத்ரு'த்வ பரிசர்யந் மேமு\nஸாகிம்ப ஸாமர்த்ய மிம்மு"
+    },
+    {
+        "id": "lyr-arerare-nedo-repo-chorus",
+        "songId": "song-arerare-nedo-repo",
+        "language": "TELUGU",
+        "sectionLabel": "Pallavi",
+        "lyrics": "అరెరరె నేడో రేపో వస్తాడేసయ్యా\nరాజులకు రాజై అందరినేల వస్తాడు\nప్రభువులకు ప్రభువై మేఘాల మీద వస్తాడు\nశిక్ష కావాలా నీకు రక్షణ కావాలా?",
+        "translitLyrics": "Arerare Nedo Repo Vastaadesayyaa\nRaajulaku Raajai Andarinela Vastaadu\nPrabhuvulaku Prabhuvai Meghaala Meeda Vastaadu\nShiksha Kaavaalaa Neeku Rakshana Kaavaalaa?",
+        "orderIndex": 0,
+        "translationTa": "அரெரரெ நேடோ ரேபோ வஸ்தாடேஸய்யா\nராஜுலகு ராஜை அம்தரிநேல வஸ்தாடு\nப்ரபுவுலகு ப்ரபுவை மேகால மீத வஸ்தாடு\nஶிக்ஷ காவாலா நீகு ரக்ஷண காவாலா?"
+    },
+    {
+        "id": "lyr-arerare-nedo-repo-v1",
+        "songId": "song-arerare-nedo-repo",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 1",
+        "lyrics": "అక్రమం అన్యాయం - అంతులేక పెరుగుతాయి\nబుద్ధిలేని బూటకాలు - హద్దు మీరిపోతాయి\nదయ్యాలు చెలరేగి - కయ్యములు రేపుతాయి\nఈలోక నాటకాలు - నాశనం అవుతాయి",
+        "translitLyrics": "Akraman Anyaayan - Antuleka Perugutaayi\nBuddhileni Bootakaalu - Haddu Meeripotaayi\nDayyaalu Chelaregi - Kayyamulu Reputaayi\nEeloka Naatakaalu - Naashanan Avutaayi",
+        "orderIndex": 1,
+        "translationTa": "அக்ரமம் அந்யாயம் - அம்துலேக பெருகுதாயி\nபுத்திலேநி பூடகாலு - ஹத்து மீரிபோதாயி\nதய்யாலு செலரேகி - கய்யமுலு ரேபுதாயி\nஈலோக நாடகாலு - நாஶநம் அவுதாயி"
+    },
+    {
+        "id": "lyr-arerare-nedo-repo-v2",
+        "songId": "song-arerare-nedo-repo",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 2",
+        "lyrics": "కరువు కాటకాలింక - చెలరేగి వస్తాయి\nనెరవేసి భూమి కూడ - బద్దలై పోతాది\nసాగరము ఘోషపెట్టి - ఉప్పెనై పోతాది\nసూర్య చంద్ర చుక్కలన్ని - సూచనలు చూపుతాయి",
+        "translitLyrics": "Karuvu Kaatakaalinka - Chelaregi Vastaayi\nNeravesi Bhoomi Kooda - Baddalai Potaadi\nSaagaramu Ghoshapetti - Uppenai Potaadi\nSoorya Chandra Chukkalanni - Soochanalu Chooputaayi",
+        "orderIndex": 2,
+        "translationTa": "கருவு காடகாலிம்க - செலரேகி வஸ்தாயி\nநெரவேஸி பூமி கூட - பத்தலை போதாதி\nஸாகரமு கோஷபெட்டி - உப்பெநை போதாதி\nஸூர்ய சம்த்ர சுக்கலந்நி - ஸூசநலு சூபுதாயி"
+    },
+    {
+        "id": "lyr-arerare-nedo-repo-v3",
+        "songId": "song-arerare-nedo-repo",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 3",
+        "lyrics": "పంచభూతాలన్ని - అంచనాల కందవింక\nమిక్కుటపు వేండ్రముతో - లయమై పోతాయి\nభూలోక జనులంతా - గుండెలవిసి కూలెదరు\nకొండబండ సందులలో - మాటులలో దాగెదరు",
+        "translitLyrics": "Panchabhootaalanni - Anchanaala Kandavinka\nMikkutapu Vendramuto - Layamai Potaayi\nBhooloka Janulantaa - Gundelavisi Kooledaru\nKondabanda Sandulalo - Maatulalo Daagedaru",
+        "orderIndex": 3,
+        "translationTa": "பம்சபூதாலந்நி - அம்சநால கம்தவிம்க\nமிக்குடபு வேம்ட்ரமுதோ - லயமை போதாயி\nபூலோக ஜநுலம்தா - கும்டெலவிஸி கூலெதரு\nகொம்டபம்ட ஸம்துலலோ - மாடுலலோ தாகெதரு"
+    },
+    {
+        "id": "lyr-arpinthu-devaa-chorus",
+        "songId": "song-arpinthu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Pallavi",
+        "lyrics": "అర్పింతు దేవా - ప్రాణాత్మదేహం\nనీ సేవ చేయగ - నీ మాట చాటగ అర్పింతు దేవా",
+        "translitLyrics": "Arpintu Devaa - Praanaatmadehan\nNee Seva Cheyaga - Nee Maata Chaataga Arpintu Devaa",
+        "orderIndex": 0,
+        "translationTa": "அர்பிம்து தேவா - ப்ராணாத்மதேஹம்\nநீ ஸேவ சேயக - நீ மாட சாடக அர்பிம்து தேவா"
+    },
+    {
+        "id": "lyr-arpinthu-devaa-v1",
+        "songId": "song-arpinthu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 1",
+        "lyrics": "నను నీకై జేసితివి - ననుకోరి చేరితివి\nనను కొనగ నా కొరకై - క్రయధనము నిచ్చితివి\nనను నీదు సొత్తుగజేసి - కృపచేత బ్రోచితివి\nనను నీదు సంకల్పములో - స్థిరపరచి గాచితివి\nఅర్పింతు జీవితం - అంగీకరించుమా\nయజమానుడా దేవా - సర్వాధికారివి",
+        "translitLyrics": "Nanu Neekai Jesitivi - Nanukori Cheritivi\nNanu Konaga Naa Korakai - Krayadhanamu Nichchitivi\nNanu Needu Sottugajesi - Kripacheta Brochitivi\nNanu Needu Sankalpamulo - Sthiraparachi Gaachitivi\nArpintu Jeevitan - Angeekarinchumaa\nYajamaanudaa Devaa - Sarvaadhikaarivi",
+        "orderIndex": 1,
+        "translationTa": "நநு நீகை ஜேஸிதிவி - நநுகோரி சேரிதிவி\nநநு கொநக நா கொரகை - க்ரயதநமு நிச்சிதிவி\nநநு நீது ஸொத்துகஜேஸி - க்ரு'பசேத ப்ரோசிதிவி\nநநு நீது ஸம்கல்பமுலோ - ஸ்திரபரசி காசிதிவி\nஅர்பிம்து ஜீவிதம் - அம்கீகரிம்சுமா\nயஜமாநுடா தேவா - ஸர்வாதிகாரிவி"
+    },
+    {
+        "id": "lyr-arpinthu-devaa-v2",
+        "songId": "song-arpinthu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 2",
+        "lyrics": "విద్యార్థి లోకంలో - నిను నేను సేవింపన్\nబాధ్యతల నిచ్చితివి - భారంబు మోపితివి\nశుద్ధికరించితివి - శుభవార్త నొసగితివి\nఉద్యోగ వరములతో - దీవెనలు నింపితివి\nఅర్పింతు జీవితం - నీ సేవచేయగా\nయజమానుడా దేవ - సర్వాధికారివి",
+        "translitLyrics": "Vidyaarthi Lokanlo - Ninu Nenu Sevinpan\nBaadhyatala Nichchitivi - Bhaaranbu Mopitivi\nShuddhikarinchitivi - Shubhavaarta Nosagitivi\nUdyoga Varamulato - Deevenalu Ninpitivi\nArpintu Jeevitan - Nee Sevacheyagaa\nYajamaanudaa Deva - Sarvaadhikaarivi",
+        "orderIndex": 2,
+        "translationTa": "வித்யார்தி லோகம்லோ - நிநு நேநு ஸேவிம்பந்\nபாத்யதல நிச்சிதிவி - பாரம்பு மோபிதிவி\nஶுத்திகரிம்சிதிவி - ஶுபவார்த நொஸகிதிவி\nஉத்யோக வரமுலதோ - தீவெநலு நிம்பிதிவி\nஅர்பிம்து ஜீவிதம் - நீ ஸேவசேயகா\nயஜமாநுடா தேவ - ஸர்வாதிகாரிவி"
+    },
+    {
+        "id": "lyr-arpinthu-devaa-v3",
+        "songId": "song-arpinthu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Charanam 3",
+        "lyrics": "నీ వాక్యం ధ్యానింతున్ - బోధించి నేర్పింతున్\nనీ వాక్యం పాటింతున్ - ప్రార్ధించి ప్రకటింతున్\nనీ వాక్య సత్యాలే - సవాళ్ళు లోకంలో\nనీ వాక్య భావాలే - బాధలకు ఔషధముల్\nఅర్పింతు జీవితం - నీ వాక్య సేవకై\nయజమానుడా దేవ - సర్వాధికారివి",
+        "translitLyrics": "Nee Vaakyan Dhyaanintun - Bodhinchi Nerpintun\nNee Vaakyan Paatintun - Praardhinchi Prakatintun\nNee Vaakya Satyaale - Savaallu Lokanlo\nNee Vaakya Bhaavaale - Baadhalaku Aushadhamul\nArpintu Jeevitan - Nee Vaakya Sevakai\nYajamaanudaa Deva - Sarvaadhikaarivi",
+        "orderIndex": 3,
+        "translationTa": "நீ வாக்யம் த்யாநிம்துந் - போதிம்சி நேர்பிம்துந்\nநீ வாக்யம் பாடிம்துந் - ப்ரார்திம்சி ப்ரகடிம்துந்\nநீ வாக்ய ஸத்யாலே - ஸவாள்ளு லோகம்லோ\nநீ வாக்ய பாவாலே - பாதலகு ஔஷதமுல்\nஅர்பிம்து ஜீவிதம் - நீ வாக்ய ஸேவகை\nயஜமாநுடா தேவ - ஸர்வாதிகாரிவி"
+    },
+    {
+        "id": "song-a-mighty-fortress-is-our-god-lyr-0",
+        "songId": "song-a-mighty-fortress-is-our-god",
+        "language": "ENGLISH",
+        "sectionLabel": "Lyrics",
+        "lyrics": "A mighty fortress is our God\nA bulwark never failing;\nOur helper He, amid the flood\nOf mortal ills prevailing:\nFor still our ancient foe\nDoth seek to work us woe;\nHis craft and power are great,\nAnd, armed with cruel hate,\nOn earth is not his equal.\nDid we in our own strength confide,\nOur striving would be losing;\nWere not the right Man on our side,\nThe Man of God's own choosing:\nDost ask who that may be?\nChrist Jesus, it is He;\nLord Sabaoth, His Name,\nFrom age to age the same,\nAnd He must win the battle.\nAnd though this world, with devils filled,\nShould threaten to undo us,\nWe will not fear, for God hath willed\nHis truth to triumph through us:\nThe prince of darkness grim,\nWe tremble not for him;\nHis rage we can endure,\nFor lo, his doom is sure,\nOne little word shall fell him.\nThat word above all earthly powers,\nNo thanks to them, abideth;\nThe Spirit and the gifts are ours\nThrough Him who with us sideth:\nLet goods and kindred go,\nThis mortal life also;\nThe body they may kill:\nGod's truth abideth still,\nHis kingdom is forever.",
+        "translitLyrics": "Aa Mighty Fortress Is Our God\nAa Bulwark Never Failing;\nOur Helper He, Amid The Flood\nOf Mortal Ills Prevailing:\nFor Still Our Anchient Foe\nDoth Seek To Work Us Woe;\nHis Chraft And Power Are Great,\nAand, Armed With Chruel Hate,\nOn Earth Is Not His Equal.\nDid We In Our Own Strength Chonfide,\nOur Striving Would Be Losing;\nWere Not The Right Nan On Our Side,\nThe Nan Of God's Own Chhoosing:\nDost Ask Who That May Be?\nChhrist Jesus, It Is He;\nLord Shabaoth, His Name,\nFrom Age To Age The Same,\nAand He Must Win The Battle.\nAand Though This World, With Devils Filled,\nShhould Threaten To Undo Us,\nWe Will Not Fear, For God Hath Willed\nHis Truth To Triumph Through Us:\nThe Prinche Of Darkness Grim,\nWe Tremble Not For Him;\nHis Rage We Chan Endure,\nFor Lo, His Doom Is Sure,\nOne Little Word Shall Fell Him.\nThat Word Above All Earthly Powers,\nNo Thanks To Them, Abideth;\nThe Shpirit And The Gifts Are Ours\nThrough Him Who With Us Sideth:\nLet Goods And Kindred Go,\nThis Mortal Life Also;\nThe Body They May Kill:\nGod's Truth Abideth Still,\nHis Kingdom Is Forever.",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-chinna-vaarilo-lyr-0",
+        "songId": "song-aa-chinna-vaarilo",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆ చిన్న వారిలో నేనుండి యున్న - నహాహా మా యేసును - నేం జూచి\nయుందు చిన్న।",
+        "translitLyrics": "Aa Chinna Vaarilo Nenundi Yunna - Nahaahaa Maa Yesunu - Nen Joochi\nYundu Chinna|",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-chinna-vaarilo-lyr-1",
+        "songId": "song-aa-chinna-vaarilo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": ".. ప్రభు యేసు ప్రపంచమం దుండినపుడు - పసి బాలకులం బిల్చి ప్రార్ధించె\nననెడు - ప్రాచీన కథను నేం జదువుచున్నప్పుడు = వారిలో నే నున్న - నెంతో\nబాగుండు చిన్న",
+        "translitLyrics": ".. Prabhu Yesu Prapanchaman Dundinapudu - Pasi Baalakulan Bilchi Praardhinche\nNanedu - Praacheena Kathanu Nen Jaduvuchunnappudu = Vaarilo Ne Nunna - Nento\nBaagundu Chinna",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-chinna-vaarilo-lyr-2",
+        "songId": "song-aa-chinna-vaarilo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "ఆ కరుణ కరము నా వ్రాలి -యాకాశ బాహువునా చుట్టు నిలిచి\nయ - నేక రానిమ్మను జాలి = తోం పిలుపు విన - నాకెంతో\n) ||యా",
+        "translitLyrics": "Aa Karuna Karamu Naa Vraali -Yaakaasha Baahuvunaa Chuttu Nilichi\nYa - Neka Raanimmanu Jaali = Ton Pilupu Vina - Naakento\n) ||Yaa",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-chinna-vaarilo-lyr-3",
+        "songId": "song-aa-chinna-vaarilo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "ఇ కమాందం ద్వారా దర్శింతున్ - ప్రభు (ప్రేమ పంచి\nయియ్యమందు న- మ్మకముతో యేసుని వెదకుచు నుందు = సుఖ\nలోకమందునం - జూచి వినుచుందు\n4 రాజ్యము - సిద్ధము చేయం బ్రభు యేసు వెళ్లెన్\n-ముద్దు పాపలు వత్తు రందున విను మ=శ్రద్ధ సేయకు వారి-దాకాశ రాజ్య\nచిన్న - తూపిలి యోహాను",
+        "translitLyrics": "I Kamaandan Dvaaraa Darshintun - Prabhu (Prema Panchi\nYiyyamandu Na- Mmakamuto Yesuni Vedakuchu Nundu = Sukha\nLokamandunan - Joochi Vinuchundu\n4 Raajyamu - Siddhamu Cheyan Brabhu Yesu Vellen\n-Muddu Paapalu Vattu Randuna Vinu Ma=shraddha Seyaku Vaari-daakaasha Raajya\nChinna - Toopili Yohaanu",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha-lyr-0",
+        "songId": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nఆ దినములలో దేవోక్తి (2) - అరుదాయెను - దేవునివార్త (2)\nఆ దినములలో దేవోక్తి (2)\nఅను పల్లవి:\nదైవోక్తి ప్రత్యక్షత - దొరుకునదే - అరుదాయెనట - ఆదినములలో దేవోక్తి",
+        "translitLyrics": "Pallavi:\nAa Dinamulalo Devokti (2) - Arudaayenu - Devunivaarta (2)\nAa Dinamulalo Devokti (2)\nAnu Pallavi:\nDaivokti Pratyakshata - Dorukunade - Arudaayenata - Aadinamulalo Devokti",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nஆ திநமுலலோ தேவோக்தி (2) - அருதாயெநு - தேவுநிவார்த (2)\nஆ திநமுலலோ தேவோக்தி (2)\nஅநு பல்லவி:\nதைவோக்தி ப்ரத்யக்ஷத - தொருகுநதே - அருதாயெநட - ஆதிநமுலலோ தேவோக்தி"
+    },
+    {
+        "id": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha-lyr-1",
+        "songId": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఇశ్రాయేలీయుల కానాడు (2) - యే రాజు లేకపోయె (2)\nతనయిష్టానుసారముగా (2) - తిరుగుచుండెను ప్రతివాడు (2)",
+        "translitLyrics": "Ishraayeleeyula Kaanaadu (2) - Ye Raaju Lekapoye (2)\nTanayishtaanusaaramugaa (2) - Tiruguchundenu Prativaadu (2)",
+        "orderIndex": 1,
+        "translationTa": "இஶ்ராயேலீயுல காநாடு (2) - யே ராஜு லேகபோயெ (2)\nதநயிஷ்டாநுஸாரமுகா (2) - திருகுசும்டெநு ப்ரதிவாடு (2)"
+    },
+    {
+        "id": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha-lyr-2",
+        "songId": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "పరమ తండ్రి మందసము - చెరపట్టబడినందున\nప్రభావము పోయెను - ప్రభుని ప్రజలలో నుండి",
+        "translitLyrics": "Parama Tandri Mandasamu - Cherapattabadinanduna\nPrabhaavamu Poyenu - Prabhuni Prajalalo Nundi",
+        "orderIndex": 2,
+        "translationTa": "பரம தம்ட்ரி மம்தஸமு - செரபட்டபடிநம்துந\nப்ரபாவமு போயெநு - ப்ரபுநி ப்ரஜலலோ நும்டி"
+    },
+    {
+        "id": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha-lyr-3",
+        "songId": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "దావీదంతకంతకు - దినదినము వర్థిల్లెను\nసైన్యములధిపతి యెహోవా - సర్వదా తనతోడై యుండెను",
+        "translitLyrics": "Daaveedantakantaku - Dinadinamu Varthillenu\nSainyamuladhipati Yehovaa - Sarvadaa Tanatodai Yundenu",
+        "orderIndex": 3,
+        "translationTa": "தாவீதம்தகம்தகு - திநதிநமு வர்தில்லெநு\nஸைந்யமுலதிபதி யெஹோவா - ஸர்வதா தநதோடை யும்டெநு"
+    },
+    {
+        "id": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha-lyr-4",
+        "songId": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "సొలమోనర్పించిన - బలుల నగ్ని కాల్చగనే\nప్రభుని ఆలయమంతయు - ప్రభావముతో నిండెను",
+        "translitLyrics": "Solamonarpinchina - Balula Nagni Kaalchagane\nPrabhuni Aalayamantayu - Prabhaavamuto Nindenu",
+        "orderIndex": 4,
+        "translationTa": "ஸொலமோநர்பிம்சிந - பலுல நக்நி கால்சகநே\nப்ரபுநி ஆலயமம்தயு - ப்ரபாவமுதோ நிம்டெநு"
+    },
+    {
+        "id": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha-lyr-5",
+        "songId": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "లెమ్ము తేజరిల్లుము - నీకు వెలుగు కలిగెను\nయెహోవా తండ్రి మహిమ - నీ మీద నుదయించెను",
+        "translitLyrics": "Lemmu Tejarillumu - Neeku Velugu Kaligenu\nYehovaa Tandri Mahima - Nee Meeda Nudayinchenu",
+        "orderIndex": 5,
+        "translationTa": "லெம்மு தேஜரில்லுமு - நீகு வெலுகு கலிகெநு\nயெஹோவா தம்ட்ரி மஹிம - நீ மீத நுதயிம்செநு"
+    },
+    {
+        "id": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha-lyr-6",
+        "songId": "song-aa-dinamulalo-devokthi-arudaayenu-devunivaartha",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "యెహోవా పట్టణమని - ఇశ్రాయేలు పరిశుద్ధ\nదేవుని సీయోనని - నీకు పేరు పెట్టెదరు",
+        "translitLyrics": "Yehovaa Pattanamani - Ishraayelu Parishuddha\nDevuni Seeyonani - Neeku Peru Pettedaru",
+        "orderIndex": 6,
+        "translationTa": "யெஹோவா பட்டணமநி - இஶ்ராயேலு பரிஶுத்த\nதேவுநி ஸீயோநநி - நீகு பேரு பெட்டெதரு"
+    },
+    {
+        "id": "song-aa-jaali-premanu-lyr-0",
+        "songId": "song-aa-jaali-premanu",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆ జాలి ప్రేమను-గమనింపకుందువా\nఆ దివ్య ప్రేమను - గ్రహియింపకుందువా\nఓ సోదరా ఓ సోదరీ - ఆ ప్రేమమూర్తి యేసు - దరిచేరవా!",
+        "translitLyrics": "Aa Jaali Premanu-gamaninpakunduvaa\nAa Divya Premanu - Grahiyinpakunduvaa\nO Sodaraa O Sodaree - Aa Premamoorti Yesu - Daricheravaa!",
+        "orderIndex": 0,
+        "translationTa": "ஆ ஜாலி ப்ரேமநு-கமநிம்பகும்துவா\nஆ திவ்ய ப்ரேமநு - க்ரஹியிம்பகும்துவா\nஓ ஸோதரா ஓ ஸோதரீ - ஆ ப்ரேமமூர்தி யேஸு - தரிசேரவா!"
+    },
+    {
+        "id": "song-aa-jaali-premanu-lyr-1",
+        "songId": "song-aa-jaali-premanu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "నీ పాప జీవితాన - ఆ ప్రేమమూర్తియే\nఆ సిల్వపైన నీకై - మరణబాధ నొందెను\nనీ శిక్ష బాపగా - రక్షణను చూపగా\nనీ హృదయ ద్వార మందు - వేచియుండెగా\nనీ రక్షకుండు యేసు - నిన్ను పిలుచుచుండెను\nఆ ప్రేమమూర్తి పలుకు - నాలకింపజాలవా",
+        "translitLyrics": "Nee Paapa Jeevitaana - Aa Premamoortiye\nAa Silvapaina Neekai - Maranabaadha Nondenu\nNee Shiksha Baapagaa - Rakshananu Choopagaa\nNee Hridaya Dvaara Mandu - Vechiyundegaa\nNee Rakshakundu Yesu - Ninnu Piluchuchundenu\nAa Premamoorti Paluku - Naalakinpajaalavaa",
+        "orderIndex": 1,
+        "translationTa": "நீ பாப ஜீவிதாந - ஆ ப்ரேமமூர்தியே\nஆ ஸில்வபைந நீகை - மரணபாத நொம்தெநு\nநீ ஶிக்ஷ பாபகா - ரக்ஷணநு சூபகா\nநீ ஹ்ரு'தய த்வார மம்து - வேசியும்டெகா\nநீ ரக்ஷகும்டு யேஸு - நிந்நு பிலுசுசும்டெநு\nஆ ப்ரேமமூர்தி பலுகு - நாலகிம்பஜாலவா"
+    },
+    {
+        "id": "song-aa-jaali-premanu-lyr-2",
+        "songId": "song-aa-jaali-premanu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "ఎంత పాపినైనగాని - యేసు చేర రమ్మనే\nయేసు చెంత చేరువాని - త్రోసివేయజాలడు\nనీ పాప జీవితం - ప్రభుయేసు మార్చగా\nనీ చెంత చేరి నిన్ను - పిలుచు చుండెగా\nవిలువైన రక్తధార - ప్రేమతోడ గార్చెను\nఆ ప్రేమమూర్తి పిలుపు - నాలకింపజాలవా",
+        "translitLyrics": "Enta Paapinainagaani - Yesu Chera Rammane\nYesu Chenta Cheruvaani - Trosiveyajaaladu\nNee Paapa Jeevitan - Prabhuyesu Maarchagaa\nNee Chenta Cheri Ninnu - Piluchu Chundegaa\nViluvaina Raktadhaara - Prematoda Gaarchenu\nAa Premamoorti Pilupu - Naalakinpajaalavaa",
+        "orderIndex": 2,
+        "translationTa": "எம்த பாபிநைநகாநி - யேஸு சேர ரம்மநே\nயேஸு செம்த சேருவாநி - த்ரோஸிவேயஜாலடு\nநீ பாப ஜீவிதம் - ப்ரபுயேஸு மார்சகா\nநீ செம்த சேரி நிந்நு - பிலுசு சும்டெகா\nவிலுவைந ரக்ததார - ப்ரேமதோட கார்செநு\nஆ ப்ரேமமூர்தி பிலுபு - நாலகிம்பஜாலவா"
+    },
+    {
+        "id": "song-aa-kaluvari-maargamulo-lyr-0",
+        "songId": "song-aa-kaluvari-maargamulo",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆ కలువరి మార్గములో - యేసు సిలువను మోసెను\nరక్షణ నివ్వను ఓ సోదరా - నెమ్మది నివ్వను ఓ సోదరీ (2)",
+        "translitLyrics": "Aa Kaluvari Maargamulo - Yesu Siluvanu Mosenu\nRakshana Nivvanu O Sodaraa - Nemmadi Nivvanu O Sodaree (2)",
+        "orderIndex": 0,
+        "translationTa": "ஆ கலுவரி மார்கமுலோ - யேஸு ஸிலுவநு மோஸெநு\nரக்ஷண நிவ்வநு ஓ ஸோதரா - நெம்மதி நிவ்வநு ஓ ஸோதரீ (2)"
+    },
+    {
+        "id": "song-aa-kaluvari-maargamulo-lyr-1",
+        "songId": "song-aa-kaluvari-maargamulo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "గరుకు రాళ్ళ మార్గములో - బరువు సిలువను మోసెను (2)\nకొరడాలతో కొట్టిరి - దేహమంతా చీలెను (2)",
+        "translitLyrics": "Garuku Raalla Maargamulo - Baruvu Siluvanu Mosenu (2)\nKoradaalato Kottiri - Dehamantaa Cheelenu (2)",
+        "orderIndex": 1,
+        "translationTa": "கருகு ராள்ள மார்கமுலோ - பருவு ஸிலுவநு மோஸெநு (2)\nகொரடாலதோ கொட்டிரி - தேஹமம்தா சீலெநு (2)"
+    },
+    {
+        "id": "song-aa-kaluvari-maargamulo-lyr-2",
+        "songId": "song-aa-kaluvari-maargamulo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "మేకులు కొట్టిరి కాళ్ళకు - తలకు ముండ్ల కిరీటము\nయేసు రక్తము నదివలె - సిలువపై నుండి ప్రవహించె",
+        "translitLyrics": "Mekulu Kottiri Kaallaku - Talaku Mundla Kireetamu\nYesu Raktamu Nadivale - Siluvapai Nundi Pravahinche",
+        "orderIndex": 2,
+        "translationTa": "மேகுலு கொட்டிரி காள்ளகு - தலகு மும்ட்ல கிரீடமு\nயேஸு ரக்தமு நதிவலெ - ஸிலுவபை நும்டி ப்ரவஹிம்செ"
+    },
+    {
+        "id": "song-aa-kaluvari-maargamulo-lyr-3",
+        "songId": "song-aa-kaluvari-maargamulo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "గాయపడిన చేతులు చాచి - ప్రభువు పిలచుచుండెను\nపాపపు స్థితిని మార్చను - నిత్య జీవము నివ్వను",
+        "translitLyrics": "Gaayapadina Chetulu Chaachi - Prabhuvu Pilachuchundenu\nPaapapu Sthitini Maarchanu - Nitya Jeevamu Nivvanu",
+        "orderIndex": 3,
+        "translationTa": "காயபடிந சேதுலு சாசி - ப்ரபுவு பிலசுசும்டெநு\nபாபபு ஸ்திதிநி மார்சநு - நித்ய ஜீவமு நிவ்வநு"
+    },
+    {
+        "id": "song-aa-kaluvari-maargamulo-lyr-4",
+        "songId": "song-aa-kaluvari-maargamulo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "పాపములోనే ఉందువా - పాపము వలన మరణము\nనీ పాపములను ఒప్పుకో - కడుగును యేసు రక్తము",
+        "translitLyrics": "Paapamulone Unduvaa - Paapamu Valana Maranamu\nNee Paapamulanu Oppuko - Kadugunu Yesu Raktamu",
+        "orderIndex": 4,
+        "translationTa": "பாபமுலோநே உம்துவா - பாபமு வலந மரணமு\nநீ பாபமுலநு ஒப்புகோ - கடுகுநு யேஸு ரக்தமு"
+    },
+    {
+        "id": "song-aa-kaluvari-maargamulo-lyr-5",
+        "songId": "song-aa-kaluvari-maargamulo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "హృదయ తలుపు తట్టుచున్నాడు - తెరువుము నీ హృదయము\nచేర్చుకొనుము యేసుని - శాంతి నీకు దొరుకును",
+        "translitLyrics": "Hridaya Talupu Tattuchunnaadu - Teruvumu Nee Hridayamu\nCherchukonumu Yesuni - Shaanti Neeku Dorukunu",
+        "orderIndex": 5,
+        "translationTa": "ஹ்ரு'தய தலுபு தட்டுசுந்நாடு - தெருவுமு நீ ஹ்ரு'தயமு\nசேர்சுகொநுமு யேஸுநி - ஶாம்தி நீகு தொருகுநு"
+    },
+    {
+        "id": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu-lyr-0",
+        "songId": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆ ముండ్ల కిరీటం బోయెను - ఘనంబుకల్గెను\nవిజయరాజుపై - జయకిరీటంబుంచుడి",
+        "translitLyrics": "Aa Mundla Kireetan Boyenu - Ghananbukalgenu\nVijayaraajupai - Jayakireetanbunchudi",
+        "orderIndex": 0,
+        "translationTa": "ஆ மும்ட்ல கிரீடம் போயெநு - கநம்புகல்கெநு\nவிஜயராஜுபை - ஜயகிரீடம்பும்சுடி"
+    },
+    {
+        "id": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu-lyr-1",
+        "songId": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "ప్రభువులకు ప్రభువా - రాజులకు రాజా!\nపై లోకమందు సొంత గద్దెపై కూర్చుంటివి",
+        "translitLyrics": "Prabhuvulaku Prabhuvaa - Raajulaku Raajaa!\nPai Lokamandu Sonta Gaddepai Koorchuntivi",
+        "orderIndex": 1,
+        "translationTa": "ப்ரபுவுலகு ப்ரபுவா - ராஜுலகு ராஜா!\nபை லோகமம்து ஸொம்த கத்தெபை கூர்சும்டிவி"
+    },
+    {
+        "id": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu-lyr-2",
+        "songId": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "పై దూతల యానందము - జనాళి మోదము\nనీ గొప్ప ప్రేమ జూతుము - నిన్ వెంబడింతుము",
+        "translitLyrics": "Pai Dootala Yaanandamu - Janaali Modamu\nNee Goppa Prema Jootumu - Nin Venbadintumu",
+        "orderIndex": 2,
+        "translationTa": "பை தூதல யாநம்தமு - ஜநாளி மோதமு\nநீ கொப்ப ப்ரேம ஜூதுமு - நிந் வெம்படிம்துமு"
+    },
+    {
+        "id": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu-lyr-3",
+        "songId": "song-aa-mundla-kireetan-boyenu-ghanambukalgenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "తా జచ్చిన యా సిలువ - మాకాయె క్షేమము\nనిరీక్షణ సౌభాగ్యము - మా నిత్య జీవము",
+        "translitLyrics": "Taa Jachchina Yaa Siluva - Maakaaye Kshemamu\nNireekshana Saubhaagyamu - Maa Nitya Jeevamu",
+        "orderIndex": 3,
+        "translationTa": "தா ஜச்சிந யா ஸிலுவ - மாகாயெ க்ஷேமமு\nநிரீக்ஷண ஸௌபாக்யமு - மா நித்ய ஜீவமு"
+    },
+    {
+        "id": "song-aa-yandhakaarampu-reyilo-lyr-0",
+        "songId": "song-aa-yandhakaarampu-reyilo",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆ యంధకారంపు - రేయిలో క్రీస్తు పడు - నాయాసములు దలంచరే =\nసాయంతనము శిష్య - *సమితితో భోజనముం - జేయంగూర్చున్న ప్రభువు -\nభక్తుల కనియె నా యంధ||",
+        "translitLyrics": "Aa Yandhakaaranpu - Reyilo Kreestu Padu - Naayaasamulu Dalanchare =\nSaayantanamu Shishya - *Samitito Bhojanamun - Jeyangoorchunna Prabhuvu -\nBhaktula Kaniye Naa Yandha||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-yandhakaarampu-reyilo-lyr-1",
+        "songId": "song-aa-yandhakaarampu-reyilo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": ".. ఒకండు మిలో నన్ను - యూద *గణముల చేతు - లకు నప్పగింపం దలం\nచెన్ - *మొక మిచ్చకము గల్గు - మూర్భుండగు యూదాను - “మొనసె\nవీడనుచుం దెలిపి యికం మిమ్ముంగూడియుం - డకయుందునని రొట్టె -\nవిరిచి స్తోత్రంబుజేసి = ప్రకటంబుగా - దీని భక్షించుండని పిదప - నొక పాత్ర\n'నాన నిచ్చెన్ - ద్రాక్షారసం బా యంధ||\n15ర5్ క్రీస్తు థమలు మరణము",
+        "translitLyrics": ".. Okandu Milo Nannu - Yooda *Ganamula Chetu - Laku Nappaginpan Dalan\nChen - *Moka Michchakamu Galgu - Moorbhundagu Yoodaanu - “Monase\nVeedanuchun Delipi Yikan Mimmungoodiyun - Dakayundunani Rotte -\nVirichi Stotranbujesi = Prakatanbugaa - Deeni Bhakshinchundani Pidapa - Noka Paatra\n'Naana Nichchen - Draakshaarasan Baa Yandha||\n15Ra5 Kreestu Thamalu Maranamu",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-yandhakaarampu-reyilo-lyr-2",
+        "songId": "song-aa-yandhakaarampu-reyilo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": ".. తన మేని గురుతు రొ - ట్టెను జేసి పాపవిమో - చనమైన రక్తమునకు -\nనొనరంగ ద్రాక్షారస - మును గురుతుగాం దెలిపి - నెనరుగల కర్త యపుడు\n- చనె గెత్సెమను వన - స్థలిలోన శిష్యుల - నునిచి తానొక్కరుండు =\nమనసు వ్యాకులము చే-తను నిండియుండంగా - ఘనుడు ప్రార్ధించెందండ్రిన్\n- గాధముగాను || ఆ యంధ||",
+        "translitLyrics": ".. Tana Meni Gurutu Ro - Ttenu Jesi Paapavimo - Chanamaina Raktamunaku -\nNonaranga Draakshaarasa - Munu Gurutugaan Delipi - Nenarugala Karta Yapudu\n- Chane Getsemanu Vana - Sthalilona Shishyula - Nunichi Taanokkarundu =\nManasu Vyaakulamu Che-tanu Nindiyundangaa - Ghanudu Praardhinchendandrin\n- Gaadhamugaanu || Aa Yandha||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-yandhakaarampu-reyilo-lyr-3",
+        "songId": "song-aa-yandhakaarampu-reyilo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 8",
+        "lyrics": ".. శ్రమచేతం దన శరీ - రము నుండి దిగజారెం - జెమట రక్తపు బొట్లుగా -\nక్రమముగా దూత తన - కడ *కరుగుదెంచి శాం - తముం బల్మి చనిన\n3పిదపం = తమ మనంబులం బోలు - *తమసమున యూద సై - న్యము\nకలేగుదెంచె నపుడు - గెత్సెమను వనికి నా యంధ||\n4 పరశాంతి శీలస - ర్వజ్ఞతలు గల ప్రభుం - డెరింగి తనకున్న పాట్లు -\nనరులు నజరేతు యే - సను వాని ననంగం దా - నెటింగించె నేనేయని =",
+        "translitLyrics": ".. Shramachetan Dana Sharee - Ramu Nundi Digajaaren - Jemata Raktapu Botlugaa -\nKramamugaa Doota Tana - Kada *Karugudenchi Shaan - Tamun Balmi Chanina\n3Pidapan = Tama Mananbulan Bolu - *Tamasamuna Yooda Sai - Nyamu\nKalegudenche Napudu - Getsemanu Vaniki Naa Yandha||\n4 Parashaanti Sheelasa - Rvajjatalu Gala Prabhun - Deringi Tanakunna Paatlu -\nNarulu Najaretu Ye - Sanu Vaani Nanangan Daa - Netinginche Neneyani =",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aa-yandhakaarampu-reyilo-lyr-4",
+        "songId": "song-aa-yandhakaarampu-reyilo",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": ".. తన శిష్యులను విడువుం - దని రిపులచేం దానె పట్టువడియెన్ - “కినిపి\nపేతురు యాజ - కుని దాసు *కర్ణంబు - *ేదునుమంగ క్రీస్తుండపుడు -\nకనికరంబున స్వస్థ - తను జేయు నావిభుని - కరములను విరిచి కట్టి =\nవెనుక ముందరం జుట్టు - కొని యెరూషలేము పుర - మునకుం దీసుకం\nబోయిరి - రాణువవార || లా యంధ||",
+        "translitLyrics": ".. Tana Shishyulanu Viduvun - Dani Ripulachen Daane Pattuvadiyen - “Kinipi\nPeturu Yaaja - Kuni Daasu *Karnanbu - *Edunumanga Kreestundapudu -\nKanikaranbuna Svastha - Tanu Jeyu Naavibhuni - Karamulanu Virichi Katti =\nVenuka Mundaran Juttu - Koni Yerooshalemu Pura - Munakun Deesukan\nBoyiri - Raanuvavaara || Laa Yandha||",
+        "orderIndex": 4,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aacharinchuchununnaamu-aa-chandamu-lyr-0",
+        "songId": "song-aacharinchuchununnaamu-aa-chandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆచరించుచునున్నాము - ఆ చందము మేము = యే చందమేసు ప్రభు\nసెల - విచ్చివేంచేసితో పరమండలికి || ఆచరించు||",
+        "translitLyrics": "Aacharinchuchununnaamu - Aa Chandamu Memu = Ye Chandamesu Prabhu\nSela - Vichchivenchesito Paramandaliki || Aacharinchu||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aacharinchuchununnaamu-aa-chandamu-lyr-1",
+        "songId": "song-aacharinchuchununnaamu-aa-chandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "నీ సుభక్తుల్ నిస్తులాపొస్తలుల్ - నీ సెలవున న్నిఖిల భూస్టులుల్ - వాసికెక్కగా\nగాంజేయుటకు వ్యాపించిరి కోరి = యోసియ్యోను రాజశాశ్వత - శ్రీసనాధ\nశితరక్షభాజ - నీ సుదయచే నీ యుద్యోగము - నిత్యంబును బొంది\n|||యాచరించు||",
+        "translitLyrics": "Nee Subhaktul Nistulaapostalul - Nee Selavuna Nnikhila Bhoostulul - Vaasikekkagaa\nGaanjeyutaku Vyaapinchiri Kori = Yosiyyonu Raajashaashvata - Shreesanaadha\nShitarakshabhaaja - Nee Sudayache Nee Yudyogamu - Nityanbunu Bondi\n|||Yaacharinchu||",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aacharinchuchununnaamu-aa-chandamu-lyr-2",
+        "songId": "song-aacharinchuchununnaamu-aa-chandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "_భాసురత్వత్సమా చార - వాక్యము విని సదావి - శ్వాసిభాగ్యాభి ముఖ\nస్వాభావుల నీవేళన్ = భాసమాన పతితపా - వనతాంకిత పాత్ర దరికు -\nల్లాసము నెమ్మోములందు - రాజిల్లగం దెచ్చి 1 యాచరించు||",
+        "translitLyrics": "_Bhaasuratvatsamaa Chaara - Vaakyamu Vini Sadaavi - Shvaasibhaagyaabhi Mukha\nSvaabhaavula Neevelan = Bhaasamaana Patitapaa - Vanataankita Paatra Dariku -\nLlaasamu Nemmomulandu - Raajillagan Dechchi 1 Yaacharinchu||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aacharinchuchununnaamu-aa-chandamu-lyr-3",
+        "songId": "song-aacharinchuchununnaamu-aa-chandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 8",
+        "lyrics": "_ పరిశుద్ధ నాధ్యాత్మ మోక్ష - పారావతమా - వీరి - నిత్తరి - నరుదౌ\nనీదైవత్వచి - హ్నముతోడను గూడ = సరవిగా దతియను బొందె దెరగున\nనీబప్తి స్తోదకములయు - బరిని వ్యాపించియుండుటకు - ప్రార్థించుచు నిన్ను\n|||యాచరించు||",
+        "translitLyrics": "_ Parishuddha Naadhyaatma Moksha - Paaraavatamaa - Veeri - Nittari - Narudau\nNeedaivatvachi - Hnamutodanu Gooda = Saravigaa Datiyanu Bonde Deraguna\nNeebapti Stodakamulayu - Barini Vyaapinchiyundutaku - Praarthinchuchu Ninnu\n|||Yaacharinchu||",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aacharinchuchununnaamu-aa-chandamu-lyr-4",
+        "songId": "song-aacharinchuchununnaamu-aa-chandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "_ పరయానంద వదనము నీ - దరికరాంగిగోరు వీరి న్నీ - పరమ కృపన్\nదీవించి నీ - కరుణా కటాక్షేక్షన్ = స్థిరతం బాన్పియాత్మలకు - నీ మహిమ\nకిరణములు - నెరపు మో అభువాయని - నిన్ను వేడుచు ||నాచరించు||",
+        "translitLyrics": "_ Parayaananda Vadanamu Nee - Darikaraangigoru Veeri Nnee - Parama Kripan\nDeevinchi Nee - Karunaa Kataakshekshan = Sthiratan Baanpiyaatmalaku - Nee Mahima\nKiranamulu - Nerapu Mo Abhuvaayani - Ninnu Veduchu ||Naacharinchu||",
+        "orderIndex": 4,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadaam-havva-eden-vanan-lyr-0",
+        "songId": "song-aadaam-havva-eden-vanan",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "Long long ago – in the winter time\nఆదామ్ హవ్వ ఏదెన్ వనం (2)\nఇది ఆ కాలంలో జరిగిన స్టోరీ – మేం చెప్పేదంతా నిజమైన స్టోరి\nఒక్క రోజు హవ్వమ్మ తోట కెళ్ళింది – తోటలోన హలో అంటూ శబ్ధం వచ్చింది.\nశబ్ధం వచ్చిన వైపు ఆమె తిరిగి చూసింది – పామువెషంలో సాతాను మోసం చేసాడు.",
+        "translitLyrics": "Long Long Ago – In The Winter Time\nAadaam Havva Eden Vanan (2)\nIdi Aa Kaalanlo Jarigina Storee – Men Cheppedantaa Nijamaina Stori\nOkka Roju Havvamma Tota Kellindi – Totalona Halo Antoo Shabdhan Vachchindi.\nShabdhan Vachchina Vaipu Aame Tirigi Choosindi – Paamuveshanlo Saataanu Mosan Chesaadu.",
+        "orderIndex": 0,
+        "translationTa": "Long long ago – in the winter time\nஆதாம் ஹவ்வ ஏதெந் வநம் (2)\nஇதி ஆ காலம்லோ ஜரிகிந ஸ்டோரீ – மேம் செப்பேதம்தா நிஜமைந ஸ்டோரி\nஒக்க ரோஜு ஹவ்வம்ம தோட கெள்ளிம்தி – தோடலோந ஹலோ அம்டூ ஶப்தம் வச்சிம்தி.\nஶப்தம் வச்சிந வைபு ஆமெ திரிகி சூஸிம்தி – பாமுவெஷம்லோ ஸாதாநு மோஸம் சேஸாடு."
+    },
+    {
+        "id": "song-aadaamu-havvala-kalyaanam-lyr-0",
+        "songId": "song-aadaamu-havvala-kalyaanam",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "ఆదాము హవ్వల కళ్యాణం\nఅందరి హృదయాల ఆనందం (2)\nసమతా మమతలు కలిగుండాలి\nఒకరిని ఒకరు ప్రేమించాలి (2)\nకష్టములోన నష్టములోన (2)\nసహనము కలిగి జీవించాలి (2) ||ఆదాము||\nప్రభు యేసు నీ దీవెనలన్ని\nవీరిద్దరిపై దిగి రావాలి (2)\nసంతానముతో సౌభాగ్యముతో (2)\nసంసార నావను సాగించాలి (2) ||ఆదాము||",
+        "translitLyrics": "Aadaamu Havvala Kalyaanan\nAndari Hridayaala Aanandan (2)\nSamataa Mamatalu Kaligundaali\nOkarini Okaru Preminchaali (2)\nKashtamulona Nashtamulona (2)\nSahanamu Kaligi Jeevinchaali (2) ||Aadaamu||\nPrabhu Yesu Nee Deevenalanni\nVeeriddaripai Digi Raavaali (2)\nSantaanamuto Saubhaagyamuto (2)\nSansaara Naavanu Saaginchaali (2) ||Aadaamu||",
+        "orderIndex": 0,
+        "translationTa": "ஆதாமு ஹவ்வல கள்யாணம்\nஅம்தரி ஹ்ரு'தயால ஆநம்தம் (2)\nஸமதா மமதலு கலிகும்டாலி\nஒகரிநி ஒகரு ப்ரேமிம்சாலி (2)\nகஷ்டமுலோந நஷ்டமுலோந (2)\nஸஹநமு கலிகி ஜீவிம்சாலி (2) ||ஆதாமு||\nப்ரபு யேஸு நீ தீவெநலந்நி\nவீரித்தரிபை திகி ராவாலி (2)\nஸம்தாநமுதோ ஸௌபாக்யமுதோ (2)\nஸம்ஸார நாவநு ஸாகிம்சாலி (2) ||ஆதாமு||"
+    },
+    {
+        "id": "song-aadarana-karthavu-lyr-0",
+        "songId": "song-aadarana-karthavu",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "ఆదరణ కర్తవు - అనాధునిగ విడువవు\nనీతోడు నాకుండగా - ఒంటరిని కానెన్నడు\nఅల్పుడనైయున్న నన్ను - చేరదిసితివా\nఅనాది నీ ప్రేమయే - నన్నెంతో బలపరచెనే\nఆనంద భరితుడనై - వేచియుందును నీరాకకై\n||ఆదరణ]\nనీనిత్య కృపలోనే- ఆదరణ కలిగెనే\nనీ కృపాదానమే - నన్నిలలో నిలిపెనే\nనీ నిత్య కృపలోనే - నన్ను స్టిరపరచు కడవరకు\n||ఆదరణ]\nయేసయ్యా! యేసయ్యా !\nయేసయ్యా ! యేసయ్యా ||",
+        "translitLyrics": "Aadarana Kartavu - Anaadhuniga Viduvavu\nNeetodu Naakundagaa - Ontarini Kaanennadu\nAlpudanaiyunna Nannu - Cheradisitivaa\nAnaadi Nee Premaye - Nannento Balaparachene\nAananda Bharitudanai - Vechiyundunu Neeraakakai\n||Aadarana]\nNeenitya Kripalone- Aadarana Kaligene\nNee Kripaadaaname - Nannilalo Nilipene\nNee Nitya Kripalone - Nannu Stiraparachu Kadavaraku\n||Aadarana]\nYesayyaa! Yesayyaa !\nYesayyaa ! Yesayyaa ||",
+        "orderIndex": 0,
+        "translationTa": "ஆதரண கர்தவு - அநாதுநிக விடுவவு\nநீதோடு நாகும்டகா - ஒம்டரிநி காநெந்நடு\nஅல்புடநையுந்ந நந்நு - சேரதிஸிதிவா\nஅநாதி நீ ப்ரேமயே - நந்நெம்தோ பலபரசெநே\nஆநம்த பரிதுடநை - வேசியும்துநு நீராககை\n||ஆதரண]\nநீநித்ய க்ரு'பலோநே- ஆதரண கலிகெநே\nநீ க்ரு'பாதாநமே - நந்நிலலோ நிலிபெநே\nநீ நித்ய க்ரு'பலோநே - நந்நு ஸ்டிரபரசு கடவரகு\n||ஆதரண]\nயேஸய்யா! யேஸய்யா !\nயேஸய்யா ! யேஸய்யா ||"
+    },
+    {
+        "id": "song-aadarimpumu-yesuvaa-ni-lyr-0",
+        "songId": "song-aadarimpumu-yesuvaa-ni",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆదరింపుము యేసువా ని - న్నాశ్రయించితి నా కికన్ లేదు వేరొక\nయాగశ్రయంబని - లెస్సగా మది నమ్మితిన్ ॥ఆద॥",
+        "translitLyrics": "Aadarinpumu Yesuvaa Ni - Nnaashrayinchiti Naa Kikan Ledu Veroka\nYaagashrayanbani - Lessagaa Madi Nammitin ||Aada||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadarimpumu-yesuvaa-ni-lyr-1",
+        "songId": "song-aadarimpumu-yesuvaa-ni",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "నిరతముండెడు పరమ ధనమను - నీతి జీవిత రీతిలో = పెరుగ గోరుచు\nనిన్ను జేరితి - ప్రేమ జూపుము యేసువా",
+        "translitLyrics": "Niratamundedu Parama Dhanamanu - Neeti Jeevita Reetilo = Peruga Goruchu\nNinnu Jeriti - Prema Joopumu Yesuvaa",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadarimpumu-yesuvaa-ni-lyr-2",
+        "songId": "song-aadarimpumu-yesuvaa-ni",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "సత్య సంధుడ లోక బాంధవ - సర్వశాంతి సుధాకర = నిత్యజీవ జలంబు\nలొసగుము - నీతి నిధుల సజీవుడా ॥ఆద॥",
+        "translitLyrics": "Satya Sandhuda Loka Baandhava - Sarvashaanti Sudhaakara = Nityajeeva Jalanbu\nLosagumu - Neeti Nidhula Sajeevudaa ||Aada||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadarimpumu-yesuvaa-ni-lyr-3",
+        "songId": "song-aadarimpumu-yesuvaa-ni",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "ముందు వెనుకను దుష్ట శక్తుల - మూక నన్నరి కట్టగన్ = బంధితుండనైతి\nనా ప - ద్భాంధవ విడిపించుమా ॥ఆద॥",
+        "translitLyrics": "Mundu Venukanu Dushta Shaktula - Mooka Nannari Kattagan = Bandhitundanaiti\nNaa Pa - Dbhaandhava Vidipinchumaa ||Aada||",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadarimpumu-yesuvaa-ni-lyr-4",
+        "songId": "song-aadarimpumu-yesuvaa-ni",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "పరమ పురమున కరుగ నేరని - పాలసుడనో రక్షకా = కరుణతో నా\nమొరను గైకొని - కలుషముల నెడబాపవే ॥ఆద॥\nర్. పరమ ధాముడ వని యెరిగి నీ - శరణు వేడితి నో ప్రభో = తనువు\nవిడిచిన వేళలో నీ - తలుపు నాకై తెరువు మా ॥ఆద॥",
+        "translitLyrics": "Parama Puramuna Karuga Nerani - Paalasudano Rakshakaa = Karunato Naa\nMoranu Gaikoni - Kalushamula Nedabaapave ||Aada||\nR. Parama Dhaamuda Vani Yerigi Nee - Sharanu Vediti No Prabho = Tanuvu\nVidichina Velalo Nee - Talupu Naakai Teruvu Maa ||Aada||",
+        "orderIndex": 4,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadedan-paadedan-yesune-sthuthinchedan-lyr-0",
+        "songId": "song-aadedan-paadedan-yesune-sthuthinchedan",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "ఆడెదన్ పాడెదన్ – యేసునే స్తుతించెదన్\nఎల్లప్పుడు ఆయననే ఆరాధించెదన్ (2)\nనే పాడెదన్ దిన్ తనన దిన్ తనన దిన్ తనన నా\nనే పాడెదన్ దిన్ తనన దిన్ తనన దిన్ తనన నా\nఅల్లలల్లల్లల్లా హే లాలాలాలా........... (4)",
+        "translitLyrics": "Aadedan Paadedan – Yesune Stutinchedan\nEllappudu Aayanane Aaraadhinchedan (2)\nNe Paadedan Din Tanana Din Tanana Din Tanana Naa\nNe Paadedan Din Tanana Din Tanana Din Tanana Naa\nAllalallallallaa He Laalaalaalaa........... (4)",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-0",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nఆది ప్రేమను విడచిపెట్టితివా (1)\nఓ నాదు ప్రియుడా మాదిరిగ జీవించ మానితివా (2)",
+        "translitLyrics": "Pallavi:\nAadi Premanu Vidachipettitivaa (1)\nO Naadu Priyudaa Maadiriga Jeevincha Maanitivaa (2)",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nஆதி ப்ரேமநு விடசிபெட்டிதிவா (1)\nஓ நாது ப்ரியுடா மாதிரிக ஜீவிம்ச மாநிதிவா (2)"
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-1",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "నీవే నా రక్షకుడవనియు దేవుని క్రీస్తుండవనియు (2)\nనిశ్చయముగ ఒప్పుకొంటివి స్వంత పనులకు సాగిపోతివి (2)",
+        "translitLyrics": "Neeve Naa Rakshakudavaniyu Devuni Kreestundavaniyu (2)\nNishchayamuga Oppukontivi Svanta Panulaku Saagipotivi (2)",
+        "orderIndex": 1,
+        "translationTa": "நீவே நா ரக்ஷகுடவநியு தேவுநி க்ரீஸ்தும்டவநியு (2)\nநிஶ்சயமுக ஒப்புகொம்டிவி ஸ்வம்த பநுலகு ஸாகிபோதிவி (2)"
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-2",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "సిలువ మోయుచు యేసు ప్రభుకే కాలమెల్ల సేవ చేయుచు\nఎల్ల ప్రజలకు సాక్ష్యమిచ్చుచు వెళ్ళెదనను పలికితివిగా",
+        "translitLyrics": "Siluva Moyuchu Yesu Prabhuke Kaalamella Seva Cheyuchu\nElla Prajalaku Saakshyamichchuchu Velledananu Palikitivigaa",
+        "orderIndex": 2,
+        "translationTa": "ஸிலுவ மோயுசு யேஸு ப்ரபுகே காலமெல்ல ஸேவ சேயுசு\nஎல்ல ப்ரஜலகு ஸாக்ஷ்யமிச்சுசு வெள்ளெதநநு பலிகிதிவிகா"
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-3",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "మనుష్య సంగతులను తలంచి మనుష్యేచ్ఛలకు లొంగిపోయి\nయేసు ప్రభుని అనుమానించి ధనమోసంబులో చిక్కుకొంటివి",
+        "translitLyrics": "Manushya Sangatulanu Talanchi Manushyechchhalaku Longipoyi\nYesu Prabhuni Anumaaninchi Dhanamosanbulo Chikkukontivi",
+        "orderIndex": 3,
+        "translationTa": "மநுஷ்ய ஸம்கதுலநு தலம்சி மநுஷ்யேச்சலகு லொம்கிபோயி\nயேஸு ப்ரபுநி அநுமாநிம்சி தநமோஸம்புலோ சிக்குகொம்டிவி"
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-4",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "ఏమి తిని త్రాగుచుందునో ఏమి ధరించుదునోయని\nనమ్మకత్వము కోల్పోయి అమ్ముకొంటివా నీదు ప్రభుని",
+        "translitLyrics": "Emi Tini Traaguchunduno Emi Dharinchudunoyani\nNammakatvamu Kolpoyi Ammukontivaa Needu Prabhuni",
+        "orderIndex": 4,
+        "translationTa": "ஏமி திநி த்ராகுசும்துநோ ஏமி தரிம்சுதுநோயநி\nநம்மகத்வமு கோல்போயி அம்முகொம்டிவா நீது ப்ரபுநி"
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-5",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "మేడమిద్దెల పొలము ఆస్తుల పుడమి నికనెన్నో ఘనతలకు\nఇదియే సమయమని తలంచి నీదు ప్రభునెదిరించి పోదువా",
+        "translitLyrics": "Medamiddela Polamu Aastula Pudami Nikanenno Ghanatalaku\nIdiye Samayamani Talanchi Needu Prabhunedirinchi Poduvaa",
+        "orderIndex": 5,
+        "translationTa": "மேடமித்தெல பொலமு ஆஸ்துல புடமி நிகநெந்நோ கநதலகு\nஇதியே ஸமயமநி தலம்சி நீது ப்ரபுநெதிரிம்சி போதுவா"
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-6",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "యేసు క్రీస్తుని సేవయందు ఏమి కొదువను చూచి యిట్లు\nమార్చుకొంటివి నీదునడతను నాథుడేసుడు ఏడ్చుచుండె",
+        "translitLyrics": "Yesu Kreestuni Sevayandu Emi Koduvanu Choochi Yitlu\nMaarchukontivi Needunadatanu Naathudesudu Edchuchunde",
+        "orderIndex": 6,
+        "translationTa": "யேஸு க்ரீஸ்துநி ஸேவயம்து ஏமி கொதுவநு சூசி யிட்லு\nமார்சுகொம்டிவி நீதுநடதநு நாதுடேஸுடு ஏட்சுசும்டெ"
+    },
+    {
+        "id": "song-aadi-premanu-vidachipettithivaa-lyr-7",
+        "songId": "song-aadi-premanu-vidachipettithivaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 7",
+        "lyrics": "నీదు దీపము యింక యిలలో ఆరిపోవక ముందెనెరిగి\nసాధువై ప్రార్థించు యేసుని ఆది ప్రేమతో సేవ జేయుము",
+        "translitLyrics": "Needu Deepamu Yinka Yilalo Aaripovaka Mundenerigi\nSaadhuvai Praarthinchu Yesuni Aadi Premato Seva Jeyumu",
+        "orderIndex": 7,
+        "translationTa": "நீது தீபமு யிம்க யிலலோ ஆரிபோவக மும்தெநெரிகி\nஸாதுவை ப்ரார்திம்சு யேஸுநி ஆதி ப்ரேமதோ ஸேவ ஜேயுமு"
+    },
+    {
+        "id": "song-aadyantha-rahitha-prabhuvaa-lyr-0",
+        "songId": "song-aadyantha-rahitha-prabhuvaa",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nఆద్యంత రహిత ప్రభువా - రాజులకు రాజా ప్రభు యేసూ నీవే సదా (2)",
+        "translitLyrics": "Pallavi:\nAadyanta Rahita Prabhuvaa - Raajulaku Raajaa Prabhu Yesoo Neeve Sadaa (2)",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nஆத்யம்த ரஹித ப்ரபுவா - ராஜுலகு ராஜா ப்ரபு யேஸூ நீவே ஸதா (2)"
+    },
+    {
+        "id": "song-aadyantha-rahitha-prabhuvaa-lyr-1",
+        "songId": "song-aadyantha-rahitha-prabhuvaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆది జనకుడు ఏదేను తోటలో - శోధనలో పడి వేధించినపుడు (2)\nఆశలన్ని అడియాశలుగా జేసె (1)\nఅధములను నీవు ఆదరింతువు - అమృతమూర్తి నీవే\nప్రభూ! సాటి నీకెవరు? (2)",
+        "translitLyrics": "Aadi Janakudu Edenu Totalo - Shodhanalo Padi Vedhinchinapudu (2)\nAashalanni Adiyaashalugaa Jese (1)\nAdhamulanu Neevu Aadarintuvu - Amritamoorti Neeve\nPrabhoo! Saati Neekevaru? (2)",
+        "orderIndex": 1,
+        "translationTa": "ஆதி ஜநகுடு ஏதேநு தோடலோ - ஶோதநலோ படி வேதிம்சிநபுடு (2)\nஆஶலந்நி அடியாஶலுகா ஜேஸெ (1)\nஅதமுலநு நீவு ஆதரிம்துவு - அம்ரு'தமூர்தி நீவே\nப்ரபூ! ஸாடி நீகெவரு? (2)"
+    },
+    {
+        "id": "song-aadyantha-rahitha-prabhuvaa-lyr-2",
+        "songId": "song-aadyantha-rahitha-prabhuvaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "స్థానము విడచి తన మహిమ విడచి - అనుదినము నిను దూషించు వైరి\nప్రధానత్వమును పాడుచేసికొని\nనీ ప్రభుత్వమున్ నిరాకరించిన - నీచున్ ప్రేమించితివి\nప్రభూ! సాటి నీకెవరు?",
+        "translitLyrics": "Sthaanamu Vidachi Tana Mahima Vidachi - Anudinamu Ninu Dooshinchu Vairi\nPradhaanatvamunu Paaduchesikoni\nNee Prabhutvamun Niraakarinchina - Neechun Preminchitivi\nPrabhoo! Saati Neekevaru?",
+        "orderIndex": 2,
+        "translationTa": "ஸ்தாநமு விடசி தந மஹிம விடசி - அநுதிநமு நிநு தூஷிம்சு வைரி\nப்ரதாநத்வமுநு பாடுசேஸிகொநி\nநீ ப்ரபுத்வமுந் நிராகரிம்சிந - நீசுந் ப்ரேமிம்சிதிவி\nப்ரபூ! ஸாடி நீகெவரு?"
+    },
+    {
+        "id": "song-aadyantha-rahitha-prabhuvaa-lyr-3",
+        "songId": "song-aadyantha-rahitha-prabhuvaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "పిలిచితివి ఇశ్రాయేలు సంతతిని - వేలకొలది వాగ్దానములతో\nకలిమియందున కలతలందున\nతొలగిపోయిన తల్లడిల్లిన - చల్లగ కాచితివి\nప్రభూ! సాటి నీకెవరు?",
+        "translitLyrics": "Pilichitivi Ishraayelu Santatini - Velakoladi Vaagdaanamulato\nKalimiyanduna Kalatalanduna\nTolagipoyina Talladillina - Challaga Kaachitivi\nPrabhoo! Saati Neekevaru?",
+        "orderIndex": 3,
+        "translationTa": "பிலிசிதிவி இஶ்ராயேலு ஸம்ததிநி - வேலகொலதி வாக்தாநமுலதோ\nகலிமியம்துந கலதலம்துந\nதொலகிபோயிந தல்லடில்லிந - சல்லக காசிதிவி\nப்ரபூ! ஸாடி நீகெவரு?"
+    },
+    {
+        "id": "song-aadyantha-rahitha-prabhuvaa-lyr-4",
+        "songId": "song-aadyantha-rahitha-prabhuvaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "రాజ్యమేలిరి రారాజు లెందరో - రాజనగరుల రత్నాల సిరులతో\nరాజ్యకాంక్షతో రణములు సలిపిరి\nరథములను చూచి సదయున్ మరచిన - నిత్య సాత్వీకుడవు\nప్రభూ! సాటి నీకెవరు?",
+        "translitLyrics": "Raajyameliri Raaraaju Lendaro - Raajanagarula Ratnaala Sirulato\nRaajyakaankshato Ranamulu Salipiri\nRathamulanu Choochi Sadayun Marachina - Nitya Saatveekudavu\nPrabhoo! Saati Neekevaru?",
+        "orderIndex": 4,
+        "translationTa": "ராஜ்யமேலிரி ராராஜு லெம்தரோ - ராஜநகருல ரத்நால ஸிருலதோ\nராஜ்யகாம்க்ஷதோ ரணமுலு ஸலிபிரி\nரதமுலநு சூசி ஸதயுந் மரசிந - நித்ய ஸாத்வீகுடவு\nப்ரபூ! ஸாடி நீகெவரு?"
+    },
+    {
+        "id": "song-aadyantha-rahitha-prabhuvaa-lyr-5",
+        "songId": "song-aadyantha-rahitha-prabhuvaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "పరమ జనకుని పలు వాక్కు లెన్నియో - ధరను ప్రజలకు ప్రవచించు కొరకై\nనిర్ణయించితివి దైవజనులను\nపేరాశ కలిగి పెడత్రోవ నడచిన - కరుణించితివి వారిన్\nప్రభూ! సాటి నీకెవరు?",
+        "translitLyrics": "Parama Janakuni Palu Vaakku Lenniyo - Dharanu Prajalaku Pravachinchu Korakai\nNirnayinchitivi Daivajanulanu\nPeraasha Kaligi Pedatrova Nadachina - Karuninchitivi Vaarin\nPrabhoo! Saati Neekevaru?",
+        "orderIndex": 5,
+        "translationTa": "பரம ஜநகுநி பலு வாக்கு லெந்நியோ - தரநு ப்ரஜலகு ப்ரவசிம்சு கொரகை\nநிர்ணயிம்சிதிவி தைவஜநுலநு\nபேராஶ கலிகி பெடத்ரோவ நடசிந - கருணிம்சிதிவி வாரிந்\nப்ரபூ! ஸாடி நீகெவரு?"
+    },
+    {
+        "id": "song-aadyantha-rahitha-prabhuvaa-lyr-6",
+        "songId": "song-aadyantha-rahitha-prabhuvaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "పాడెదన్ ప్రభూ నీ ప్రేమ గీతమ్ - పడిచెడిన నన్ను ప్రేమించితివివని\nకడిగితివి ప్రభు - కలుషము నెల్ల\nవిడచిన నేను నీ జాడలన్నియు - నడిపించె నావికుడ\nప్రభూ! సాటి నీకెవరు?",
+        "translitLyrics": "Paadedan Prabhoo Nee Prema Geetam - Padichedina Nannu Preminchitivivani\nKadigitivi Prabhu - Kalushamu Nella\nVidachina Nenu Nee Jaadalanniyu - Nadipinche Naavikuda\nPrabhoo! Saati Neekevaru?",
+        "orderIndex": 6,
+        "translationTa": "பாடெதந் ப்ரபூ நீ ப்ரேம கீதம் - படிசெடிந நந்நு ப்ரேமிம்சிதிவிவநி\nகடிகிதிவி ப்ரபு - கலுஷமு நெல்ல\nவிடசிந நேநு நீ ஜாடலந்நியு - நடிபிம்செ நாவிகுட\nப்ரபூ! ஸாடி நீகெவரு?"
+    },
+    {
+        "id": "song-aadyantharahithudavagu-maajyothi-lyr-0",
+        "songId": "song-aadyantharahithudavagu-maajyothi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆద్యంతరహితుడవగు మా జ్యోతి - మేదిని ప్రభూ నిన్ స్తుతింతుము (2)\nమేదిని ప్రభూ నిన్ స్తుతింతుము\nనా దీన కాపరి నీతి కృపానిధి - శుధ్ధ దివ్యగత్రుడా ఆ.. ఆ.. ఆ.. (2)",
+        "translitLyrics": "Aadyantarahitudavagu Maa Jyoti - Medini Prabhoo Nin Stutintumu (2)\nMedini Prabhoo Nin Stutintumu\nNaa Deena Kaapari Neeti Kripaanidhi - Shudhdha Divyagatrudaa Aa.. Aa.. Aa.. (2)",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadyantharahithudavagu-maajyothi-lyr-1",
+        "songId": "song-aadyantharahithudavagu-maajyothi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "మనోహరమగు నీ కృప పొందను - మానవు లెల్లరము చేరితిమి\nమానవు లెల్లరము చేరితిమి\nఆత్మరూపా కృపామయా నీ కరుణా - వరముల మాకీయుమా ఆ.. ఆ.. ఆ.",
+        "translitLyrics": "Manoharamagu Nee Kripa Pondanu - Maanavu Lellaramu Cheritimi\nMaanavu Lellaramu Cheritimi\nAatmaroopaa Kripaamayaa Nee Karunaa - Varamula Maakeeyumaa Aa.. Aa.. Aa.",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadyantharahithudavagu-maajyothi-lyr-2",
+        "songId": "song-aadyantharahithudavagu-maajyothi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "పాలచే కడుగబడిన - ధవళాక్షుడా - వళ్లి పూలయందు తిరుగువాడా\nవళ్లి పూలయందు తిరుగువాడా\nషాలేము రాజా షారోను రోజా - శాంత భూపతివి నీవే ఆ.. ఆ.. ఆ..",
+        "translitLyrics": "Paalache Kadugabadina - Dhavalaakshudaa - Valli Poolayandu Tiruguvaadaa\nValli Poolayandu Tiruguvaadaa\nShaalemu Raajaa Shaaronu Rojaa - Shaanta Bhoopativi Neeve Aa.. Aa.. Aa..",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadyantharahithudavagu-maajyothi-lyr-3",
+        "songId": "song-aadyantharahithudavagu-maajyothi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "లక్షల దూతల స్తుతుల నందువాడా - అక్షయ హేమమకుట ధారుడా\nఅక్షయ హేమమకుట ధారుడా\nహేమ కిరీటధారులమై స్వర్గంబు - చేర కడవరి వర్షమీ ఆ.. ఆ.. ఆ..",
+        "translitLyrics": "Lakshala Dootala Stutula Nanduvaadaa - Akshaya Hemamakuta Dhaarudaa\nAkshaya Hemamakuta Dhaarudaa\nHema Kireetadhaarulamai Svarganbu - Chera Kadavari Varshamee Aa.. Aa.. Aa..",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadyantharahithudavagu-maajyothi-lyr-4",
+        "songId": "song-aadyantharahithudavagu-maajyothi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "క్రొత్త యెరూషలేం నగర రాజా - రత్నాల పునాది వేసితివి\nరత్నాల పునాది వేసితివి\nధీరతతో నీ సాక్ష్యము చాటను - స్థిరమగునాత్మ నిమ్ము ఆ.. ఆ.. ఆ..",
+        "translitLyrics": "Krotta Yerooshalen Nagara Raajaa - Ratnaala Punaadi Vesitivi\nRatnaala Punaadi Vesitivi\nDheeratato Nee Saakshyamu Chaatanu - Sthiramagunaatma Nimmu Aa.. Aa.. Aa..",
+        "orderIndex": 4,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aadyantharahithudavagu-maajyothi-lyr-5",
+        "songId": "song-aadyantharahithudavagu-maajyothi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "శ్రేష్ఠురాలా పావురమా నిరుపమాన - ఇష్టంపురూప లావణ్యవతీ\nఇష్టంపురూప లావణ్యవతీ\nఅట్లంచు పిల్చు దివ్య ధ్వనికి మమ్ము - పాత్రులుగా చేయుమా ఆ.. ఆ.. ఆ..",
+        "translitLyrics": "Shreshthuraalaa Paavuramaa Nirupamaana - Ishtanpuroopa Laavanyavatee\nIshtanpuroopa Laavanyavatee\nAtlanchu Pilchu Divya Dhvaniki Mammu - Paatrulugaa Cheyumaa Aa.. Aa.. Aa..",
+        "orderIndex": 5,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aagaka-saagipo-munduku-lyr-0",
+        "songId": "song-aagaka-saagipo-munduku",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఒంటరివి కాదెన్నడును\nయేసే నీకు తోడుగా ఉండును (2)\nఆగక సాగిపో ముందుకు\nయేసే నీకు తోడు భయమెందుకు\nఆగక సాగిపో ముందుకు\nయేసే నీకు తోడు దిగులెందుకు\nఒంటరివి కాదెన్నడును\nయేసే నీకు తోడుగా ఉండును (2) ||ఆగక||",
+        "translitLyrics": "Ontarivi Kaadennadunu\nYese Neeku Todugaa Undunu (2)\nAagaka Saagipo Munduku\nYese Neeku Todu Bhayamenduku\nAagaka Saagipo Munduku\nYese Neeku Todu Digulenduku\nOntarivi Kaadennadunu\nYese Neeku Todugaa Undunu (2) ||Aagaka||",
+        "orderIndex": 0,
+        "translationTa": "ஒம்டரிவி காதெந்நடுநு\nயேஸே நீகு தோடுகா உம்டுநு (2)\nஆகக ஸாகிபோ மும்துகு\nயேஸே நீகு தோடு பயமெம்துகு\nஆகக ஸாகிபோ மும்துகு\nயேஸே நீகு தோடு திகுலெம்துகு\nஒம்டரிவி காதெந்நடுநு\nயேஸே நீகு தோடுகா உம்டுநு (2) ||ஆகக||"
+    },
+    {
+        "id": "song-aagaka-saagipo-munduku-lyr-1",
+        "songId": "song-aagaka-saagipo-munduku",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "నీ ప్రయాణము బహు భారమైననూ\nఆటంకములెన్నో నీకు చేరువైననూ (2)\nకఠినమైన శ్రమలెన్నో నిన్ను చుట్టుముట్టిననూ (2)\nనలు దిశలు చీకటే నిను కమ్మిననూ (2) ||ఆగక||",
+        "translitLyrics": "Nee Prayaanamu Bahu Bhaaramainanoo\nAatankamulenno Neeku Cheruvainanoo (2)\nKathinamaina Shramalenno Ninnu Chuttumuttinanoo (2)\nNalu Dishalu Cheekate Ninu Kamminanoo (2) ||Aagaka||",
+        "orderIndex": 1,
+        "translationTa": "நீ ப்ரயாணமு பஹு பாரமைநநூ\nஆடம்கமுலெந்நோ நீகு சேருவைநநூ (2)\nகடிநமைந ஶ்ரமலெந்நோ நிந்நு சுட்டுமுட்டிநநூ (2)\nநலு திஶலு சீகடே நிநு கம்மிநநூ (2) ||ஆகக||"
+    },
+    {
+        "id": "song-aagaka-saagipo-munduku-lyr-2",
+        "songId": "song-aagaka-saagipo-munduku",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "నీ భారమంతా సులువు చేయును\nనీ ప్రతి ఇరుకును విశాలపరచును (2)\nకఠినమైన శ్రమలన్ని కనుమరుగు చేయును (2)\nఆరిపోని వెలుగుతో నిన్ను నింపును (2) ||ఆగక||",
+        "translitLyrics": "Nee Bhaaramantaa Suluvu Cheyunu\nNee Prati Irukunu Vishaalaparachunu (2)\nKathinamaina Shramalanni Kanumarugu Cheyunu (2)\nAariponi Veluguto Ninnu Ninpunu (2) ||Aagaka||",
+        "orderIndex": 2,
+        "translationTa": "நீ பாரமம்தா ஸுலுவு சேயுநு\nநீ ப்ரதி இருகுநு விஶாலபரசுநு (2)\nகடிநமைந ஶ்ரமலந்நி கநுமருகு சேயுநு (2)\nஆரிபோநி வெலுகுதோ நிந்நு நிம்புநு (2) ||ஆகக||"
+    },
+    {
+        "id": "song-aahaa-aahaa-idigo-marala-lyr-0",
+        "songId": "song-aahaa-aahaa-idigo-marala",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆహా ఆహా ఇదిగో మరల వస్తిమి - ఆహా అహా బహు సంతసంబేగా",
+        "translitLyrics": "Aahaa Aahaa Idigo Marala Vastimi - Aahaa Ahaa Bahu Santasanbegaa",
+        "orderIndex": 0,
+        "translationTa": "ஆஹா ஆஹா இதிகோ மரல வஸ்திமி - ஆஹா அஹா பஹு ஸம்தஸம்பேகா"
+    },
+    {
+        "id": "song-aahaa-aahaa-idigo-marala-lyr-1",
+        "songId": "song-aahaa-aahaa-idigo-marala",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "మనమెల్లరము యేసు ప్రేమ నేర్చుకొనుటకు - నిజమైన స్థలంబు బైబిల్ స్కూల్",
+        "translitLyrics": "Manamellaramu Yesu Prema Nerchukonutaku - Nijamaina Sthalanbu Baibil Skool",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aahaa-mahaanandame-lyr-0",
+        "songId": "song-aahaa-mahaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆహా మహానందమే ఇహ పరంబులన్ మహావతారుండా\nమాయేసు జన్మదినం హల్లేలూయా",
+        "translitLyrics": "Aahaa Mahaanandame Iha Paranbulan Mahaavataarundaa\nMaayesu Janmadinan Hallelooyaa",
+        "orderIndex": 0,
+        "translationTa": "ஆஹா மஹாநம்தமே இஹ பரம்புலந் மஹாவதாரும்டா\nமாயேஸு ஜந்மதிநம் ஹல்லேலூயா"
+    },
+    {
+        "id": "song-aahaa-mahaanandame-lyr-1",
+        "songId": "song-aahaa-mahaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "యెహోవ తనయ యేసుప్రభు\nసహాయుడా మా స్నేహితుడా\nఇహ పరంబులకు ఇమ్మానుయేల్\nమహానందముతో నిన్నారాధింతుము\nనిన్నారాధింతుము హల్లేలూయా",
+        "translitLyrics": "Yehova Tanaya Yesuprabhu\nSahaayudaa Maa Snehitudaa\nIha Paranbulaku Immaanuyel\nMahaanandamuto Ninnaaraadhintumu\nNinnaaraadhintumu Hallelooyaa",
+        "orderIndex": 1,
+        "translationTa": "யெஹோவ தநய யேஸுப்ரபு\nஸஹாயுடா மா ஸ்நேஹிதுடா\nஇஹ பரம்புலகு இம்மாநுயேல்\nமஹாநம்தமுதோ நிந்நாராதிம்துமு\nநிந்நாராதிம்துமு ஹல்லேலூயா"
+    },
+    {
+        "id": "song-aahaa-mahaanandame-lyr-2",
+        "songId": "song-aahaa-mahaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "కన్యక గర్భమందు పుట్టగ\nధన్యుడవంచు దూతలెందరో\nమాన్యులు పేద గొల్లలెందరో\nఅన్యులు తూర్పు జ్ఞానులెందరో\nనిన్నారాధించిరి హల్లేలూయా",
+        "translitLyrics": "Kanyaka Garbhamandu Puttaga\nDhanyudavanchu Dootalendaro\nMaanyulu Peda Gollalendaro\nAnyulu Toorpu Jjaanulendaro\nNinnaaraadhinchiri Hallelooyaa",
+        "orderIndex": 2,
+        "translationTa": "கந்யக கர்பமம்து புட்டக\nதந்யுடவம்சு தூதலெம்தரோ\nமாந்யுலு பேத கொல்லலெம்தரோ\nஅந்யுலு தூர்பு ஜ்ஞாநுலெம்தரோ\nநிந்நாராதிம்சிரி ஹல்லேலூயா"
+    },
+    {
+        "id": "song-aahaa-naakemaanandamu-lyr-0",
+        "songId": "song-aahaa-naakemaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆహా నాకేమానందము\nశ్రీ యేసు నాచేం బట్టుచు\nసహాయుండై నాయన్నిటన్\nసజీవుండై నడుపును.\n||నా దారిం జూపును యేసు\nనా చేంబట్టి నడుపును\nఎన్నండు నెడబాయండు\nయేసె నా దారిం జూంపును ||",
+        "translitLyrics": "Aahaa Naakemaanandamu\nShree Yesu Naachen Battuchu\nSahaayundai Naayannitan\nSajeevundai Nadupunu.\n||Naa Daarin Joopunu Yesu\nNaa Chenbatti Nadupunu\nEnnandu Nedabaayandu\nYese Naa Daarin Joonpunu ||",
+        "orderIndex": 0,
+        "translationTa": "ஆஹா நாகேமாநம்தமு\nஶ்ரீ யேஸு நாசேம் பட்டுசு\nஸஹாயும்டை நாயந்நிடந்\nஸஜீவும்டை நடுபுநு.\n||நா தாரிம் ஜூபுநு யேஸு\nநா சேம்பட்டி நடுபுநு\nஎந்நம்டு நெடபாயம்டு\nயேஸெ நா தாரிம் ஜூம்புநு ||"
+    },
+    {
+        "id": "song-aahaa-naakemaanandamu-lyr-1",
+        "songId": "song-aahaa-naakemaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "యేదే న్సుఖంబు లైనన్\nసదా విచార మైనను\nబాధాంధకార మైనను\nముదంబుతోడ నుందును.",
+        "translitLyrics": "Yede Nsukhanbu Lainan\nSadaa Vichaara Mainanu\nBaadhaandhakaara Mainanu\nMudanbutoda Nundunu.",
+        "orderIndex": 1,
+        "translationTa": "யேதே ந்ஸுகம்பு லைநந்\nஸதா விசார மைநநு\nபாதாம்தகார மைநநு\nமுதம்புதோட நும்துநு."
+    },
+    {
+        "id": "song-aahaa-naakemaanandamu-lyr-2",
+        "songId": "song-aahaa-naakemaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "చింతేల నాకు నీ దయన్\nసంతత మీవు తోడుగాన్\nబంతంబు నీచేం బట్టుచు\nసంతృప్తితో నే నుందును.",
+        "translitLyrics": "Chintela Naaku Nee Dayan\nSantata Meevu Todugaan\nBantanbu Neechen Battuchu\nSantriptito Ne Nundunu.",
+        "orderIndex": 2,
+        "translationTa": "சிம்தேல நாகு நீ தயந்\nஸம்தத மீவு தோடுகாந்\nபம்தம்பு நீசேம் பட்டுசு\nஸம்த்ரு'ப்திதோ நே நும்துநு."
+    },
+    {
+        "id": "song-aahaa-naakemaanandamu-lyr-3",
+        "songId": "song-aahaa-naakemaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "నా చావు వేళ వచ్చినన్\nవిచార మొందక ధృతిన్\nనీ చేయి బట్టి యేసుండా\nనీ చారు మోక్ష మెక్కుదున్",
+        "translitLyrics": "Naa Chaavu Vela Vachchinan\nVichaara Mondaka Dhritin\nNee Cheyi Batti Yesundaa\nNee Chaaru Moksha Mekkudun",
+        "orderIndex": 3,
+        "translationTa": "நா சாவு வேள வச்சிநந்\nவிசார மொம்தக த்ரு'திந்\nநீ சேயி பட்டி யேஸும்டா\nநீ சாரு மோக்ஷ மெக்குதுந்"
+    },
+    {
+        "id": "song-aahaa-yenthati-shramalang-lyr-0",
+        "songId": "song-aahaa-yenthati-shramalang",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆహా యెంతటి శ్రమలం బొందితి - వయ్యో - దాహ మాయెను నీకు\nసిల్వపై = ద్రోహు లందరు గూడి రయ్యయ్యో - నీదు - దేహంబు బాధించి\nరయ్యయ్యో ||యాహా||",
+        "translitLyrics": "Aahaa Yentati Shramalan Bonditi - Vayyo - Daaha Maayenu Neeku\nSilvapai = Drohu Landaru Goodi Rayyayyo - Needu - Dehanbu Baadhinchi\nRayyayyo ||Yaahaa||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aahaa-yenthati-shramalang-lyr-1",
+        "songId": "song-aahaa-yenthati-shramalang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "దుష్కర్ములకు నప్పగించెనా - యూద - యిస్మ్కరి యోతనెడి శిష్యుడు =\nతస్కరించినవాని భంగిన నిన్ను - నిష్కారణముగాను బట్టిరా ||ఆహా||",
+        "translitLyrics": "Dushkarmulaku Nappaginchenaa - Yooda - Yismkari Yotanedi Shishyudu =\nTaskarinchinavaani Bhangina Ninnu - Nishkaaranamugaanu Battiraa ||Aahaa||",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aahaa-yenthati-shramalang-lyr-2",
+        "songId": "song-aahaa-yenthati-shramalang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "కలుషాత్ములందరు గూడిరా - నిన్ను - బలువిధంబుల హింసబెట్టిరా = తలపై\nముళ్ల కిరీటముంచి యా - సిలువ నీతోనే మోయించిరా ||ఆహా||",
+        "translitLyrics": "Kalushaatmulandaru Goodiraa - Ninnu - Baluvidhanbula Hinsabettiraa = Talapai\nMulla Kireetamunchi Yaa - Siluva Neetone Moyinchiraa ||Aahaa||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aahaa-yenthati-shramalang-lyr-3",
+        "songId": "song-aahaa-yenthati-shramalang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 8",
+        "lyrics": "కాలుసేతులయందు వారలు - ఇనుప - చీలల దిగగొట్టిరయ్యయ్యో = జాలి\n- సుమంతైన జూపక - వారు - గేలిజేయుచు బాధపెట్టిరా || ఆహా||\n4 బాధ తగ్గింపరాణువవారలు - నీకు చేదు ద్రాక్షారసము నివ్వగా = నీదు మనస్సు\nదానినొల్లక గొప్ప - వేదనలను భరియించెనే || ఆహా||",
+        "translitLyrics": "Kaalusetulayandu Vaaralu - Inupa - Cheelala Digagottirayyayyo = Jaali\n- Sumantaina Joopaka - Vaaru - Gelijeyuchu Baadhapettiraa || Aahaa||\n4 Baadha Tagginparaanuvavaaralu - Neeku Chedu Draakshaarasamu Nivvagaa = Needu Manassu\nDaaninollaka Goppa - Vedanalanu Bhariyinchene || Aahaa||",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aakaangkshatho-lyr-0",
+        "songId": "song-aakaangkshatho",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "ఆకాంక్షతో - నేను కనిపెట్టుదును\nప్రాణేశ్వరుడైన - యేసుని కొరకై\nపావురము - పక్షులన్నియును\nదుఃఖారావం - అనుదినం చేయునట్లు\nదేహవిమోచనము కొరకై నేను\nమూల్గుచున్నాను సదా ఆకాంక్ష\nగువ్వలు- గూళ్ళకు ఎగయునట్లు\nశుద్దులు తమ- గృహమును చేరుచుండగా\nనాదివ్య గృహమైన - సీయోనులో\nచేరుట నా ఆశయే ||ఆకాంక్ష!",
+        "translitLyrics": "Aakaankshato - Nenu Kanipettudunu\nPraaneshvarudaina - Yesuni Korakai\nPaavuramu - Pakshulanniyunu\nDuhkhaaraavan - Anudinan Cheyunatlu\nDehavimochanamu Korakai Nenu\nMoolguchunnaanu Sadaa Aakaanksha\nGuvvalu- Goollaku Egayunatlu\nShuddulu Tama- Grihamunu Cheruchundagaa\nNaadivya Grihamaina - Seeyonulo\nCheruta Naa Aashaye ||Aakaanksha!",
+        "orderIndex": 0,
+        "translationTa": "ஆகாம்க்ஷதோ - நேநு கநிபெட்டுதுநு\nப்ராணேஶ்வருடைந - யேஸுநி கொரகை\nபாவுரமு - பக்ஷுலந்நியுநு\nதுஃகாராவம் - அநுதிநம் சேயுநட்லு\nதேஹவிமோசநமு கொரகை நேநு\nமூல்குசுந்நாநு ஸதா ஆகாம்க்ஷ\nகுவ்வலு- கூள்ளகு எகயுநட்லு\nஶுத்துலு தம- க்ரு'ஹமுநு சேருசும்டகா\nநாதிவ்ய க்ரு'ஹமைந - ஸீயோநுலோ\nசேருட நா ஆஶயே ||ஆகாம்க்ஷ!"
+    },
+    {
+        "id": "song-aakaashamaa-aalakinchumaa-maatalaadedan-lyr-0",
+        "songId": "song-aakaashamaa-aalakinchumaa-maatalaadedan",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆకాశమా ఆలకించుమా - మాటలాడెదన్ (2)\nయెహోవా వంతు ఆయన జనమేగదా\nయాకోబే స్వాస్థ్యభాగము (2)",
+        "translitLyrics": "Aakaashamaa Aalakinchumaa - Maatalaadedan (2)\nYehovaa Vantu Aayana Janamegadaa\nYaakobe Svaasthyabhaagamu (2)",
+        "orderIndex": 0,
+        "translationTa": "ஆகாஶமா ஆலகிம்சுமா - மாடலாடெதந் (2)\nயெஹோவா வம்து ஆயந ஜநமேகதா\nயாகோபே ஸ்வாஸ்த்யபாகமு (2)"
+    },
+    {
+        "id": "song-aakaashamaa-aalakinchumaa-maatalaadedan-lyr-1",
+        "songId": "song-aakaashamaa-aalakinchumaa-maatalaadedan",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "అరణ్య ప్రదేశంబుల యందున (2)\nభీకర ధ్వనిగల యెడారిలో\nవాని కనుగొనెను (2)\nఆవరించి వాని పరామర్శించి\nగాచె కనుపాపగా (2) ||ఆకాశమా||",
+        "translitLyrics": "Aranya Pradeshanbula Yanduna (2)\nBheekara Dhvanigala Yedaarilo\nVaani Kanugonenu (2)\nAavarinchi Vaani Paraamarshinchi\nGaache Kanupaapagaa (2) ||Aakaashamaa||",
+        "orderIndex": 1,
+        "translationTa": "அரண்ய ப்ரதேஶம்புல யம்துந (2)\nபீகர த்வநிகல யெடாரிலோ\nவாநி கநுகொநெநு (2)\nஆவரிம்சி வாநி பராமர்ஶிம்சி\nகாசெ கநுபாபகா (2) ||ஆகாஶமா||"
+    },
+    {
+        "id": "song-aakaashamaa-aalakinchumaa-maatalaadedan-lyr-2",
+        "songId": "song-aakaashamaa-aalakinchumaa-maatalaadedan",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "యెహోవాయే వాని నడిపించెను (2)\nభూమి యొక్క ఉన్నతస్థలముల\nమీద వాని నెక్కించి (2)\nఅన్య దేవతలతో నేదైనను\nలేకపోయె వానిలో (2) ||ఆకాశమా||",
+        "translitLyrics": "Yehovaaye Vaani Nadipinchenu (2)\nBhoomi Yokka Unnatasthalamula\nMeeda Vaani Nekkinchi (2)\nAnya Devatalato Nedainanu\nLekapoye Vaanilo (2) ||Aakaashamaa||",
+        "orderIndex": 2,
+        "translationTa": "யெஹோவாயே வாநி நடிபிம்செநு (2)\nபூமி யொக்க உந்நதஸ்தலமுல\nமீத வாநி நெக்கிம்சி (2)\nஅந்ய தேவதலதோ நேதைநநு\nலேகபோயெ வாநிலோ (2) ||ஆகாஶமா||"
+    },
+    {
+        "id": "song-aakaashamaa-aalakinchumaa-maatalaadedan-lyr-3",
+        "songId": "song-aakaashamaa-aalakinchumaa-maatalaadedan",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "లేచి వెళ్ళుమనే బేతేలునకు\nదేవునికి బలిపీఠమచ్చట\nకట్టుమని సెలవియ్యగా\nఅన్యదేవతల పారవేయుమని\nతనవారితో చెప్పెన్ (2) ||ఆకాశమా||",
+        "translitLyrics": "Lechi Vellumane Betelunaku\nDevuniki Balipeethamachchata\nKattumani Selaviyyagaa\nAnyadevatala Paaraveyumani\nTanavaarito Cheppen (2) ||Aakaashamaa||",
+        "orderIndex": 3,
+        "translationTa": "லேசி வெள்ளுமநே பேதேலுநகு\nதேவுநிகி பலிபீடமச்சட\nகட்டுமநி ஸெலவிய்யகா\nஅந்யதேவதல பாரவேயுமநி\nதநவாரிதோ செப்பெந் (2) ||ஆகாஶமா||"
+    },
+    {
+        "id": "song-aakaashamaa-aalakinchumaa-maatalaadedan-lyr-4",
+        "songId": "song-aakaashamaa-aalakinchumaa-maatalaadedan",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "తిరిగి బేతేలులో దర్శన మిచ్చెను\nదీవించి నీ పేరు ఇశ్రాయేలుగా\nనెల్లప్పుడుండుననెను\nతన యింటికి వచ్చువారి నెల్ల\nప్రభు దీవించు నీరీతిన్ (2) ||ఆకాశమా||",
+        "translitLyrics": "Tirigi Betelulo Darshana Michchenu\nDeevinchi Nee Peru Ishraayelugaa\nNellappudundunanenu\nTana Yintiki Vachchuvaari Nella\nPrabhu Deevinchu Neereetin (2) ||Aakaashamaa||",
+        "orderIndex": 4,
+        "translationTa": "திரிகி பேதேலுலோ தர்ஶந மிச்செநு\nதீவிம்சி நீ பேரு இஶ்ராயேலுகா\nநெல்லப்புடும்டுநநெநு\nதந யிம்டிகி வச்சுவாரி நெல்ல\nப்ரபு தீவிம்சு நீரீதிந் (2) ||ஆகாஶமா||"
+    },
+    {
+        "id": "song-aakaashamaa-aalakinchumaa-maatalaadedan-lyr-5",
+        "songId": "song-aakaashamaa-aalakinchumaa-maatalaadedan",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "ప్రభుని రాకడ సమీపమంచును\nసమాజముగా కూడుట మరువక\nమరియు మీరు మానక\nప్రభుని యింటి దీవెన లెల్ల\nపొందుడి నిక్కముగా (2) ||ఆకాశమా||",
+        "translitLyrics": "Prabhuni Raakada Sameepamanchunu\nSamaajamugaa Kooduta Maruvaka\nMariyu Meeru Maanaka\nPrabhuni Yinti Deevena Lella\nPondudi Nikkamugaa (2) ||Aakaashamaa||",
+        "orderIndex": 5,
+        "translationTa": "ப்ரபுநி ராகட ஸமீபமம்சுநு\nஸமாஜமுகா கூடுட மருவக\nமரியு மீரு மாநக\nப்ரபுநி யிம்டி தீவெந லெல்ல\nபொம்துடி நிக்கமுகா (2) ||ஆகாஶமா||"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-0",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆకాశంబు భూమియు - అంతట చీకటి యాయెను\nప్రాకెడు చీకటి సమయమున - ప్రార్థన చేతుము మా దేవా",
+        "translitLyrics": "Aakaashanbu Bhoomiyu - Antata Cheekati Yaayenu\nPraakedu Cheekati Samayamuna - Praarthana Chetumu Maa Devaa",
+        "orderIndex": 0,
+        "translationTa": "ஆகாஶம்பு பூமியு - அம்தட சீகடி யாயெநு\nப்ராகெடு சீகடி ஸமயமுந - ப்ரார்தந சேதுமு மா தேவா"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-1",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "చక్కని చుక్కలు మింటను - చక్కగా మమ్మునుజూడగ\nప్రక్కకు రావె వేగముగా - ప్రభువా గావుము గావుము నీ నీడన్",
+        "translitLyrics": "Chakkani Chukkalu Mintanu - Chakkagaa Mammunujoodaga\nPrakkaku Raave Vegamugaa - Prabhuvaa Gaavumu Gaavumu Nee Needan",
+        "orderIndex": 1,
+        "translationTa": "சக்கநி சுக்கலு மிம்டநு - சக்ககா மம்முநுஜூடக\nப்ரக்ககு ராவெ வேகமுகா - ப்ரபுவா காவுமு காவுமு நீ நீடந்"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-2",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "చిన్న చిన్న పక్షులు - చిన్న చిన్న పూవులు\nఎన్నో ఎన్నో జీవులు - నిన్నే గొలిచి నిద్రించున్",
+        "translitLyrics": "Chinna Chinna Pakshulu - Chinna Chinna Poovulu\nEnno Enno Jeevulu - Ninne Golichi Nidrinchun",
+        "orderIndex": 2,
+        "translationTa": "சிந்ந சிந்ந பக்ஷுலு - சிந்ந சிந்ந பூவுலு\nஎந்நோ எந்நோ ஜீவுலு - நிந்நே கொலிசி நித்ரிம்சுந்"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-3",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "చిన్ని చిన్ని పాపలు - చిన్ని చిన్ని పడకలలో\nచిన్ని కన్నులు మూయంగా - చెన్నుగ యేసూ గావుమా",
+        "translitLyrics": "Chinni Chinni Paapalu - Chinni Chinni Padakalalo\nChinni Kannulu Mooyangaa - Chennuga Yesoo Gaavumaa",
+        "orderIndex": 3,
+        "translationTa": "சிந்நி சிந்நி பாபலு - சிந்நி சிந்நி படகலலோ\nசிந்நி கந்நுலு மூயம்கா - செந்நுக யேஸூ காவுமா"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-4",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "నేలను బోయెడి బండ్లలో - నీటను బోయెడి ఓడలలో\nగాలి విమానంబులలోన - కావుము దేవ ప్రయాణికులన్",
+        "translitLyrics": "Nelanu Boyedi Bandlalo - Neetanu Boyedi Odalalo\nGaali Vimaananbulalona - Kaavumu Deva Prayaanikulan",
+        "orderIndex": 4,
+        "translationTa": "நேலநு போயெடி பம்ட்லலோ - நீடநு போயெடி ஓடலலோ\nகாலி விமாநம்புலலோந - காவுமு தேவ ப்ரயாணிகுலந்"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-5",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "రాత్రిలో నీదు దూతలు - రమ్యంబైన రెక్కలతో\nచిత్రంబుగ మమ్మును గ్రమ్మన్ - నిద్రించెదము మా దేవా",
+        "translitLyrics": "Raatrilo Needu Dootalu - Ramyanbaina Rekkalato\nChitranbuga Mammunu Gramman - Nidrinchedamu Maa Devaa",
+        "orderIndex": 5,
+        "translationTa": "ராத்ரிலோ நீது தூதலு - ரம்யம்பைந ரெக்கலதோ\nசித்ரம்புக மம்முநு க்ரம்மந் - நித்ரிம்செதமு மா தேவா"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-6",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 7",
+        "lyrics": "తెల్లవారుజామున - తెలివొంది మే మందరము\nమెల్లగ లేచి నుతియింపన్ - మేల్కొల్పుము నా ప్రియతండ్రి",
+        "translitLyrics": "Tellavaarujaamuna - Telivondi Me Mandaramu\nMellaga Lechi Nutiyinpan - Melkolpumu Naa Priyatandri",
+        "orderIndex": 6,
+        "translationTa": "தெல்லவாருஜாமுந - தெலிவொம்தி மே மம்தரமு\nமெல்லக லேசி நுதியிம்பந் - மேல்கொல்புமு நா ப்ரியதம்ட்ரி"
+    },
+    {
+        "id": "song-aakaashambu-bhoomiyu-lyr-7",
+        "songId": "song-aakaashambu-bhoomiyu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 8",
+        "lyrics": "జనక తనయా శుద్ధాత్మా - జయము మహిమ స్తోత్రములు\nఅనిశము నీకే చెల్లునుగా - అనిశము చెల్లును నీ ప్రభో",
+        "translitLyrics": "Janaka Tanayaa Shuddhaatmaa - Jayamu Mahima Stotramulu\nAnishamu Neeke Chellunugaa - Anishamu Chellunu Nee Prabho",
+        "orderIndex": 7,
+        "translationTa": "ஜநக தநயா ஶுத்தாத்மா - ஜயமு மஹிம ஸ்தோத்ரமுலு\nஅநிஶமு நீகே செல்லுநுகா - அநிஶமு செல்லுநு நீ ப்ரபோ"
+    },
+    {
+        "id": "song-aakaashamlo-choodumu-soorya-chandra-thaaralan-lyr-0",
+        "songId": "song-aakaashamlo-choodumu-soorya-chandra-thaaralan",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "ఆకాశంలో చూడుము సూర్య, చంద్ర తారలన్ (2)\nనలుదిక్కుల చూడుము గడ్డి పువ్వులను (2)\nవీటన్నిటినీ ప్రభువే చేసెను (2)\nఉన్నత పర్వతములు మంచుతో కప్పబడెను (2)\nఅచ్చట నుండి నీరు నదిగా ప్రవహించె (2)\nవిటన్నింటిని ప్రభువే చేసెను (2) ||ఆకాశములో||\nమోకాళ్ళుని ప్రార్ధింతున్ ప్రభుని ఆరాధింతున్ – యేసు నా ప్రభువా రక్షకుడవు (2)\nచిన్న బిడ్డలము మమ్మును దీవించు (2) ||ఆకాశములో||",
+        "translitLyrics": "Aakaashanlo Choodumu Soorya, Chandra Taaralan (2)\nNaludikkula Choodumu Gaddi Puvvulanu (2)\nVeetannitinee Prabhuve Chesenu (2)\nUnnata Parvatamulu Manchuto Kappabadenu (2)\nAchchata Nundi Neeru Nadigaa Pravahinche (2)\nVitannintini Prabhuve Chesenu (2) ||Aakaashamulo||\nMokaalluni Praardhintun Prabhuni Aaraadhintun – Yesu Naa Prabhuvaa Rakshakudavu (2)\nChinna Biddalamu Mammunu Deevinchu (2) ||Aakaashamulo||",
+        "orderIndex": 0,
+        "translationTa": "ஆகாஶம்லோ சூடுமு ஸூர்ய, சம்த்ர தாரலந் (2)\nநலுதிக்குல சூடுமு கட்டி புவ்வுலநு (2)\nவீடந்நிடிநீ ப்ரபுவே சேஸெநு (2)\nஉந்நத பர்வதமுலு மம்சுதோ கப்பபடெநு (2)\nஅச்சட நும்டி நீரு நதிகா ப்ரவஹிம்செ (2)\nவிடந்நிம்டிநி ப்ரபுவே சேஸெநு (2) ||ஆகாஶமுலோ||\nமோகாள்ளுநி ப்ரார்திம்துந் ப்ரபுநி ஆராதிம்துந் – யேஸு நா ப்ரபுவா ரக்ஷகுடவு (2)\nசிந்ந பிட்டலமு மம்முநு தீவிம்சு (2) ||ஆகாஶமுலோ||"
+    },
+    {
+        "id": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu-lyr-0",
+        "songId": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nనే నమ్ముదు - నే నమ్ముదు యేసు నాకై మరణించెనని\nపాపంబు పోవ సిలువలో రక్తము చిందెను",
+        "translitLyrics": "Pallavi:\nNe Nammudu - Ne Nammudu Yesu Naakai Maraninchenani\nPaapanbu Pova Siluvalo Raktamu Chindenu",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nநே நம்முது - நே நம்முது யேஸு நாகை மரணிம்செநநி\nபாபம்பு போவ ஸிலுவலோ ரக்தமு சிம்தெநு"
+    },
+    {
+        "id": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu-lyr-1",
+        "songId": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆకాశము భువిలో నెల్ల యేసు ఉన్నతుడు\nమనుజులు దూతలు దయ్యాలు యేసుకు మ్రొక్కెదరు",
+        "translitLyrics": "Aakaashamu Bhuvilo Nella Yesu Unnatudu\nManujulu Dootalu Dayyaalu Yesuku Mrokkedaru",
+        "orderIndex": 1,
+        "translationTa": "ஆகாஶமு புவிலோ நெல்ல யேஸு உந்நதுடு\nமநுஜுலு தூதலு தய்யாலு யேஸுகு ம்ரொக்கெதரு"
+    },
+    {
+        "id": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu-lyr-2",
+        "songId": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "రక్షకుడు ప్రాణముబెట్టినది నా కొరకే\nవేరేమి వాగ్వాదంబులు అక్కరయే లేదు ||నే ||",
+        "translitLyrics": "Rakshakudu Praanamubettinadi Naa Korake\nVeremi Vaagvaadanbulu Akkaraye Ledu ||Ne ||",
+        "orderIndex": 2,
+        "translationTa": "ரக்ஷகுடு ப்ராணமுபெட்டிநதி நா கொரகே\nவேரேமி வாக்வாதம்புலு அக்கரயே லேது ||நே ||"
+    },
+    {
+        "id": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu-lyr-3",
+        "songId": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "ప్రతిపాపి భయమంతయు తీర్చు నామమిదే\nనరకదండన యంతయు తొలగించు నామము ||నే ||",
+        "translitLyrics": "Pratipaapi Bhayamantayu Teerchu Naamamide\nNarakadandana Yantayu Tolaginchu Naamamu ||Ne ||",
+        "orderIndex": 3,
+        "translationTa": "ப்ரதிபாபி பயமம்தயு தீர்சு நாமமிதே\nநரகதம்டந யம்தயு தொலகிம்சு நாமமு ||நே ||"
+    },
+    {
+        "id": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu-lyr-4",
+        "songId": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "పాప సంకెళ్ళు అన్నియు విడగొట్టును యేసు\nసాతానువ్రాని తలను యేసు చితుక గొట్టెన్ ||నే ||",
+        "translitLyrics": "Paapa Sankellu Anniyu Vidagottunu Yesu\nSaataanuvraani Talanu Yesu Chituka Gotten ||Ne ||",
+        "orderIndex": 4,
+        "translationTa": "பாப ஸம்கெள்ளு அந்நியு விடகொட்டுநு யேஸு\nஸாதாநுவ்ராநி தலநு யேஸு சிதுக கொட்டெந் ||நே ||"
+    },
+    {
+        "id": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu-lyr-5",
+        "songId": "song-aakaashamu-bhuvilo-nella-yesu-unnathudu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "పాపంబులో మరణించెడి వారికి ప్రాణమిడున్\nబలహీనమైన ఆత్మలకు శక్తి నిచ్చును యేసు ||నే ||",
+        "translitLyrics": "Paapanbulo Maraninchedi Vaariki Praanamidun\nBalaheenamaina Aatmalaku Shakti Nichchunu Yesu ||Ne ||",
+        "orderIndex": 5,
+        "translationTa": "பாபம்புலோ மரணிம்செடி வாரிகி ப்ராணமிடுந்\nபலஹீநமைந ஆத்மலகு ஶக்தி நிச்சுநு யேஸு ||நே ||"
+    },
+    {
+        "id": "song-aalakinthunu-aa-pilupunu-lyr-0",
+        "songId": "song-aalakinthunu-aa-pilupunu",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nసేవించెదను (3) - దేవున\nసేవించెదను (3) దేవుని",
+        "translitLyrics": "Pallavi:\nSevinchedanu (3) - Devuna\nSevinchedanu (3) Devuni",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nஸேவிம்செதநு (3) - தேவுந\nஸேவிம்செதநு (3) தேவுநி"
+    },
+    {
+        "id": "song-aalakinthunu-aa-pilupunu-lyr-1",
+        "songId": "song-aalakinthunu-aa-pilupunu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆలకింతును ఆ పిలుపును (3) - సేవించెదను దేవుని",
+        "translitLyrics": "Aalakintunu Aa Pilupunu (3) - Sevinchedanu Devuni",
+        "orderIndex": 1,
+        "translationTa": "ஆலகிம்துநு ஆ பிலுபுநு (3) - ஸேவிம்செதநு தேவுநி"
+    },
+    {
+        "id": "song-aalakinthunu-aa-pilupunu-lyr-2",
+        "songId": "song-aalakinthunu-aa-pilupunu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "కొండలందున లోయలందున - సేవించెదను దేవుని || సేవి ||",
+        "translitLyrics": "Kondalanduna Loyalanduna - Sevinchedanu Devuni || Sevi ||",
+        "orderIndex": 2,
+        "translationTa": "கொம்டலம்துந லோயலம்துந - ஸேவிம்செதநு தேவுநி || ஸேவி ||"
+    },
+    {
+        "id": "song-aalakinthunu-aa-pilupunu-lyr-3",
+        "songId": "song-aalakinthunu-aa-pilupunu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "అడవైనను మెట్టలైనను - సేవించెదను దేవుని || సేవి ||",
+        "translitLyrics": "Adavainanu Mettalainanu - Sevinchedanu Devuni || Sevi ||",
+        "orderIndex": 3,
+        "translationTa": "அடவைநநு மெட்டலைநநு - ஸேவிம்செதநு தேவுநி || ஸேவி ||"
+    },
+    {
+        "id": "song-aalakinthunu-aa-pilupunu-lyr-4",
+        "songId": "song-aalakinthunu-aa-pilupunu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "కష్టమైనను సుఖమైనను - సేవించెదను దేవుని || సేవి ||",
+        "translitLyrics": "Kashtamainanu Sukhamainanu - Sevinchedanu Devuni || Sevi ||",
+        "orderIndex": 4,
+        "translationTa": "கஷ்டமைநநு ஸுகமைநநு - ஸேவிம்செதநு தேவுநி || ஸேவி ||"
+    },
+    {
+        "id": "song-aalakinthunu-aa-pilupunu-lyr-5",
+        "songId": "song-aalakinthunu-aa-pilupunu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "ఎండలైనను వర్షమైనను - సేవించెదను దేవుని || సేవి ||",
+        "translitLyrics": "Endalainanu Varshamainanu - Sevinchedanu Devuni || Sevi ||",
+        "orderIndex": 5,
+        "translationTa": "எம்டலைநநு வர்ஷமைநநு - ஸேவிம்செதநு தேவுநி || ஸேவி ||"
+    },
+    {
+        "id": "song-aalinchu-devaa-lyr-0",
+        "songId": "song-aalinchu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆలించు దేవా - నా మనవుల - నాలించు దేవా = యాలించు నా దేవ -\nయన్ని సమయంబులం - జాల గనపరచుచుం - జక్కని నీ దయ॥ఆలించు॥",
+        "translitLyrics": "Aalinchu Devaa - Naa Manavula - Naalinchu Devaa = Yaalinchu Naa Deva -\nYanni Samayanbulan - Jaala Ganaparachuchun - Jakkani Nee Daya||aalinchu||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aalinchu-devaa-lyr-1",
+        "songId": "song-aalinchu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "సకల సత్యభాగ్య - సంపద నీ యందు వికలంబు గాకుండ - వెలయు\nనెల్లప్పుడు ॥నాలించు॥",
+        "translitLyrics": "Sakala Satyabhaagya - Sanpada Nee Yandu Vikalanbu Gaakunda - Velayu\nNellappudu ||Naalinchu||",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aalinchu-devaa-lyr-2",
+        "songId": "song-aalinchu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "పలుమారు నీ వొసంగం - బరమ భాగ్యంబులు \"పాలసి పోదు నీదు కలిమి\nకాసంతైన ॥నాలించు॥",
+        "translitLyrics": "Palumaaru Nee Vosangan - Barama Bhaagyanbulu \"Paalasi Podu Needu Kalimi\nKaasantaina ||Naalinchu||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aalinchu-devaa-lyr-3",
+        "songId": "song-aalinchu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "నా యఘము లన్నియు - నా తండ్రి క్షమియించు నీ యనుగ్రహముచే - నీ\nసుతుని కృతమున ॥నాలించు॥\n4 నీ యాజ్ఞ లన్నియు - నేను జక్కంగ సల్ప - నీ యందు నమ్మిక - నెగ\nడించు మనిశంబు ॥నాలించు॥",
+        "translitLyrics": "Naa Yaghamu Lanniyu - Naa Tandri Kshamiyinchu Nee Yanugrahamuche - Nee\nSutuni Kritamuna ||Naalinchu||\n4 Nee Yaajja Lanniyu - Nenu Jakkanga Salpa - Nee Yandu Nammika - Nega\nDinchu Manishanbu ||Naalinchu||",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aalinchu-devaa-lyr-4",
+        "songId": "song-aalinchu-devaa",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "నీ సేవ నొనరింప - నిండుగ నిలలోన - నీ సేవకుని కిమ్ము - నీ శుద్ధాత్మను\nకృపచే ॥నాలించు॥",
+        "translitLyrics": "Nee Seva Nonarinpa - Ninduga Nilalona - Nee Sevakuni Kimmu - Nee Shuddhaatmanu\nKripache ||Naalinchu||",
+        "orderIndex": 4,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aalinchu-maa-praarthana-lyr-0",
+        "songId": "song-aalinchu-maa-praarthana",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆలించు మా ప్రార్ధన - మా రక్షకా - యాలించు మా ప్రార్ధన = నాలింతు\nవని నమ్మి - యాసక్తి వేండెదము - మేలైన దీవెనలు - మెండుగాం\nగురిపించియాలించు||\nఈ మర్చింతుము - మా ప్రియ జనక - నీ సుతుని దివ్యాఖ్యను =నీ\nసేవకై మేము - నెనరుచే నొసంగు ని - వాసము గైకొని - వర కరుణచే నిప్పు\n||డాలించు||\nఇందుం గూడెడు భక్తుల - డెందము లనెడు - మందిరంబుల నాత్మచే =\nపొందుగ నివసించి - పూర్ణుండ వగు దేవ - యంద మైన సుగుణ -\nబృందంబుతో నింపి ||యాలించు||\nఇచ్చట శుభవార్తను - విచ్చల విడిగ - వచ్చి వినెడు పాపులం = జెచ్చెర\nరక్షించి - యిచ్చి - సచ్చరిత్రులం జేసి - సాంద్ర మగు\n||నాలించు||\nసమూహములు. సమూహముచేత. గాయపురక్తమనెడి గొప్ప యౌషదము.\nముంగిలి.",
+        "translitLyrics": "Aalinchu Maa Praardhana - Maa Rakshakaa - Yaalinchu Maa Praardhana = Naalintu\nVani Nammi - Yaasakti Vendedamu - Melaina Deevenalu - Mendugaan\nGuripinchiyaalinchu||\nEe Marchintumu - Maa Priya Janaka - Nee Sutuni Divyaakhyanu =Nee\nSevakai Memu - Nenaruche Nosangu Ni - Vaasamu Gaikoni - Vara Karunache Nippu\n||Daalinchu||\nIndun Goodedu Bhaktula - Dendamu Lanedu - Mandiranbula Naatmache =\nPonduga Nivasinchi - Poornunda Vagu Deva - Yanda Maina Suguna -\nBrindanbuto Ninpi ||Yaalinchu||\nIchchata Shubhavaartanu - Vichchala Vidiga - Vachchi Vinedu Paapulan = Jechchera\nRakshinchi - Yichchi - Sachcharitrulan Jesi - Saandra Magu\n||Naalinchu||\nSamoohamulu. Samoohamucheta. Gaayapuraktamanedi Goppa Yaushadamu.\nMungili.",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aalinchu-maa-praarthana-lyr-1",
+        "songId": "song-aalinchu-maa-praarthana",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "నభము తండ్రి - యిచ్చోటను - శుభవార్త బోధించెడు = ప్రభు\nయేసు సేవకులు - సభకు - సభ వృద్ధి నొందింప - శక్తి\nవారల కిచ్చి ||యాలించు||",
+        "translitLyrics": "Nabhamu Tandri - Yichchotanu - Shubhavaarta Bodhinchedu = Prabhu\nYesu Sevakulu - Sabhaku - Sabha Vriddhi Nondinpa - Shakti\nVaarala Kichchi ||Yaalinchu||",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aalinchu-maa-praarthana-lyr-2",
+        "songId": "song-aalinchu-maa-praarthana",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "_ చుట్టు నుండెడు నూళ్లలో - శుభ వాక్యంబు - దిట్టముగం బ్రకటింపం గం\n= పట్టు గల్గెడివారి - బంపి యిచ్చటనుండి - దట్టమగు నీ ప్రేమం - దగినట్లు\nతెలిపించి యాలించు||\n- జగన్నాధము",
+        "translitLyrics": "_ Chuttu Nundedu Noollalo - Shubha Vaakyanbu - Dittamugan Brakatinpan Gan\n= Pattu Galgedivaari - Banpi Yichchatanundi - Dattamagu Nee Preman - Daginatlu\nTelipinchi Yaalinchu||\n- Jagannaadhamu",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-geethamulu-lyr-0",
+        "songId": "song-aananda-geethamulu",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆనంద గీతములు పాడి - ఆశీర్వాదం ఆదరణ పొంది\nఆహా నా రక్షకుడు యేసే నా నాయకుడు\nఆసక్తితో వెంబడింతును ఆ... ఆ",
+        "translitLyrics": "Aananda Geetamulu Paadi - Aasheervaadan Aadarana Pondi\nAahaa Naa Rakshakudu Yese Naa Naayakudu\nAasaktito Venbadintunu Aa... Aa",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-geethamulu-lyr-1",
+        "songId": "song-aananda-geethamulu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ప్రభు యేసు మొదట నన్ను - ప్రేమించి ఏర్పరచుకొని\nతండ్రివలె జాలితోడ - అంగీకరించె సుతునిగా\nఆశ్చర్య ప్రేమా - శాశ్వతమౌ ప్రేమా నేననుభవించుచున్నాను. ..ఆ...ఆ (2)",
+        "translitLyrics": "Prabhu Yesu Modata Nannu - Preminchi Erparachukoni\nTandrivale Jaalitoda - Angeekarinche Sutunigaa\nAashcharya Premaa - Shaashvatamau Premaa Nenanubhavinchuchunnaanu. ..Aa...aa (2)",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-geethamulu-lyr-2",
+        "songId": "song-aananda-geethamulu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "నమ్మిన హితులేనన్ను - శ్రమ పరచి విడువజాలిన\nసాతాను క్రూరమైన - హింసలకు నన్ను గురిచేసిన\nఎడబాయలేదు - యేసయ్య మాత్రమే\nవిడిపించి విజయము నిచ్చెను... ఆ... ఆ... (2)",
+        "translitLyrics": "Nammina Hitulenannu - Shrama Parachi Viduvajaalina\nSaataanu Krooramaina - Hinsalaku Nannu Gurichesina\nEdabaayaledu - Yesayya Maatrame\nVidipinchi Vijayamu Nichchenu... Aa... Aa... (2)",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-geethamulu-lyr-3",
+        "songId": "song-aananda-geethamulu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "ఏది ఏమైనా గాని - దేవా! నిన్నే ప్రేమింతును\nలోకాశలకు లొంగిపోక - లోకానికే ప్రకటింతును\nసజీవుడు నా విమోచకుడని...\nసిలువ విధానం కోరుదు... ఆ... ఆ... (2)",
+        "translitLyrics": "Edi Emainaa Gaani - Devaa! Ninne Premintunu\nLokaashalaku Longipoka - Lokaanike Prakatintunu\nSajeevudu Naa Vimochakudani...\nSiluva Vidhaanan Korudu... Aa... Aa... (2)",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-0",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nఆనంద మానంద మానందమే - ఆనంద మానందమే",
+        "translitLyrics": "Pallavi:\nAananda Maananda Maanandame - Aananda Maanandame",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nஆநம்த மாநம்த மாநம்தமே - ஆநம்த மாநம்தமே"
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-1",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "నా ప్రియ యేసు - గొప్ప రక్షణనివ్వ సిలువలో బలియాయెన్ (2)",
+        "translitLyrics": "Naa Priya Yesu - Goppa Rakshananivva Siluvalo Baliyaayen (2)",
+        "orderIndex": 1,
+        "translationTa": "நா ப்ரிய யேஸு - கொப்ப ரக்ஷணநிவ்வ ஸிலுவலோ பலியாயெந் (2)"
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-2",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "నా ప్రియ యేసు - పాప పడకనుండి నన్ను పైకి లేపెను",
+        "translitLyrics": "Naa Priya Yesu - Paapa Padakanundi Nannu Paiki Lepenu",
+        "orderIndex": 2,
+        "translationTa": "நா ப்ரிய யேஸு - பாப படகநும்டி நந்நு பைகி லேபெநு"
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-3",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "నా ప్రియ యేసు - తన రక్తములో ప్రేమతో నను కడిగెను",
+        "translitLyrics": "Naa Priya Yesu - Tana Raktamulo Premato Nanu Kadigenu",
+        "orderIndex": 3,
+        "translationTa": "நா ப்ரிய யேஸு - தந ரக்தமுலோ ப்ரேமதோ நநு கடிகெநு"
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-4",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "నా ప్రియ యేసు - బాప్తిస్మమున నన్నైక్యపరచెను",
+        "translitLyrics": "Naa Priya Yesu - Baaptismamuna Nannaikyaparachenu",
+        "orderIndex": 4,
+        "translationTa": "நா ப்ரிய யேஸு - பாப்திஸ்மமுந நந்நைக்யபரசெநு"
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-5",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "నా ప్రియ యేసు - నీతి వస్త్రము నాకు ప్రీతితో తొడిగెను",
+        "translitLyrics": "Naa Priya Yesu - Neeti Vastramu Naaku Preetito Todigenu",
+        "orderIndex": 5,
+        "translationTa": "நா ப்ரிய யேஸு - நீதி வஸ்த்ரமு நாகு ப்ரீதிதோ தொடிகெநு"
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-6",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "నా ప్రియ యేసు - గొప్ప రక్షణను నిర్లక్షించెదనా?",
+        "translitLyrics": "Naa Priya Yesu - Goppa Rakshananu Nirlakshinchedanaa?",
+        "orderIndex": 6,
+        "translationTa": "நா ப்ரிய யேஸு - கொப்ப ரக்ஷணநு நிர்லக்ஷிம்செதநா?"
+    },
+    {
+        "id": "song-aananda-maananda-maanandame-aananda-maanandame-lyr-7",
+        "songId": "song-aananda-maananda-maanandame-aananda-maanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 7",
+        "lyrics": "నా ప్రియ యేసు - స్తుతిపాత్రుండని హల్లెలూయా పాడెదను",
+        "translitLyrics": "Naa Priya Yesu - Stutipaatrundani Hallelooyaa Paadedanu",
+        "orderIndex": 7,
+        "translationTa": "நா ப்ரிய யேஸு - ஸ்துதிபாத்ரும்டநி ஹல்லெலூயா பாடெதநு"
+    },
+    {
+        "id": "song-aananda-magu-mukthi-lyr-0",
+        "songId": "song-aananda-magu-mukthi",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ఆనంద మగు ముక్తి - యే నా మందిరము = జ్ఞాని మానుగం జూచు -\nదాని సుందరము ॥ఆనందమగు॥",
+        "translitLyrics": "Aananda Magu Mukti - Ye Naa Mandiramu = Jjaani Maanugan Joochu -\nDaani Sundaramu ||Aanandamagu||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-magu-mukthi-lyr-1",
+        "songId": "song-aananda-magu-mukthi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "పరదేశివలె దేహా - వరణమం దుందున్ - ధరణి కాననముగా - దర్శించు\nచుందున్ - నెరి దుఃఖసుఖములు - సరిగా భావింతున్ = పరిశుద్ద్ధాత్ముని వేం\nడి - పరితృప్తి నుండు ॥నానంద మగు॥",
+        "translitLyrics": "Paradeshivale Dehaa - Varanaman Dundun - Dharani Kaananamugaa - Darshinchu\nChundun - Neri Duhkhasukhamulu - Sarigaa Bhaavintun = Parishudddhaatmuni Ven\nDi - Paritripti Nundu ||Naananda Magu||",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-magu-mukthi-lyr-2",
+        "songId": "song-aananda-magu-mukthi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "బహు శోధనలు నాపై - బడి వచ్చునపుడు - నహితాంధతమము న -\nన్నడ్డుకొన్నపుడు - నిహబాధ లన్నిన - న్నెదిరించినపుడు = నహహ యేసునివల్ల\n- నమృతుండ నెపుడు ॥నానంద మగు॥",
+        "translitLyrics": "Bahu Shodhanalu Naapai - Badi Vachchunapudu - Nahitaandhatamamu Na -\nNnaddukonnapudu - Nihabaadha Lannina - Nnedirinchinapudu = Nahaha Yesunivalla\n- Namritunda Nepudu ||Naananda Magu||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-magu-mukthi-lyr-3",
+        "songId": "song-aananda-magu-mukthi",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "ముందు నా మనసు దే-వుని కప్పగింతు-నందరి నస్మత్తు-ల్యముగాయ\nప్రేమింతున్ - సందేహ రాహిత్య - సరణిలో నిల్తుం = పొందం బోయెడి ముక్తి\n- భువి యందె గాంతు ॥నానంద మగు॥",
+        "translitLyrics": "Mundu Naa Manasu De-vuni Kappagintu-nandari Nasmattu-lyamugaaya\nPremintun - Sandeha Raahitya - Saranilo Niltun = Pondan Boyedi Mukti\n- Bhuvi Yande Gaantu ||Naananda Magu||",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-0",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nఆనంద మహానందం ప్రభువే మనకానందం (1)\nమనయందు నిలిచి యుండును పరలోకపు ఆనందం (2)",
+        "translitLyrics": "Pallavi:\nAananda Mahaanandan Prabhuve Manakaanandan (1)\nManayandu Nilichi Yundunu Paralokapu Aanandan (2)",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nஆநம்த மஹாநம்தம் ப்ரபுவே மநகாநம்தம் (1)\nமநயம்து நிலிசி யும்டுநு பரலோகபு ஆநம்தம் (2)"
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-1",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "దూతలు తెచ్చిరి శుభవార్త యెంతో గొప్పానందము (2)\nకుమ్మరించును మదిలో పరమునుండి పాపి నలిగినప్పుడే (2)",
+        "translitLyrics": "Dootalu Techchiri Shubhavaarta Yento Goppaanandamu (2)\nKummarinchunu Madilo Paramunundi Paapi Naliginappude (2)",
+        "orderIndex": 1,
+        "translationTa": "தூதலு தெச்சிரி ஶுபவார்த யெம்தோ கொப்பாநம்தமு (2)\nகும்மரிம்சுநு மதிலோ பரமுநும்டி பாபி நலிகிநப்புடே (2)"
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-2",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "ఆనందించుడనె ప్రభువే పరమందున మీ పేరుల్\nగొఱ్ఱెపిల్ల జీవగ్రంథమందు వ్రాయబడియున్నవని",
+        "translitLyrics": "Aanandinchudane Prabhuve Paramanduna Mee Perul\nGor2r2epilla Jeevagranthamandu Vraayabadiyunnavani",
+        "orderIndex": 2,
+        "translationTa": "ஆநம்திம்சுடநெ ப்ரபுவே பரமம்துந மீ பேருல்\nகொற்றெபில்ல ஜீவக்ரம்தமம்து வ்ராயபடியுந்நவநி"
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-3",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "నీ సన్నిధియందే కలవు నిత్యసంతోషములు\nనీ చిత్తము నెరవేర్చువారెల్లరు ఆనందించెదరు సదా",
+        "translitLyrics": "Nee Sannidhiyande Kalavu Nityasantoshamulu\nNee Chittamu Neraverchuvaarellaru Aanandinchedaru Sadaa",
+        "orderIndex": 3,
+        "translationTa": "நீ ஸந்நிதியம்தே கலவு நித்யஸம்தோஷமுலு\nநீ சித்தமு நெரவேர்சுவாரெல்லரு ஆநம்திம்செதரு ஸதா"
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-4",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "ఇదివరకును మీరేమియును అడుగలేదు నన్ను\nమీ సంతోషము పూర్ణమగునట్లు అడిగి పొందుమనెను",
+        "translitLyrics": "Idivarakunu Meeremiyunu Adugaledu Nannu\nMee Santoshamu Poornamagunatlu Adigi Pondumanenu",
+        "orderIndex": 4,
+        "translationTa": "இதிவரகுநு மீரேமியுநு அடுகலேது நந்நு\nமீ ஸம்தோஷமு பூர்ணமகுநட்லு அடிகி பொம்துமநெநு"
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-5",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "యెహోవా విమోచించిన వారే పాటలు పాడి\nశిరములపై నిత్య సంతసము గలవారై వచ్చెదరు",
+        "translitLyrics": "Yehovaa Vimochinchina Vaare Paatalu Paadi\nShiramulapai Nitya Santasamu Galavaarai Vachchedaru",
+        "orderIndex": 5,
+        "translationTa": "யெஹோவா விமோசிம்சிந வாரே பாடலு பாடி\nஶிரமுலபை நித்ய ஸம்தஸமு கலவாரை வச்செதரு"
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-6",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "ఆయన కొరకవమానమును మరినిందకు పాత్రులము\nతన వాక్యమెవ్వరి మదియందుండునో సంతోషింతురు మిగుల",
+        "translitLyrics": "Aayana Korakavamaanamunu Marinindaku Paatrulamu\nTana Vaakyamevvari Madiyandunduno Santoshinturu Migula",
+        "orderIndex": 6,
+        "translationTa": "ஆயந கொரகவமாநமுநு மரிநிம்தகு பாத்ருலமு\nதந வாக்யமெவ்வரி மதியம்தும்டுநோ ஸம்தோஷிம்துரு மிகுல"
+    },
+    {
+        "id": "song-aananda-mahaanandang-lyr-7",
+        "songId": "song-aananda-mahaanandang",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 7",
+        "lyrics": "ఆత్మలు రక్షింపబడిన అధికముగా సంతసించు\nసర్వకాలము సంతోషము కలిగి హెల్లెలూయ పాడెదరు",
+        "translitLyrics": "Aatmalu Rakshinpabadina Adhikamugaa Santasinchu\nSarvakaalamu Santoshamu Kaligi Hellelooya Paadedaru",
+        "orderIndex": 7,
+        "translationTa": "ஆத்மலு ரக்ஷிம்பபடிந அதிகமுகா ஸம்தஸிம்சு\nஸர்வகாலமு ஸம்தோஷமு கலிகி ஹெல்லெலூய பாடெதரு"
+    },
+    {
+        "id": "song-aanandaanandamu-mahadaanandamu-lyr-0",
+        "songId": "song-aanandaanandamu-mahadaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "ఆనందానందము - మహదానందము",
+        "translitLyrics": "Aanandaanandamu - Mahadaanandamu",
+        "orderIndex": 0,
+        "translationTa": "ஆநம்தாநம்தமு - மஹதாநம்தமு"
+    },
+    {
+        "id": "song-aanandaanandamu-mahadaanandamu-lyr-1",
+        "songId": "song-aanandaanandamu-mahadaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "యేసు ప్రభునకు - జయమని పాడు",
+        "translitLyrics": "Yesu Prabhunaku - Jayamani Paadu",
+        "orderIndex": 1,
+        "translationTa": "யேஸு ப்ரபுநகு - ஜயமநி பாடு"
+    },
+    {
+        "id": "song-aanandaanandamu-mahadaanandamu-lyr-2",
+        "songId": "song-aanandaanandamu-mahadaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "నాదు పాపమంతయు - తన శరీరమందు",
+        "translitLyrics": "Naadu Paapamantayu - Tana Shareeramandu",
+        "orderIndex": 2,
+        "translationTa": "நாது பாபமம்தயு - தந ஶரீரமம்து"
+    },
+    {
+        "id": "song-aanandaanandamu-mahadaanandamu-lyr-3",
+        "songId": "song-aanandaanandamu-mahadaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "ప్రేమతోడ మోసె నాదు - ప్రియుడేసు రాజు",
+        "translitLyrics": "Prematoda Mose Naadu - Priyudesu Raaju",
+        "orderIndex": 3,
+        "translationTa": "ப்ரேமதோட மோஸெ நாது - ப்ரியுடேஸு ராஜு"
+    },
+    {
+        "id": "song-aanandaanandamu-mahadaanandamu-lyr-4",
+        "songId": "song-aanandaanandamu-mahadaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "నాకు బదులు మరణ మొంది - సమాధి యాయెను",
+        "translitLyrics": "Naaku Badulu Marana Mondi - Samaadhi Yaayenu",
+        "orderIndex": 4,
+        "translationTa": "நாகு பதுலு மரண மொம்தி - ஸமாதி யாயெநு"
+    },
+    {
+        "id": "song-aanandaanandamu-mahadaanandamu-lyr-5",
+        "songId": "song-aanandaanandamu-mahadaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "నాకై సమాధి నుండి - మరల లేచెను",
+        "translitLyrics": "Naakai Samaadhi Nundi - Marala Lechenu",
+        "orderIndex": 5,
+        "translationTa": "நாகை ஸமாதி நும்டி - மரல லேசெநு"
+    },
+    {
+        "id": "song-aanandaanandamu-mahadaanandamu-lyr-6",
+        "songId": "song-aanandaanandamu-mahadaanandamu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 7",
+        "lyrics": "యేసు నావాడు - నే ప్రియుని వాడను - ఆనందానందము",
+        "translitLyrics": "Yesu Naavaadu - Ne Priyuni Vaadanu - Aanandaanandamu",
+        "orderIndex": 6,
+        "translationTa": "யேஸு நாவாடு - நே ப்ரியுநி வாடநு - ஆநம்தாநம்தமு"
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-0",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ప|||| ఆనందమానంద మాయెను - నాదు ప్రియకుమారుని యందు\n||మహదానం||\nఅ||ప|| నా తనయునిమాట వినండి - శద్ద మొకటి\nయా మేఘములో ఉద్భవించెనద్భుతముగ ||మహదానం||",
+        "translitLyrics": "Pa|||| Aanandamaananda Maayenu - Naadu Priyakumaaruni Yandu\n||Mahadaanan||\nA||pa|| Naa Tanayunimaata Vinandi - Shadda Mokati\nYaa Meghamulo Udbhavinchenadbhutamuga ||Mahadaanan||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-1",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "(్రేమించుచున్నావు నీతిని - దుర్చీతిని ద్వేషించినావు - నీవు -\nఅందుచే నీ తోటి వారికంటె - ఆనందతైలముతో తండ్రి\nనిన్ను అధికంబుగా నభిషేకించెను ||మహదానం||",
+        "translitLyrics": "(Reminchuchunnaavu Neetini - Durcheetini Dveshinchinaavu - Neevu -\nAnduche Nee Toti Vaarikante - Aanandatailamuto Tandri\nNinnu Adhikanbugaa Nabhishekinchenu ||Mahadaanan||",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-2",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "అంత్యదినముల యందున - ఆ వింతకుమారునిద్వారా -ఈ\nమానవులతోడ మాట్లాడెను - సర్వమునకు తండ్రి తనయుని వారసునిగా\nనియమించెను ||||మహదానం||",
+        "translitLyrics": "Antyadinamula Yanduna - Aa Vintakumaarunidvaaraa -Ee\nMaanavulatoda Maatlaadenu - Sarvamunaku Tandri Tanayuni Vaarasunigaa\nNiyaminchenu ||||Mahadaanan||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-3",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "ఆ తండ్రి మహమ - ఆ తత్వంబు రూపంబు తానె\nఆ - మహాత్యమైనట్టి - మాటలచేత - సమస్తమును నిర్వహించు అందరిలో\nఅతి గ్రేష్ణుండాయే ||మహదానం||",
+        "translitLyrics": "Aa Tandri Mahama - Aa Tatvanbu Roopanbu Taane\nAa - Mahaatyamainatti - Maatalacheta - Samastamunu Nirvahinchu Andarilo\nAti Greshnundaaye ||Mahadaanan||",
+        "orderIndex": 3,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-4",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "నీవు నాదు కుమారుడవు- నిన్ను ప్రేమించి కన్నాను - నేను -\nనేడు దండిగ తనయుని ముద్దాడుడి నిండుగ వాని నాశ్రయించుడి రండి\nరండి ధన్యులు కండి ||మహదానం||",
+        "translitLyrics": "Neevu Naadu Kumaarudavu- Ninnu Preminchi Kannaanu - Nenu -\nNedu Dandiga Tanayuni Muddaadudi Ninduga Vaani Naashrayinchudi Randi\nRandi Dhanyulu Kandi ||Mahadaanan||",
+        "orderIndex": 4,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-5",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "విజ్ఞాన సంపద లెల్లను - ఆ సుజ్ఞానిలో గుప్తమాయెను- ఆ\nసంతోషమును పరిశుద్ధత - సమాధానము నీతి శక్తియు\nవిమోచనమాయెను ||||మహదానం||",
+        "translitLyrics": "Vijjaana Sanpada Lellanu - Aa Sujjaanilo Guptamaayenu- Aa\nSantoshamunu Parishuddhata - Samaadhaanamu Neeti Shaktiyu\nVimochanamaayenu ||||Mahadaanan||",
+        "orderIndex": 5,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-6",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "అందరికన్న నీవెంతనో - అతి సుందరుడవై - యున్నావు నీవు -\nనీ పెదవుల మీద పోయబడి - నిండి యున్నది దయారసము\nనిన్నాశీర్వదించును తండ్రి ||||మహదానం||",
+        "translitLyrics": "Andarikanna Neeventano - Ati Sundarudavai - Yunnaavu Neevu -\nNee Pedavula Meeda Poyabadi - Nindi Yunnadi Dayaarasamu\nNinnaasheervadinchunu Tandri ||||Mahadaanan||",
+        "orderIndex": 6,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandamaananda-maayenu-lyr-7",
+        "songId": "song-aanandamaananda-maayenu",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 7",
+        "lyrics": "దివ్యరారాజై కుమారుడు - ఒక వెయ్యివర్నాలు పాలించును\nమహా - అంతములేని రాజ్యమేలును - యెందరు జయంబు\nనొందుదురో అందరును పాలించెదరు ||మహదానం||",
+        "translitLyrics": "Divyaraaraajai Kumaarudu - Oka Veyyivarnaalu Paalinchunu\nMahaa - Antamuleni Raajyamelunu - Yendaru Jayanbu\nNonduduro Andarunu Paalinchedaru ||Mahadaanan||",
+        "orderIndex": 7,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandame-aanandame-lyr-0",
+        "songId": "song-aanandame-aanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "ఆనందమే – ఆనందమే యేసుతో మా యాత్ర ఆనందమే\nఆనందమే – ఆనందమే తండ్రిలో మా యాత్ర ఆనందమే (3)\nఆనందమే – ఆనందమే ఆత్మతో మా యాత్ర ఆనందమే (3)\nఆనందయాత్ర – యేసుతోయాత్ర ఆనంద యాత్ర శుద్ధాత్మతో యాత్ర (2)",
+        "translitLyrics": "Aanandame – Aanandame Yesuto Maa Yaatra Aanandame\nAanandame – Aanandame Tandrilo Maa Yaatra Aanandame (3)\nAanandame – Aanandame Aatmato Maa Yaatra Aanandame (3)\nAanandayaatra – Yesutoyaatra Aananda Yaatra Shuddhaatmato Yaatra (2)",
+        "orderIndex": 0,
+        "translationTa": "ஆநம்தமே – ஆநம்தமே யேஸுதோ மா யாத்ர ஆநம்தமே\nஆநம்தமே – ஆநம்தமே தம்ட்ரிலோ மா யாத்ர ஆநம்தமே (3)\nஆநம்தமே – ஆநம்தமே ஆத்மதோ மா யாத்ர ஆநம்தமே (3)\nஆநம்தயாத்ர – யேஸுதோயாத்ர ஆநம்த யாத்ர ஶுத்தாத்மதோ யாத்ர (2)"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-0",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "పల్లవి:\nఆనందమే మనకిలలో ఆ... ఆ... (2) - మన కానందమే ప్రభు లేచెన్ (1)\nఆనందమే మనకిలలో (2)",
+        "translitLyrics": "Pallavi:\nAanandame Manakilalo Aa... Aa... (2) - Mana Kaanandame Prabhu Lechen (1)\nAanandame Manakilalo (2)",
+        "orderIndex": 0,
+        "translationTa": "பல்லவி:\nஆநம்தமே மநகிலலோ ஆ... ஆ... (2) - மந காநம்தமே ப்ரபு லேசெந் (1)\nஆநம்தமே மநகிலலோ (2)"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-1",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "పాపుల మిత్రుడు - పాప రహితుడు (2) - పాపులకొరకై - శాప గ్రాహియై (2)\nమోపుగ శాపము - వీపున మోసె పాపపు ఋణము తీర్చె (2)",
+        "translitLyrics": "Paapula Mitrudu - Paapa Rahitudu (2) - Paapulakorakai - Shaapa Graahiyai (2)\nMopuga Shaapamu - Veepuna Mose Paapapu Rinamu Teerche (2)",
+        "orderIndex": 1,
+        "translationTa": "பாபுல மித்ருடு - பாப ரஹிதுடு (2) - பாபுலகொரகை - ஶாப க்ராஹியை (2)\nமோபுக ஶாபமு - வீபுந மோஸெ பாபபு ரு'ணமு தீர்செ (2)"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-2",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "పొంతిపిలాతు మసుఖమునందు - శాస్త్రుల పెద్దల యేదుటను నిలిచె\nస్తోత్రార్హుండు - మరణము గెలిచె - సైతానును ఓడించె",
+        "translitLyrics": "Pontipilaatu Masukhamunandu - Shaastrula Peddala Yedutanu Niliche\nStotraarhundu - Maranamu Geliche - Saitaanunu Odinche",
+        "orderIndex": 2,
+        "translationTa": "பொம்திபிலாது மஸுகமுநம்து - ஶாஸ்த்ருல பெத்தல யேதுடநு நிலிசெ\nஸ்தோத்ரார்ஹும்டு - மரணமு கெலிசெ - ஸைதாநுநு ஓடிம்செ"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-3",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "మరణము భయము - లేని వారమై - మరణమున్ గెల్చిన - యేసుని జేరి\nతరుణమును - పోగొట్టుకొనక - పరమ ప్రభువును చాటన్",
+        "translitLyrics": "Maranamu Bhayamu - Leni Vaaramai - Maranamun Gelchina - Yesuni Jeri\nTarunamunu - Pogottukonaka - Parama Prabhuvunu Chaatan",
+        "orderIndex": 3,
+        "translationTa": "மரணமு பயமு - லேநி வாரமை - மரணமுந் கெல்சிந - யேஸுநி ஜேரி\nதருணமுநு - போகொட்டுகொநக - பரம ப்ரபுவுநு சாடந்"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-4",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "లేచిన ప్రభువు ప్రియులను జూచి - గాంచెద నంచు అభయమునిచ్చె (2)\nతీసివేసెను - చింతయు నంతను - రోసెద మిపుడే లోకమున్",
+        "translitLyrics": "Lechina Prabhuvu Priyulanu Joochi - Gaancheda Nanchu Abhayamunichche (2)\nTeesivesenu - Chintayu Nantanu - Roseda Mipude Lokamun",
+        "orderIndex": 4,
+        "translationTa": "லேசிந ப்ரபுவு ப்ரியுலநு ஜூசி - காம்செத நம்சு அபயமுநிச்செ (2)\nதீஸிவேஸெநு - சிம்தயு நம்தநு - ரோஸெத மிபுடே லோகமுந்"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-5",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "పరమునకేగి - పంపెనాత్మను - పరవశులైరి - శిష్యులు గదిలో\nకొరతలేని - శక్తిని పొందిరి - శిరముల - నెత్తిచాటిరి",
+        "translitLyrics": "Paramunakegi - Panpenaatmanu - Paravashulairi - Shishyulu Gadilo\nKorataleni - Shaktini Pondiri - Shiramula - Nettichaatiri",
+        "orderIndex": 5,
+        "translationTa": "பரமுநகேகி - பம்பெநாத்மநு - பரவஶுலைரி - ஶிஷ்யுலு கதிலோ\nகொரதலேநி - ஶக்திநி பொம்திரி - ஶிரமுல - நெத்திசாடிரி"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-6",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 6",
+        "lyrics": "మన ప్రభుయేసు వచ్చుచుండె - మనము రెప్ప పాటున మారి\nతనివి దీరగా - సంతసించి - వినయుని చేరెదము",
+        "translitLyrics": "Mana Prabhuyesu Vachchuchunde - Manamu Reppa Paatuna Maari\nTanivi Deeragaa - Santasinchi - Vinayuni Cheredamu",
+        "orderIndex": 6,
+        "translationTa": "மந ப்ரபுயேஸு வச்சுசும்டெ - மநமு ரெப்ப பாடுந மாரி\nதநிவி தீரகா - ஸம்தஸிம்சி - விநயுநி சேரெதமு"
+    },
+    {
+        "id": "song-aanandame-manakilalo-mana-kaanandame-lyr-7",
+        "songId": "song-aanandame-manakilalo-mana-kaanandame",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 7",
+        "lyrics": "మహిమ కిరీట ధారులమై - మహిమ వస్త్రములు ధరించి\nమహిమగల - రాజుతో నుండి - మహిని పాలించెదము",
+        "translitLyrics": "Mahima Kireeta Dhaarulamai - Mahima Vastramulu Dharinchi\nMahimagala - Raajuto Nundi - Mahini Paalinchedamu",
+        "orderIndex": 7,
+        "translationTa": "மஹிம கிரீட தாருலமை - மஹிம வஸ்த்ரமுலு தரிம்சி\nமஹிமகல - ராஜுதோ நும்டி - மஹிநி பாலிம்செதமு"
+    },
+    {
+        "id": "song-aanandame-prabhu-yesuni-lyr-0",
+        "songId": "song-aanandame-prabhu-yesuni",
+        "language": "TELUGU",
+        "sectionLabel": "Lyrics",
+        "lyrics": "ఆనందమే - ప్రభు యేసుని స్తుతించుట\nఆత్మానంద - గీతముల్ పాడేద ||ఆనందమే||\nసిలువలో నాకై - రక్తము కారెను\nసింహసనమునకై - నన్ను పిలిచెను\nసింహపు కోరలనుండి - నను విడిపించెను ||ఆనందమే||\nవిశ్వాసమును - కాపాడుకొనుచు\nవిజయుడైన యేసుని - ముఖమును చూచుచు\nవిలువైన కిరీటము - పొందెద నిశ్చయము ||ఆనందమే||\nనామానస వీణను మ్రోగించగా\nనామనోనేత్రములందు - కనిపించె ప్రభు రూపమే\nనా మదిలోన మెదిలేను - ప్రభు సప్తస్వరాలు ||ఆనందమే||",
+        "translitLyrics": "Aanandame - Prabhu Yesuni Stutinchuta\nAatmaananda - Geetamul Paadeda ||Aanandame||\nSiluvalo Naakai - Raktamu Kaarenu\nSinhasanamunakai - Nannu Pilichenu\nSinhapu Koralanundi - Nanu Vidipinchenu ||Aanandame||\nVishvaasamunu - Kaapaadukonuchu\nVijayudaina Yesuni - Mukhamunu Choochuchu\nViluvaina Kireetamu - Pondeda Nishchayamu ||Aanandame||\nNaamaanasa Veenanu Mroginchagaa\nNaamanonetramulandu - Kanipinche Prabhu Roopame\nNaa Madilona Medilenu - Prabhu Saptasvaraalu ||Aanandame||",
+        "orderIndex": 0,
+        "translationTa": "ஆநம்தமே - ப்ரபு யேஸுநி ஸ்துதிம்சுட\nஆத்மாநம்த - கீதமுல் பாடேத ||ஆநம்தமே||\nஸிலுவலோ நாகை - ரக்தமு காரெநு\nஸிம்ஹஸநமுநகை - நந்நு பிலிசெநு\nஸிம்ஹபு கோரலநும்டி - நநு விடிபிம்செநு ||ஆநம்தமே||\nவிஶ்வாஸமுநு - காபாடுகொநுசு\nவிஜயுடைந யேஸுநி - முகமுநு சூசுசு\nவிலுவைந கிரீடமு - பொம்தெத நிஶ்சயமு ||ஆநம்தமே||\nநாமாநஸ வீணநு ம்ரோகிம்சகா\nநாமநோநேத்ரமுலம்து - கநிபிம்செ ப்ரபு ரூபமே\nநா மதிலோந மெதிலேநு - ப்ரபு ஸப்தஸ்வராலு ||ஆநம்தமே||"
+    },
+    {
+        "id": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho-lyr-0",
+        "songId": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "\"ఆయనను ఆరాధించువారు ఆత్మతోను, సత్యముతోను ఆరాధింపవలెను\" యోహాను John 4:24\nపల్లవి : ఆనందముతో - ఆరాధింతున్ ఆత్మతోను - సత్యముతో\nఅనుపల్లవి : రక్షణ పాత్ర నేనెత్తుకొని - స్తుతులు నర్పింతును\nహర్షించి పొగడి పూజింతును - యేసుని నామమును",
+        "translitLyrics": "\"Aayananu Aaraadhinchuvaaru Aatmatonu, Satyamutonu Aaraadhinpavalenu\" Yohaanu John 4:24\nPallavi : Aanandamuto - Aaraadhintun Aatmatonu - Satyamuto\nAnupallavi : Rakshana Paatra Nenettukoni - Stutulu Narpintunu\nHarshinchi Pogadi Poojintunu - Yesuni Naamamunu",
+        "orderIndex": 0,
+        "translationTa": "\"ஆயநநு ஆராதிம்சுவாரு ஆத்மதோநு, ஸத்யமுதோநு ஆராதிம்பவலெநு\" யோஹாநு John 4:24\nபல்லவி : ஆநம்தமுதோ - ஆராதிம்துந் ஆத்மதோநு - ஸத்யமுதோ\nஅநுபல்லவி : ரக்ஷண பாத்ர நேநெத்துகொநி - ஸ்துதுலு நர்பிம்துநு\nஹர்ஷிம்சி பொகடி பூஜிம்துநு - யேஸுநி நாமமுநு"
+    },
+    {
+        "id": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho-lyr-1",
+        "songId": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "పాపినైన నన్ను రక్షింపను - సిలువపై నాకై తానెక్కెను\nపరిశుద్ధ జీవం నాకివ్వను - మృత్యుంజయుడై లేచెను\n|| ఆనందముతో ||",
+        "translitLyrics": "Paapinaina Nannu Rakshinpanu - Siluvapai Naakai Taanekkenu\nParishuddha Jeevan Naakivvanu - Mrityunjayudai Lechenu\n|| Aanandamuto ||",
+        "orderIndex": 1,
+        "translationTa": "பாபிநைந நந்நு ரக்ஷிம்பநு - ஸிலுவபை நாகை தாநெக்கெநு\nபரிஶுத்த ஜீவம் நாகிவ்வநு - ம்ரு'த்யும்ஜயுடை லேசெநு\n|| ஆநம்தமுதோ ||"
+    },
+    {
+        "id": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho-lyr-2",
+        "songId": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "మరణపుటురులలో నేనుండగా - నరరూపియై నా కడ కేతెంచెను\nపరలోక జీవం నాకివ్వను - మరణపు ముల్లు విరచెను\n|| ఆనందముతో ||",
+        "translitLyrics": "Maranaputurulalo Nenundagaa - Nararoopiyai Naa Kada Ketenchenu\nParaloka Jeevan Naakivvanu - Maranapu Mullu Virachenu\n|| Aanandamuto ||",
+        "orderIndex": 2,
+        "translationTa": "மரணபுடுருலலோ நேநும்டகா - நரரூபியை நா கட கேதெம்செநு\nபரலோக ஜீவம் நாகிவ்வநு - மரணபு முல்லு விரசெநு\n|| ஆநம்தமுதோ ||"
+    },
+    {
+        "id": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho-lyr-3",
+        "songId": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "శత్రుని ఉరి నుండి విడిపింపను - శత్రువుతో నాకై పోరాడెను\nపదిలంపు జీవం నాకివ్వను - క్రీస్తునందు నను దాచెను\n|| ఆనందముతో ||",
+        "translitLyrics": "Shatruni Uri Nundi Vidipinpanu - Shatruvuto Naakai Poraadenu\nPadilanpu Jeevan Naakivvanu - Kreestunandu Nanu Daachenu\n|| Aanandamuto ||",
+        "orderIndex": 3,
+        "translationTa": "ஶத்ருநி உரி நும்டி விடிபிம்பநு - ஶத்ருவுதோ நாகை போராடெநு\nபதிலம்பு ஜீவம் நாகிவ்வநு - க்ரீஸ்துநம்து நநு தாசெநு\n|| ஆநம்தமுதோ ||"
+    },
+    {
+        "id": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho-lyr-4",
+        "songId": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 4",
+        "lyrics": "పరలోక పౌరసత్వం నా కివ్వను - పరమును వీడి ధరకేతెంచెను\nసమృద్ధి జీవం నాకివ్వను - తన ప్రాణమర్పించెను\n|| ఆనందముతో ||",
+        "translitLyrics": "Paraloka Paurasatvan Naa Kivvanu - Paramunu Veedi Dharaketenchenu\nSamriddhi Jeevan Naakivvanu - Tana Praanamarpinchenu\n|| Aanandamuto ||",
+        "orderIndex": 4,
+        "translationTa": "பரலோக பௌரஸத்வம் நா கிவ்வநு - பரமுநு வீடி தரகேதெம்செநு\nஸம்ரு'த்தி ஜீவம் நாகிவ்வநு - தந ப்ராணமர்பிம்செநு\n|| ஆநம்தமுதோ ||"
+    },
+    {
+        "id": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho-lyr-5",
+        "songId": "song-aanandamutho-aaraadhinthun-aathmathonu-sathyamutho",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 5",
+        "lyrics": "శోధన వేదన బాధలెన్నో - ఈ లోక యాత్రలో ఎదురైనను\nప్రత్యేక జీవం జీవించను - అర్పించుకొందు నీకు\n|| ఆనందముతో ||\nఅంగీకరించు - నా జీవితమును - నీ కొరకే ప్రభువా\nహల్లెలూయ ఆమెన్ - హల్లెలూయ ఆమెన్ - హల్లెలూయ\n|| ఆనందముతో ||",
+        "translitLyrics": "Shodhana Vedana Baadhalenno - Ee Loka Yaatralo Edurainanu\nPratyeka Jeevan Jeevinchanu - Arpinchukondu Neeku\n|| Aanandamuto ||\nAngeekarinchu - Naa Jeevitamunu - Nee Korake Prabhuvaa\nHallelooya Aamen - Hallelooya Aamen - Hallelooya\n|| Aanandamuto ||",
+        "orderIndex": 5,
+        "translationTa": "ஶோதந வேதந பாதலெந்நோ - ஈ லோக யாத்ரலோ எதுரைநநு\nப்ரத்யேக ஜீவம் ஜீவிம்சநு - அர்பிம்சுகொம்து நீகு\n|| ஆநம்தமுதோ ||\nஅம்கீகரிம்சு - நா ஜீவிதமுநு - நீ கொரகே ப்ரபுவா\nஹல்லெலூய ஆமெந் - ஹல்லெலூய ஆமெந் - ஹல்லெலூய\n|| ஆநம்தமுதோ ||"
+    },
+    {
+        "id": "song-aanandan-aanandan-dinadinam-lyr-0",
+        "songId": "song-aanandan-aanandan-dinadinam",
+        "language": "TELUGU",
+        "sectionLabel": "Chorus",
+        "lyrics": "ప|| ఆనందం - ఆనందం - దినదినం ఆనందం\nయేసురాజు నా స్వంతమాయెనే - యీ లోకమందు\nస్వంతవాడాయెనే నా మదిలో స్వంతమాయెను (2)\nఅ||ప|| ఆ....ఆనందమే - పరమానందమే - ఇది నా గొప్ప భాగ్యమే\nలోకమందు||",
+        "translitLyrics": "Pa|| Aanandan - Aanandan - Dinadinan Aanandan\nYesuraaju Naa Svantamaayene - Yee Lokamandu\nSvantavaadaayene Naa Madilo Svantamaayenu (2)\nA||pa|| Aa....aanandame - Paramaanandame - Idi Naa Goppa Bhaagyame\nLokamandu||",
+        "orderIndex": 0,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandan-aanandan-dinadinam-lyr-1",
+        "songId": "song-aanandan-aanandan-dinadinam",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 1",
+        "lyrics": "తొలి బాల్యవయసులో - నన్ను గుర్తించినాడు\nదూరంపోయిన కనుగొన్నాడు (2) - తన ప్రాణమును\nనాకర్చించి - జీవం పొందుకొనుమని చెప్పెను ||1ఆ..ఆనందమే||",
+        "translitLyrics": "Toli Baalyavayasulo - Nannu Gurtinchinaadu\nDooranpoyina Kanugonnaadu (2) - Tana Praanamunu\nNaakarchinchi - Jeevan Pondukonumani Cheppenu ||1Aa..aanandame||",
+        "orderIndex": 1,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandan-aanandan-dinadinam-lyr-2",
+        "songId": "song-aanandan-aanandan-dinadinam",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 2",
+        "lyrics": "ఏ ప్రభు ప్రేమతో - నన్ను విడువక కాపాడును\nనన్ను నమ్మి యిచ్చిన బాధ్య - తను ప్రభువు\nవచ్చువరకు - కాచుకొందును ||ఆ...ఆనందమే||",
+        "translitLyrics": "E Prabhu Premato - Nannu Viduvaka Kaapaadunu\nNannu Nammi Yichchina Baadhya - Tanu Prabhuvu\nVachchuvaraku - Kaachukondunu ||Aa...aanandame||",
+        "orderIndex": 2,
+        "translationTa": ""
+    },
+    {
+        "id": "song-aanandan-aanandan-dinadinam-lyr-3",
+        "songId": "song-aanandan-aanandan-dinadinam",
+        "language": "TELUGU",
+        "sectionLabel": "Verse 3",
+        "lyrics": "ప్రభువు వచ్చుదినమున - తనచేయి చాచిప్రేమతో\nపిలిచి చేర్చుకొనును - ప్రభువు సమూహమందు\nఅచ్చటాయనతో ఆడిపాడి సంతోషించెదన్ ||ఆ..ఆనందమే||",
+        "translitLyrics": "Prabhuvu Vachchudinamuna - Tanacheyi Chaachipremato\nPilichi Cherchukonunu - Prabhuvu Samoohamandu\nAchchataayanato Aadipaadi Santoshinchedan ||Aa..aanandame||",
+        "orderIndex": 3,
+        "translationTa": ""
+    }
+]
