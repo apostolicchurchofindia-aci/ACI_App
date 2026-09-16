@@ -1,4 +1,0 @@
-int drawable aci_logo 0x0
-int drawable photo_church_exterior 0x0
-int drawable photo_coleader 0x0
-int drawable photo_founder 0x0

@@ -1,5 +1,0 @@
-com.aci.feature.profile
-drawable aci_logo
-drawable photo_church_exterior
-drawable photo_coleader
-drawable photo_founder
