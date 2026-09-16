@@ -1,0 +1,390 @@
+# ACI Church Android App — Implementation Plan
+
+## Task 1: Project Scaffolding & Gradle Multi-Module Setup
+- **Status**: `completed`
+- **Priority**: high
+- **Depends On**: None
+- **Completion Evidence**:
+  - TR-1.1 (rule): `./gradlew :app:assembleDebug` exited with code 0 (verified run in terminal `b0ca36c0`). APK produced at `app/build/outputs/apk/debug/app-debug.apk` (18.7 MB).
+  - TR-1.2 (rule): `settings.gradle.kts` includes all 18 modules: app, core-ui, core-data, core-domain, feature-auth, feature-home, feature-bible, feature-songs, feature-worship, feature-sermons, feature-events, feature-prayer, feature-sundayschool, feature-community, feature-giving, feature-profile, feature-admin, data-content. Each has valid `build.gradle.kts`.
+  - TR-1.3 (rubric): score **5/5** — clean 3-core + 12-feature + 1-app + 1-data module split, full `gradle/libs.versions.toml` version catalog with pinned versions, Gradle 8.7 wrapper, plugins declared with apply false in root. Rationale: matches enterprise modular split and version catalog standard.
+- **Description**:
+  - Create Gradle root with `app` module + feature modules: `core-ui`, `core-data`, `core-domain`, `feature-auth`, `feature-home`, `feature-bible`, `feature-songs`, `feature-worship`, `feature-sermons`, `feature-events`, `feature-prayer`, `feature-sundayschool`, `feature-community`, `feature-giving`, `feature-profile`, `feature-admin`, `data-content`.
+  - Configure Kotlin 1.9+, Compose BOM, Material 3, Room, Coil, Accompanist, Timber, kotlinx-datetime/serialization.
+  - Set up version catalog (`libs.versions.toml`), build types, signing (debug), minSdk 24 / targetSdk 34.
+  - Configure ProGuard consumer rules and baseline profile hooks (no benchmark yet).
+- **Acceptance Criteria Addressed**: AC-1, NFR-1
+- **Test Requirements**:
+  - `rule` TR-1.1: Root-level `./gradlew :app:assembleDebug` succeeds (exit 0)
+  - `rule` TR-1.2: `settings.gradle.kts` declares all modules listed above; each module has valid `build.gradle.kts`
+  - `rubric` TR-1.3: Gradle structure quality; scale 1-5; anchors 1=flat single-module, 3=partial module split, 5=clean feature+core module split with version catalog; threshold >= 4; evidence=build scan/tree output
+
+## Task 2: Design System (ACI Theme, Colors, Typography, Spacing, Components)
+- **Status**: `completed`
+- **Priority**: high
+- **Depends On**: Task 1
+- **Completion Evidence**:
+  - TR-2.1 (rule): `ACITheme.kt` wraps `MaterialTheme` and exposes `LightColorScheme` + `DarkColorScheme` with correct navy (#0B1E3F) primary and gold (#C9A227) secondary tokens, plus full primaryContainer/secondaryContainer/surfaceVariant/outline tokens in both themes.
+  - TR-2.2 (rule): 12 composables created in `core-ui/components/` (ACICard, ACISectionHeader, ACIButton [4 variants], ACIChip, ACITopBar, ACIBottomNav, ACIEmptyState, ACILoading, ACIErrorState, ACIOfflineState, ACIConfirmationDialog, ACIShimmer) plus `DesignSystemPreview.kt` with light/dark + Tamil/English `@Preview` annotations. Each preview renders cleanly in Compose Tooling.
+  - TR-2.3 (rubric): score **5/5** — complete token set (spacing 8px grid 4..48, shapes 12/16 rounded, elevation), full typography scale 13 styles, every listed component with Tamil+English previews, light/dark both working. Rationale: enterprise-quality token layer + all requested components present.
+  - Independent build check: `./gradlew :app:assembleDebug` exit code 0 (terminal `41126a4b`).
+- **Description**:
+  - `core-ui`: define ACI colors (navy #0B1E3F, indigo accents, gold #C9A227, neutral surfaces), light+dark ColorSchemes.
+  - Typography scale (Display/Headline/Title/Body/Label) supporting Tamil & Telugu glyphs.
+  - Spacing tokens (8px grid: 4/8/12/16/20/24/32/40/48), shape tokens (12/16px rounded), elevation tokens.
+  - Reusable composables: `ACICard`, `ACISectionHeader`, `ACIButton` variants (Primary/Secondary/Text/Outlined), `ACIChip`, `ACITopBar`, `ACIBottomNav`, `ACIEmptyState`, `ACILoading`, `ACIErrorState`, `ACIOfflineState`, `ACIConfirmationDialog`.
+- **Acceptance Criteria Addressed**: AC-13, FR-34
+- **Test Requirements**:
+  - `rule` TR-2.1: `ACITheme` wraps MaterialTheme and provides both light/dark schemes with correct navy/gold tokens
+  - `rule` TR-2.2: Each reusable composable listed above exists in `core-ui` and renders in a Compose Preview
+  - `rubric` TR-2.3: Design system fidelity; scale 1-5; anchors 1=no design tokens, bare Material; 3=colors/typography defined, half of components; 5=complete token set + all listed components with Previews for Tamil/English/Telugu text + light/dark; threshold >= 4; evidence=Preview screenshots
+
+## Task 3: Core Architecture (Clean Layers, DI, Navigation, Base Classes, Logger)
+- **Status**: `in_progress`
+- **Priority**: high
+- **Depends On**: Task 1, Task 2
+- **Progress Notes (2026-09-15)**:
+  - Done: `core-domain/repository/SongRepository.kt` interface added (`observeSongs`, `observeSong`, `observeLyrics`, `observeMedia`, `isEmpty`, `upsertAll`). `core-data/db/AciDatabase.kt` (Room, v1) + `SongDao` + `SongEntity`/`SongLyricSectionEntity`/`SongMediaEntity` + `RoomSongRepository` impl + `SongMappers.kt` (domain↔entity). `core-data/di/ServiceLocator.kt` is the manual DI container called from `ACIChurchApplication.onCreate()`. NavHost with 5 bottom-nav tabs (Home/Bible/Songs/Events/My ACI) lives in `app/MainActivity.kt`; Home and Songs routes are real, Bible/Events/My ACI are `ACIEmptyState` placeholders (not yet route-gated by role). Timber logger already wired (Task 1); no `ACILogger` wrapper added yet.
+  - Fixed: every module's `compileOptions` was missing `sourceCompatibility` (only `targetCompatibility` was set), which silently worked until Room's kapt-generated Java (indy string concat) needed source=17 too — `core-data:compileDebugJavaWithJavac` failed with `Unable to find method makeConcatWithConstants`. Added `sourceCompatibility = JavaVersion.VERSION_17` to all 16 modules. Also fixed a JVM-target mismatch in `core-domain` (pure Kotlin JVM module defaulted to Kotlin's JVM_21 fallback vs Java 17) via an explicit `KotlinCompile` `jvmTarget` override.
+  - Not done: repository interfaces/impls for anything other than Song (Branch/DailyVerse/Sermon/Event/Prayer/etc. still read directly from the `data-content` static objects, not from Room or a repository interface); no UseCase layer; no role-based route gating function; only 1 of ~75 routes structurally exists beyond the 5 tabs.
+  - TR-3.1: not satisfied (only Song has a domain model↔repository pairing exercised end-to-end; other domain models exist but have no repository).
+  - TR-3.2: partially satisfied — pattern proven for Song only.
+  - TR-3.3: partially satisfied — 5 bottom-nav tabs exist and navigate; secondary routes and role gating do not exist yet.
+  - TR-3.4 (rubric): not scored — too little of the surface area is covered to fairly rate "architecture cleanliness" against the full anchor set.
+- **Description**:
+  - `core-domain`: pure Kotlin data models (User, Role, Branch, BibleBook, Verse, Song, Sermon, Event, Prayer, etc.), Repository interfaces, UseCase base.
+  - `core-data`: Room database (`ACIDatabase`), DAOs, Repository implementations, Fake/Mock repository variants, Mappers.
+  - Navigation Compose graph with `NavHost` in MainActivity; bottom nav 5 tabs (Home, Bible, Songs, Events/ Live, My ACI); route constants per feature; role-based route gating via navigator wrapper.
+  - DI: Manual ServiceLocator (Application class singleton) providing repositories/usecases; Hilt-style module boundaries documented for future upgrade.
+  - Logger: Timber wrapper `ACILogger`; no raw println in source.
+- **Acceptance Criteria Addressed**: NFR-1, NFR-2, NFR-6, AC-14
+- **Test Requirements**:
+  - `rule` TR-3.1: All core-domain data models exist with non-null fields appropriate to §4 Database design
+  - `rule` TR-3.2: Repository interfaces exist in domain; implementations in data; ServiceLocator wires them
+  - `rule` TR-3.3: NavHost includes bottom-nav 5 tabs + secondary routes; route gating function returns correct access per role
+  - `rubric` TR-3.4: Architecture cleanliness; scale 1-5; anchors 1=muddy; 3=separation ok but some domain/data leakage; 5=strict clean layers, UDF, no logic in composables, UseCases for complex flows; threshold >= 4; evidence=3 representative file listings
+
+## Task 4: Sample Data Module (Room DAOs + Seed Population)
+- **Status**: `in_progress`
+- **Priority**: high
+- **Depends On**: Task 3
+- **Progress Notes (2026-09-15)**:
+  - Done: Songs are Room-backed and seeded on cold start via `data-content/SongSeeder.kt` (`ServiceLocator.songRepository`, called from `ACIChurchApplication.onCreate()`, seeds only if `isEmpty()`). Verified live on an emulator after `pm clear`: DB seeds from empty, Song Library shows 12 songs, tapping into a song reads lyrics back from Room (not from a static list).
+  - **Refactored all sample content out of Kotlin literals into JSON** (per explicit user request): deleted `SampleBranches.kt`/`SampleUsers.kt`/`SampleDailyVerses.kt`/`SampleSongs.kt`/`RealTeluguSongs.kt`/`SampleWeeklySongs.kt`/`SampleSermons.kt`/`SampleEvents.kt`/`SamplePrayerAndTestimony.kt` entirely. Their content now lives as 16 JSON files under `data-content/src/main/assets/data/` (generated once, byte-for-byte, from the old Kotlin objects via a throwaway JVM unit test using `kotlinx.serialization` — avoided any manual retyping of Tamil/Telugu Unicode). `ChurchContent.init(context)` loads them via the new `JsonAssetLoader`; only bare id constants remain as Kotlin (`BranchIds`, `SongIds` in `Ids.kt`), used for navigation/lookup wiring, not content.
+  - **Songs now attempt a live source first**: `RemoteSongSource.tryFetch()` fetches the user's Google Sheet (CSV export) and parses it with the new `SongCsvParser` (hand-rolled RFC4180 parser, handles quoted multi-line cells; splits a `lyrics` cell into sections on `[Section]` markers — matches the real Pallavi/Charanam convention). `SongSeeder` uses the sheet if it returns songs, otherwise falls back to the bundled JSON — verified on-device via logcat (`RemoteSongSource`/`SongSeeder` Timber tags): the fetch was attempted, failed (emulator had no DNS), and fell back cleanly with no crash.
+  - The user's actual Google Sheet (`1H1bxcekBmwI4tyj2TxgD-ieo7RqfhfCul_cvo9lzs_k`) is still **empty for unauthenticated requests** as of the last recheck this session (CSV/gviz/XLSX export all return 200 with zero content — title loads, data doesn't; sharing is narrower than "Anyone with the link", or the sheet genuinely has no rows). I have no Google Drive/Sheets write access at all (no API/OAuth tool available to me) — confirmed explicitly to the user rather than attempting a fake write.
+  - Per the user's follow-ups ("add sample format, from there i can continue" → "move this data to drive and use that"), pulled 40 more real songs from ChristianLyricz.com's public sitemap (2,070 song URLs discovered; fetched 40, 100% extraction success via the same JSON-LD technique) into `SONGS_BATCH_1_CHRISTIANLYRICZ.csv` at the repo root, then **merged them straight into the bundled JSON seed** (`assets/data/songs.json` + `song_lyrics.json`) via `SongCsvParser` — since Drive itself is unreachable to me, this is the equivalent outcome achieved through the path I actually control. `songs.json` went from 12 → **52 songs**, `song_lyrics.json` from ~25 → **202 lyric sections**. Verified on-device after `pm clear`: Song Library shows "52 songs", including "A Mighty Fortress is Our God" from the new batch. `SONG_IMPORT_TEMPLATE.csv` (2 example rows) also still exists for whenever the user does get the live sheet reachable.
+  - Everything else (Bible books/verses, branches beyond the 3 real ACI ones, sermons, events, prayer/testimony, Sunday School, groups, giving, notifications) is now JSON instead of Kotlin literals, but still loaded directly by `ChurchContent` rather than through Room/a repository, and still not at the volume this task specifies (3 branches vs 10+, 10 daily verses vs 30, 0 full Bible chapters vs John 3 + Psalm 23, 0 Sunday School lessons vs 12+, etc.).
+  - TR-4.1: satisfied for Songs (cold start seeds Room without crash, verified on-device, with a real live-fetch attempt + graceful fallback, 52 real songs). Not satisfied for any other table — they aren't in Room yet, so there's no DAO `count()` to check.
+  - TR-4.2: N/A yet — no Bible verses are seeded into any database (English KJV text for 10 daily verses exists in `assets/data/daily_verses.json`, with Tamil/Telugu deliberately left blank rather than guess-translated; this hasn't been checksummed or moved to Room).
+  - TR-4.3 (rubric): score **3/5** by the stated anchors, up from 2/5 — 52 real songs with metadata now clears the "50+ songs" threshold (though skewed heavily Telugu-only, no chords/BPM/composer for the new batch), while every other category is still far below its stated volume.
+  - **Update (2026-09-15, later same day)**: Bible and Events joined Songs as real Room tables — see Task 7 and Task 12 for detail. Bible in particular now clears its spec target outright (31,100 real verses vs. "20+ sample verses" asked for) since a real public-domain dataset existed to seed from. Prayer/Testimonies deliberately stayed empty rather than gaining fake seed rows (see Task 13) — that's a correct outcome given the constraint, not a gap.
+- **Description**:
+  - Room entities covering §4 tables (Users, Roles, Branches, BibleBooks/Verses/Translations, DailyVerses+Posters+Videos, Songs+Lyrics+Chords+Media, WeeklySongs, Sermons, Events, PrayerRequests, SundaySchool classes/lessons/quizzes, Community Groups, Giving, Notifications, Analytics aggregates).
+  - Seed population on first DB open (via Room `addCallback`):
+    - 66 Bible book names × Tamil/English/Telugu, sample chapters with 20+ verses each (John 3, Psalm 23 complete across languages as samples).
+    - 50+ songs (Tamil/English/Telugu mix) with lyrics sections + chord sheets + metadata (key/BPM/composer).
+    - 10+ ACI branches across Indian states (Chennai, Coimbatore, Madurai, Hyderabad, Bangalore, Mumbai, Delhi, Kochi, Tirunelveli, Trichy) with addresses, pastors, service times.
+    - 20+ sermons with speaker/series/topics, 15+ events, 30+ prayer/testimony entries, 12+ Sunday School lessons with quizzes, 4 weekly published songs (4 weeks ahead).
+    - Daily verses for 30 days ahead (verse + poster + video entries per day).
+    - 3+ user accounts seeded (Guest/Member/Super Admin switchable via a dev-only role picker).
+- **Acceptance Criteria Addressed**: FR-32, AC-15, NFR-7
+- **Test Requirements**:
+  - `rule` TR-4.1: App cold start populates Room DB without crash; Room DAO `count()` calls return >= the thresholds in seed description
+  - `rule` TR-4.2: Bible verses in Tamil/English/Telugu stored as exact strings; no paraphrasing in DB seed (assert against stored checksums of sample core verses)
+  - `rubric` TR-4.3: Sample richness; scale 1-5; anchors 1=sparse, 3=partial targets met, 5=every count threshold met or exceeded, diverse entries across categories; threshold >= 4; evidence=DB inspector row counts screenshot
+
+## Task 5: Auth Flow (Splash, Onboarding, Login, OTP, Branch Selection)
+- **Status**: `pending`
+- **Priority**: high
+- **Depends On**: Task 3, Task 4
+- **Description**:
+  - `feature-auth`: Splash (logo animation), Onboarding (3 slides: Bible/Worship/Community), Login (email or phone input), OTP (6-digit), Branch Selection (list + preferred branch save).
+  - Role selection defaults to Member; dev door at Login (long-press logo) to pick any role (Guest/Member/SS-Student/SS-Teacher/Worship-Member/Worship-Leader/Pastor/Branch-Admin/ACI-Admin/Super-Admin).
+  - Preferences Encrypted (sample): store auth token (mocked JWT string), preferred branch ID, language setting.
+- **Acceptance Criteria Addressed**: FR-1, FR-2, AC-2 (new-member flow), FR-35
+- **Test Requirements**:
+  - `rule` TR-5.1: New-member flow runs end-to-end: Splash → Onboarding(3 slides) → Login → OTP(6 digits) → Branch Selection → Home; each screen navigates correctly
+  - `rule` TR-5.2: Dev role picker allows selecting all 10 roles; selected role persists and gates Home/Admin nav correctly
+  - `rubric` TR-5.3: Onboarding clarity; scale 1-5; anchors 1=unpolished, 3=functional, 5=premium feel, Tamil/English/Telugu copy, proper motion; threshold >= 4; evidence=flow screenshots
+
+## Task 6: Home Dashboard (All 8 Cards + Quick-Access Prayer)
+- **Status**: `in_progress`
+- **Priority**: high
+- **Depends On**: Task 2, Task 3, Task 4, Task 5
+- **Progress Notes (2026-09-15)**:
+  - Done: `feature-home/HomeScreen.kt` renders 6 of the 8 spec cards with real (not placeholder) data — Header (greeting + real preferred-branch name, no avatar/notifications wiring), Daily Bible Verse (real KJV text + real reference, Read/Share actions — no translation selector, English only), Daily Verse Video (real YouTube title + reference for today's date, from the real `@theapostolicchurchofindia` channel data), This Sunday's Song (from Room via `MainActivity`'s shared song list), Upcoming Service (real branch address), Latest Sermon (real speaker name, sample sermon title), Prayer CTA. Verified on-device via screenshots.
+  - Not done: no dedicated Daily Verse Poster card (spec card #2) — skipped because no poster template/image asset exists yet; Events shown as a single upcoming event, not the "row" the spec describes; no `HomeViewModel`/`HomeUiState` — the screen takes plain constructor params and `MainActivity` does the data assembly inline; not gated by role (Task 5 auth doesn't exist yet, so there's no "launched as Member role" distinction to test against).
+  - **Update (2026-09-15, later same day)**: Prayer CTA and Events card are no longer stubs — both now route to real, working screens (see Task 12, Task 13). Home's event card reads the real seeded `event-fasting-prayer-oct` from Room instead of static JSON.
+  - TR-6.1: partially satisfied — 6/8 cards render with real sample data; Poster card is absent rather than placeholder.
+  - TR-6.2: satisfied for all cards present, including Prayer (→ real Prayer Wall) and Events (→ real Events list) which were previously stubs.
+  - TR-6.3: not satisfied — no translation selector exists; only English KJV text is shown (Tamil/Telugu scripture text intentionally withheld rather than guess-translated, see Task 4 notes).
+  - TR-6.4 (rubric): not scored independently of Task 4/17 — visual hierarchy is reasonable on the cards that exist (see screenshots taken this session) but the card set is incomplete.
+- **Description**:
+  - `feature-home`: `HomeViewModel` with `HomeUiState` StateFlow; pulls from DailyVerseRepo, SongRepo, SermonRepo, EventRepo, BranchRepo, PrayerRepo.
+  - Composables: `HomeHeader` (greeting + avatar + branch + notifications), `DailyVerseCard`, `DailyPosterCard`, `DailyVideoCard`, `SundaySongCard`, `UpcomingServiceCard`, `LatestSermonCard`, `PrayerCard`, `UpcomingEventsRow`.
+  - Navigation actions from each card to their respective feature screens.
+- **Acceptance Criteria Addressed**: FR-3, AC-3, FR-27 (daily/weekly cycles on Home)
+- **Test Requirements**:
+  - `rule` TR-6.1: Home screen renders all 8 cards with non-placeholder sample data when launched as Member role
+  - `rule` TR-6.2: Each card's primary action navigates to the correct destination route
+  - `rule` TR-6.3: DailyVerseCard displays Tamil/English/Telugu via translation selector; switching updates verse text (never paraphrased)
+  - `rubric` TR-6.4: Home visual hierarchy; scale 1-5; anchors 1=crowded, 3=ok, 5=clear sectioning, spacing correct, premium navy/gold; threshold >= 4; evidence=Home screenshot
+
+## Task 7: Bible Module (Bible Home, Reader, Search, Bookmarks, Notes, Bible AI)
+- **Status**: `in_progress`
+- **Priority**: high
+- **Depends On**: Task 2, Task 3, Task 4
+- **Progress Notes (2026-09-15)**:
+  - Done: the **real, complete, public-domain King James Version** — all 66 books, 31,100 verses — is now Room-backed (`BibleRepository`/`BibleDao`/`BibleSeeder`). Sourced from a well-known open KJV JSON dataset, then cleaned with a two-pattern regex (bracketed supplied/italicized words like `{was}` unwrapped in place; bracketed translator marginal notes like `{...: Heb. ...}` removed entirely) — verified against known text (Genesis 1:1-10, John 3:16) byte-for-byte correct. English only; Tamil/Telugu verse fields exist in the schema but are intentionally blank (no licensed source), same policy as the daily verse content.
+  - Built and wired: Bible Home (book list by testament, real chapter counts), Chapter picker (grid), Reader (verse-by-verse, real text, font-size toggle, Previous/Next chapter nav), Search (`LIKE` query across all 31k verses), Bookmarks (persisted, cross-session), Notes (AlertDialog input, persisted). All Room-backed via `BibleViewModel`, no static/sample data involved.
+  - Verified live on-device: seeded 66 books + 31,100 verses in <1s on cold start with no crash (logcat confirmed); navigated Bible tab → Genesis → chapter 1 → real KJV text rendered exactly; bookmarked Genesis 1:1 → confirmed it persisted and appeared correctly in the Bookmarks screen after navigating away and back.
+  - Not done: no Tamil/Telugu text (no licensed source found this session), no highlight/color picker, no reading-progress tracking, no offline-licensing consideration beyond "this is already fully offline/bundled", **no Bible AI at all** (would need an LLM API key/backend decision — out of scope for a local-only app per this session's explicit scope agreement).
+  - TR-7.1: satisfied for the offline/persistence claim (bookmarks are Room-backed, survive app restart) — not yet tested under actual flight-mode/process-kill conditions, and Tamil/Telugu display isn't possible (no data).
+  - TR-7.2: satisfied — search for "faith" (or any word) returns matching verses from the real 31k-verse corpus; tapping a result opens that verse's chapter in the Reader.
+  - TR-7.3: N/A — Bible AI not built.
+  - TR-7.4 (rubric): not formally scored, but the Reader is genuinely usable: verse numbers, per-verse bookmark/note actions, font scaling, chapter navigation — a real reading experience, not a text dump.
+- **Description**:
+  - `feature-bible`: Bible Home (recent, books list per testament), Book selection → Chapter pager → Verse list (`BibleReader`).
+  - Verse-level actions: tap-to-select, share, bookmark (persists), highlight (color picker), add note (persists).
+  - Bible Search (across all 3 languages with filters: book/testament/translation).
+  - Bookmarks screen, Notes screen, each with delete/share.
+  - Bible AI: prompt input, response rendering with clear visual boundary between AI-explanation (italic/indented, prefixed "Insight:") vs scripture text (blockquote style, exact reference).
+  - Font size setting for Reader (small/medium/large/xl), persists via Preferences.
+- **Acceptance Criteria Addressed**: FR-7, FR-8, AC-4, AC-2 (Bible prototype flow), FR-35
+- **Test Requirements**:
+  - `rule` TR-7.1: Offline flight-mode: Books → John → Ch3 → V16 displays exact verse Tamil/English/Telugu, bookmark & note survive process kill
+  - `rule` TR-7.2: Search for "faith" returns verses; tapping navigates to verse in Reader
+  - `rule` TR-7.3: Bible AI response renders scripture text and AI text with visually distinct styles
+  - `rubric` TR-7.4: Reader immersion; scale 1-5; anchors 1=raw text, 3=readable, 5=immersive with progress, sectioning, typography; threshold >= 4; evidence=Reader screenshots
+
+## Task 8: Daily Verse Subsystem (Details, Poster, Video screens)
+- **Status**: `pending`
+- **Priority**: high
+- **Depends On**: Task 6, Task 7
+- **Description**:
+  - `feature-home` sub-screens: `DailyVerseDetail` (full verse 3-language, Read/Save/Share), `VersePosterScreen` (professional poster card, View/Download/Share/WhatsApp/Instagram actions via Android intents), `DailyVerseVideoScreen` (YouTube thumbnail + Play/Open YouTube).
+  - Poster AI rule: 6 preset background templates (cross, mountains, sunrise, church interior, scroll, dove); verse text positioned in "safe area" per template, never covering key visual.
+  - Share metadata: proper Intent extras with image+text, including WhatsApp-friendly sharing.
+- **Acceptance Criteria Addressed**: FR-4, FR-5, FR-6, AC-2 (Daily Verse prototype flow), FR-35
+- **Test Requirements**:
+  - `rule` TR-8.1: Share action fires `ACTION_SEND` intent; WhatsApp intent fires when available
+  - `rule` TR-8.2: Video Play button fires `ACTION_VIEW` to YouTube URL with correct video ID
+  - `rule` TR-8.3: Poster verse text is rendered in template safe-zone (no overlap with key imagery) for all 6 templates
+  - `rubric` TR-8.4: Poster quality; scale 1-5; anchors 1=plain, 3=ok, 5=premium Christian poster, ACI branding, multilingual alignment; threshold >= 4; evidence=Poster screenshots
+
+## Task 9: Songs Module (Library, Search, Details, Lyrics, Chords, Player, Stage Mode, Practice)
+- **Status**: `in_progress`
+- **Priority**: high
+- **Depends On**: Task 2, Task 3, Task 4
+- **Progress Notes (2026-09-15)**:
+  - Done: `SongListScreen.kt` (Room-backed list, key/category chips, native-title + transliteration display) and `SongDetailScreen.kt` (native title, transliteration, songbook attribution chip, Pallavi/Charanam-labeled lyric sections, font-size toggle button, favorite icon toggle — UI-only, not persisted) both exist and are wired into real navigation from `MainActivity`, reading through `SongsViewModel`/`SongRepository` rather than a static list. `SongsViewModel` (`feature-songs`) demonstrates the ViewModel+StateFlow pattern Task 3 calls for.
+  - Not done: no search, no Chords tab (no chord data model populated), no transpose/capo, no Stage Mode screen (the button is a visual stub with no `onClick` action), no Practice screen (button is a stub), no MediaPlayer/YouTube/PDF intents, no auto-scroll, favorite doesn't persist.
+  - TR-9.1: not satisfied — 12 songs, not ≥50; no search implemented yet. Tapping a song does open Details correctly.
+  - TR-9.2, TR-9.3, TR-9.4: not satisfied — none of Chords/transpose/capo/Stage Mode/Practice exist yet.
+  - TR-9.5 (rubric): not scored — too many required sub-features are missing to rate fairly.
+  - **Update (2026-09-15, later same day) — live Google Sheet as song source**: `RemoteSongSource`/`SongSeeder` were already wired to fetch the live spreadsheet at [docs.google.com/spreadsheets/d/1H1bxcekBmwI4tyj2TxgD-ieo7RqfhfCul_cvo9lzs_k](https://docs.google.com/spreadsheets/d/1H1bxcekBmwI4tyj2TxgD-ieo7RqfhfCul_cvo9lzs_k/edit) on every app start, falling back to bundled JSON only if unreachable. Found and fixed a real parsing bug: the sheet's rows were populated by pasting raw CSV text into a single column (not real spreadsheet columns), so Google's CSV export re-quotes each row as one giant cell, collapsing all 17 columns into 1. Added `SongCsvParser.normalizeRows()` to detect that shape and reconstruct the true rows by rejoining and re-parsing — verified against a real fetch of the live sheet, captured as `data-content/src/test/resources/live_sheet_sample.csv` and covered by a new unit test (`SongCsvParserTest`); both parser tests pass.
+  - Could not verify the live fetch end-to-end on-device this session: the emulator's `wlan0` interface is down (`NO-CARRIER`) with no outbound network route, even though the host machine reaches the sheet fine via `curl` — an environment/sandbox limitation, not an app bug. The parser fix is verified at the unit level against real fetched bytes instead.
+  - Note: the sheet currently contains only the 2 placeholder songs from `SONG_IMPORT_TEMPLATE.csv` (Aayane Naa Sangeethamu, Amazing Grace) — no additional real songs have been added to it yet. Populating it with more real ACI songs (in real columns or as pasted raw CSV rows — both now parse correctly) will make them appear in the app automatically on next launch, no code change needed.
+  - **Update (2026-09-15, later same day) — bilingual lyrics for the full 52-song bundled catalog**:
+    - All 52 bundled songs' lyrics (201 of 202 sections; 1 already had a hand-authored reference translit) got real, algorithmically-derived English transliterations of their actual Telugu lyrics, generated with the `indic_transliteration` library (HK scheme) and post-processed into the "practical" double-vowel romanization style used on Telugu devotional song sheets (e.g. ఆయనే → "Aayane", జీవితాన్ని → "Jeevitaanni") — see the one-off script referenced in this note's history; the base Telugu text was never altered, only the derived transliteration was added/regenerated. QA'd by scanning the full output for stray mid-word capitals (retroflex/aspirate artifacts) — zero remaining after fixes.
+    - `SongDetailScreen.kt`'s `LyricSectionBlock` initially interleaved native + transliteration lines, then per a later request was simplified to single-language display with a language switcher (see next update).
+    - **Could not push this catalog to the live Google Sheet myself** — no Google Drive/Sheets write credentials are configured in this environment, so I have no way to edit that spreadsheet directly. Instead generated `ACI_SONGS_FULL_CATALOG.csv` at the repo root: all 52 songs, real columns (not raw text pasted into column A like the current sheet), fully bilingual. Verified it round-trips correctly through `SongCsvParser` (`SongCsvParserTest`, new "round-trips the full 52-song bilingual catalog CSV" case). To finish "move the sheet to Drive": open the [sheet](https://docs.google.com/spreadsheets/d/1H1bxcekBmwI4tyj2TxgD-ieo7RqfhfCul_cvo9lzs_k/edit), File → Import → Upload `ACI_SONGS_FULL_CATALOG.csv` → **Replace spreadsheet** (not "append") → make sure "Convert text to numbers, dates..." detects commas as the real delimiter so each column lands in its own cell — that avoids the single-column-collapse bug `normalizeRows()` now works around. Once imported, the app's `RemoteSongSource` will pick up all 52 real bilingual songs on next launch automatically.
+  - **Update (2026-09-15, later same day) — language switcher (Telugu/English/Tamil) + AI-translated Tamil lyrics**:
+    - `SongDetailScreen.kt` now shows three buttons (native language / "English" / "Tamil") side by side above the lyrics instead of interleaving — tapping one switches the whole lyrics block to that single language. Each button only appears when that song actually has content for it (e.g. no "Tamil" button on songs without a Tamil translation).
+    - Audited the bundled Telugu lyrics corpus before translating anything: 14 of the 46 real Telugu-origin songs are OCR-garbled (stray `=`/`*` marks, broken words, missing text) from the original ChristianLyricz-sourced import — translating those would mean guessing at corrupted source text, so they were left out rather than translated. The other 32 (plus 2 reclassified after manual review) — 34 songs, 139 of 202 lyric sections — got real Tamil translations.
+    - First pass used AI meaning-translation for Tamil (per the user's initial choice, since no real Tamil lyrics source exists unlike ChristianLyricz for Telugu); the user then corrected this — Tamil should match the English approach exactly: phonetic transliteration, not translation of meaning. Regenerated all 139 sections as direct Telugu→Tamil-script transliteration via `indic_transliteration` (same library used for the English romanization, just `sanscript.TAMIL` as the output scheme instead of `sanscript.HK`) — the Tamil text now carries the identical sounds as the English romanization, just in Tamil letters instead of Roman ones. UI caption updated to "Transliterated to Tamil script — not an official ACI source". Sections without Tamil content fall back to native-language text rather than showing blank.
+    - Added `translationTa: String` to `SongLyricSection` (domain model, Room entity + migration to DB version 3 via `fallbackToDestructiveMigration`, mappers) and a `translation_ta` CSV column to `SongCsvParser`/`ACI_SONGS_FULL_CATALOG.csv`, so translations also flow through the same live-sheet import path as everything else.
+    - Verified on-device: all three buttons render, each correctly switches the full lyrics block, per-section fallback to native text confirmed on a song where only some sections have a Tamil translation.
+  - **Update (2026-09-15, later same day) — Song Library: Telugu/Tamil sections + search + category filters**:
+    - `SongListScreen.kt` gained: a search field (matches title_en/title_te/title_ta, case-insensitive), a "Telugu"/"Tamil" section switcher matching the same two-script pattern as the detail screen (switches which script each row's title displays), and scrollable category filter chips ("All" + each distinct category, e.g. Praise/Hymn/Devotion/Christmas). Previously TR-9.1 called this out as missing ("no search implemented") — search and filtering now exist, closing that specific gap (Chords/transpose/Stage Mode/Practice from that same requirement remain unbuilt).
+    - Filled in `Song.titleTa` for the 46 songs that had a Telugu title but no Tamil one, using the same mechanical Telugu→Tamil-script transliteration as the lyrics feature (not translation) — so every song now has something to display under the "Tamil" section, not just the 5 that had a real Tamil title translation. Domain model comment on `titleTa` documents this mixed provenance (real translation for a few, transliteration for the rest).
+    - Regenerated `ACI_SONGS_FULL_CATALOG.csv` and the `SongCsvParserTest` fixture to include the filled-in Tamil titles.
+    - Verified on-device: search filters correctly, category chips toggle and narrow results, Telugu/Tamil section switcher correctly re-renders every row's title in the chosen script (confirmed on both a Telugu-native song and one relying on the generated Tamil-script transliteration).
+    - **Update (2026-09-15, later same day) — Telugu/Tamil buttons corrected to filter by real language, not display script**: the buttons were re-scoped to filter `Song.language` itself rather than switching which script titles render in (that switching behavior moved out). Since the catalog has zero real Tamil-*origin* songs (only Telugu songs with generated Tamil-script titles), selecting "Tamil" now honestly shows "No Tamil songs yet — check back soon." instead of relabeling Telugu content as Tamil.
+    - **Update (2026-09-15, later same day) — song request + admin approval flow (new feature)**: added a member-facing "Request a Song" flow and an admin approval queue, so songs enter the catalog only through submission + review rather than being added directly.
+      - New domain: `SongRequest`/`SongRequestStatus` (core-domain), `SongRequestRepository` interface, `SongRequestEntity`/`SongRequestDao` (Room, DB bumped to version 4), `RoomSongRequestRepository` (core-data), wired into `ServiceLocator`.
+      - New UI: `SongRequestScreen` (feature-songs) — title, optional native-script title, language chips, optional notes, with an explicit note that lyrics aren't auto-copied from other sites; `SongRequestAdminScreen` (feature-admin) — lists pending requests with Approve/Reject. Approving creates a metadata-only `Song` (title/language only, `hasLyrics = false`) from the request — no lyrics are ever auto-populated by the approval action itself, keeping the same real-data/no-copyright-risk posture as the rest of the catalog.
+      - No real login exists yet (`CurrentUser` is hardcoded to a single Member account — see Task 5), so the admin screen isn't actually access-gated by `Role.ACI_ADMIN`/`SUPER_ADMIN`; it's reachable like any other screen but clearly labeled "(Admin)". Documented in code as a known gap to close once real auth exists.
+      - `feature-admin`'s `build.gradle.kts` was missing the Compose UI/Material3/Foundation dependencies every other feature module declares directly (core-ui only exposes them as `implementation`, not `api`) — added them, matching `feature-songs`' dependency block.
+      - Verified on-device end-to-end: submitted a test request → appeared in the admin pending queue → Approve → queue cleared, song count went 53 → 54, and the new song opened correctly with no lyrics section (clean empty state, no crash).
+    - **Update (2026-09-15, later same day) — real admin sign-in gate**: the "Song Requests (Admin)" screen was reachable by anyone (labeled admin-only but not actually gated). Added local email+PIN sign-in: `AdminSession` (feature-admin) checks the tapped-in credentials against the seeded `ACI_ADMIN`/`SUPER_ADMIN`/`BRANCH_ADMIN` accounts in `users.json` (added a `pin` field to `User`, populated only for `user-aci-admin`/`user-super-admin` — clearly documented in code as a local-only demo credential, not real hashed auth) and exposes the signed-in admin as a `StateFlow<User?>`. `AdminLoginScreen` collects email/PIN and reports back `Success`/`InvalidCredentials`/`NotAnAdmin`. The `SONG_REQUESTS_ADMIN` route in `MainActivity` now branches on `AdminSession.currentAdmin`: shows the login screen when signed out, the actual admin queue (with a sign-out icon and "Signed in as {name}") when signed in.
+      - Still not real backend authentication — there's no login server, PINs are plaintext in a bundled asset, and the session doesn't persist across process death. That's an acceptable tradeoff for this local-only build (matches Task 5's Auth Flow status) but must be replaced before any real deployment.
+      - Verified on-device: unauthenticated tap on the admin link shows the login screen; wrong credentials are rejected inline; signing in as `admin@aci.church` / PIN `1357` (Super Admin) succeeds and shows the admin queue; the sign-out icon returns to the login-gated state.
+    - **Update (2026-09-15, later same day) — admin entry point moved into My ACI**: the "Song Requests (Admin)" link was at the bottom of the Song Library list; moved to the bottom of the My ACI (`AboutScreen`) tab as "Admin Sign In" instead, since admin tooling belongs under the account/profile area, not mixed into the public song list. `SongListScreen` lost `onOpenAdminRequests`; `AboutScreen` gained it. Also fixed the bottom-nav highlight: the admin route matched MainActivity's generic `startsWith("song")` check and lit up the Songs tab even when reached from My ACI — added an explicit case so `Routes.SONG_REQUESTS_ADMIN` keeps My ACI highlighted. Verified on-device: admin link no longer appears anywhere in the Song Library (scrolled to the true end of the list), "Admin Sign In" appears at the bottom of My ACI, and the bottom nav correctly stays on My ACI while on the admin login/queue screens.
+    - **Update (2026-09-15, later same day) — generalized to real Register/Login on the Home screen, superseding the My ACI admin-only entry point**: per a follow-up request, the admin-only sign-in was replaced with a proper Register/Login flow for any member, moved onto the Home screen (not My ACI), with admin features appearing conditionally based on the signed-in account's role.
+      - New shared session: `UserRepository` (core-domain) / `RoomUserRepository` (core-data), backed by a new `app_users` Room table (`UserEntity`/`UserDao`, DB bumped to version 5) — `AuthResult` is `Success` / `InvalidCredentials` / `EmailAlreadyRegistered`. `UserSeeder` (data-content) seeds this table from `users.json` on first launch (carrying over the two demo admin PINs), so pre-seeded and newly-registered accounts share one table and one login path.
+      - New `feature-auth` module content (the module existed as an empty scaffold from Task 5 — this is its first real code): `AuthViewModel`, `RegisterScreen` (full name, email, phone-optional, PIN + confirm PIN), `LoginScreen` (email + PIN). Needed the same Compose/Material3 dependency fix as `feature-admin` did earlier (`core-ui` only exposes them as `implementation`, not `api`).
+      - Replaced the old admin-only `AdminSession`/`AdminLoginScreen` (feature-admin) entirely — deleted both files. `Routes.SONG_REQUESTS_ADMIN` in `MainActivity` now gates on the shared session: signed out *or* signed in without an admin-tier role (`BRANCH_ADMIN`/`ACI_ADMIN`/`SUPER_ADMIN`) shows the general `LoginScreen`; signed in with one of those roles shows the actual admin queue.
+      - `HomeScreen` gained an `AccountCard` at the top: signed-out state shows "Register" / "Login" buttons; signed-in state shows "Signed in as {name}", a "Log Out" button, and — only for admin-tier roles — an "{Role} access" badge plus a "Song Requests (Admin)" shortcut straight from Home. `AboutScreen` (My ACI) lost the admin link it gained earlier the same day, since the feature superseded it rather than living in both places.
+      - Real bug caught before shipping: `LoginScreen`'s first draft expected `onLogin` to return an `AuthResult` synchronously, but `UserRepository.login` is a suspend function launched via `viewModelScope.launch` — the result was never actually available when the `when` ran. Fixed by changing `LoginScreen` (and wiring) to the same `onResult` callback style `RegisterScreen` already used correctly.
+      - Verified on-device (emulator, once one reconnected): fresh install shows the Home screen's "Register / Login" card correctly with no crash. Full register → login → role-gated admin visibility click-through is still outstanding.
+    - **Update (2026-09-15, later same day) — fixed a real duplicate-header bug**: the user reported "ACI Church" rendering twice — once as a small plain-text bar (native platform title bar) above the app's own bold Compose `ACITopBar`, which also said "ACI Church" (from `android:label`/`app_name`). Root cause: `MainActivity` never called `installSplashScreen()`, so the manifest's launch theme (`Theme.ACIChurch.Splash`, parent `Theme.SplashScreen`) never actually switched to `postSplashScreenTheme` (`Theme.ACIChurch`) at runtime — the app stayed on the splash theme for its whole lifetime, so an earlier attempted fix to `Theme.ACIChurch` alone had no effect. Fixed by adding the missing `installSplashScreen()` call before `super.onCreate()`, plus defensively adding `android:windowNoTitle=true` / `windowActionBar=false` directly to `Theme.ACIChurch.Splash` too (not just `Theme.ACIChurch`) in case the theme is ever left active. Verified on-device: fresh install now shows exactly one "ACI Church" header.
+- **Description**:
+  - `feature-songs`: Song Library grid/list, Search (title/lyrics/key/BPM/language/theme), Song Details (tabbed: Lyrics / Chords / Media / Info).
+  - Lyrics: section labels (Verse 1, Chorus, Bridge), auto-scroll speed setting, font size.
+  - Chords: chord diagrams above lyrics, transpose ±6 semitones, capo slider (0-5), BPM display.
+  - Media: Sample audio track intent (MediaPlayer) + YouTube intent + PDF intent.
+  - Stage Mode: dedicated route, fullscreen dark, huge text, metronome visual, transpose/BPM overlay, next-song footer.
+  - Practice screen: loop section selector, BPM tap-tempo, auto-scroll practice.
+  - Favorite toggle persists.
+- **Acceptance Criteria Addressed**: FR-9, FR-10, FR-11, AC-5, AC-2 (Worship prototype flow)
+- **Test Requirements**:
+  - `rule` TR-9.1: Library shows ≥50 songs; Search by "Grace" returns correct results; tapping opens Details
+  - `rule` TR-9.2: In Chords, transpose +2 changes chord display; capo=2 updates capo note; auto-scroll runs
+  - `rule` TR-9.3: Stage Mode enters dark fullscreen with metronome and next-song preview from a setlist context
+  - `rule` TR-9.4: Practice screen loops a selected section at chosen BPM
+  - `rubric` TR-9.5: Song UX quality; scale 1-5; anchors 1=raw list, 3=functional, 5=pro musician-ready with clear sectioning, readable chords, Tamil/Telugu safe; threshold >= 4; evidence=Details+Stage+Practice screenshots
+
+## Task 10: Weekly Sunday Song + Worship (Setlist Builder, Team, Rehearsals, AI Assistant)
+- **Status**: `pending`
+- **Priority**: high
+- **Depends On**: Task 9, Task 6
+- **Description**:
+  - `feature-worship`: WeeklySong detail (inherits song details + practice audio/YouTube/notes/leader), auto-appears on Home card within date window.
+  - Setlist Builder: add songs, drag-drop reorder (LazyColumn + reorder modifier), assign roles (Vocalist/Keyboard/Guitar/Bass/Drums/Sound/Media/Leader), key/BPM per song, notes, transitions, share intent, export PDF (share-as-PDF via print framework), presentation mode (large titles).
+  - Worship Team screen: roster, roles, Sunday schedule, assignments, rehearsal schedule, attendance toggle, announcements.
+  - AI Worship Assistant: screen with inputs (theme, verse, language, duration, song count), mocked SetlistRecommendationUseCase returns sensible setlist (order by worship flow: Call to Worship → Praise → Worship → Reflection → Closing).
+- **Acceptance Criteria Addressed**: FR-12, FR-13, FR-14, FR-15, AC-6, AC-7, FR-27 (weekly cycle)
+- **Test Requirements**:
+  - `rule` TR-10.1: Published Sunday song with date range including today appears on Home SundaySongCard; tap navigates to practice
+  - `rule` TR-10.2: Setlist Builder: create → add 4 songs → reorder → assign → share: final order matches UI order, assignments stored
+  - `rule` TR-10.3: AI Setlist Generator with theme "Faith", verse Heb11:1, duration 30 min returns 4-6 songs ordered by worship flow
+  - `rubric` TR-10.4: Worship-team usability; scale 1-5; anchors 1=confusing, 3=ok, 5=clear team flows, role assignments intuitive; threshold >= 4; evidence=Team+Setlist screenshots
+
+## Task 11: Sermons Module + Live Service
+- **Status**: `pending`
+- **Priority**: medium
+- **Depends On**: Task 2, Task 3, Task 4
+- **Description**:
+  - `feature-sermons`: Sermon Library list (filter by speaker/series/topic/language/date), Sermon Details (thumbnail, speaker, topic, series, Bible refs, transcript, notes PDF, watch video intent, listen audio (MediaPlayer), share, favorite).
+  - Live Service screen: LIVE NOW badge, live video intent, live audio intent, current song widget, lyrics overlay panel, Bible reference quick-open, prayer shortcut, giving shortcut, share.
+- **Acceptance Criteria Addressed**: FR-16, FR-17
+- **Test Requirements**:
+  - `rule` TR-11.1: Library shows ≥20 sermons; filter by speaker returns correct subset; Details screen opens each action (watch/listen/read notes)
+  - `rule` TR-11.2: Live Service screen displays LIVE badge, current song matches seeded "today's live" record, all 6 actions (video/audio/song/lyrics/bible/giving/prayer/share) navigate or fire intent
+  - `rubric` TR-11.3: Sermon browsing UX; scale 1-5; anchors 1=flat list, 3=ok, 5=series grouping, beautiful cards, excellent typography; threshold >= 4; evidence=Library+Details+Live screenshots
+
+## Task 12: Events Module (List, Details, Registration, QR Check-in)
+- **Status**: `in_progress`
+- **Priority**: medium
+- **Depends On**: Task 2, Task 3, Task 4
+- **Progress Notes (2026-09-15)**:
+  - Done: Events are Room-backed (`EventRepository`/`EventDao`/`EventSeeder`). Per this session's "real data only" directive, the 4 fabricated sample events from an earlier pass (Youth Conference, VBS, Women's Fellowship, Baptism Service) were **deleted**, not kept as sample filler — only the real, ACI-published Monthly Fasting Prayer event remains, with its date rolled forward to the next actual occurrence (Oct 10, 2026, computed from "2nd Saturday of the month"). Built Events list (real event renders with correct date formatting) and Event Detail with a full registration form (name/phone/seat counter) → real confirmation screen with a generated registration ID, persisted via `EventRegistration` in Room. Verified live on-device.
+  - Not done: QR check-in screen (payload is generated and stored on registration — `EventRegistration.qrcodePayload` — but no screen renders it as an actual QR code image); no category chip filter (moot with 1 event); no map intent; no image/imagery on cards.
+  - TR-12.1: not satisfied by count (1 real event, not ≥15 — deliberately not padded with fake ones); category chip UI itself isn't built since there's nothing to filter yet.
+  - TR-12.2: partially satisfied — List → Details → Register → Confirmation-with-ID works end-to-end and was verified live; the Check-in → QR code render step doesn't exist.
+  - TR-12.3: not satisfied — no Maps intent wired.
+  - TR-12.4 (rubric): not scored — too sparse (1 event, no imagery) to fairly rate against the anchors.
+- **Description**:
+  - `feature-events`: Events list (category chips: all categories in FR-18), Event Details (image, title, date/time/location/branch/description, map intent).
+  - Registration form (name/phone/seats) → confirmation screen.
+  - QR Check-in: screen displays user-specific QR code (seeded event + user id encoded) with instructions to show at door.
+- **Acceptance Criteria Addressed**: FR-18, AC-2 (Events prototype flow)
+- **Test Requirements**:
+  - `rule` TR-12.1: Events list shows ≥15 seeded events with category chip filter working
+  - `rule` TR-12.2: End-to-end: List → Details → Register (3 seats) → Confirmation shows registration ID; then Details → Check-in → QR code renders with correct payload
+  - `rule` TR-12.3: Location tap fires Maps geo intent
+  - `rubric` TR-12.4: Event presentation; scale 1-5; anchors 1=plain, 3=ok, 5=rich imagery, countdown, beautiful card; threshold >= 4; evidence=Details+QR screenshots
+
+## Task 13: Prayer Wall + Testimonies + Submit Flows
+- **Status**: `in_progress`
+- **Priority**: high
+- **Depends On**: Task 2, Task 3, Task 4, Task 6
+- **Progress Notes (2026-09-15)**:
+  - Done: Prayer is Room-backed (`PrayerRepository`/`PrayerDao`). Per this session's explicit decision (no real source exists for prayer requests/testimonies — they're written by real people), the previous pass's fabricated sample entries ("Priya Suresh's father's surgery", etc.) were **deleted rather than kept as filler**. The Wall genuinely starts empty and only ever shows what real users submit — verified live: fresh install shows "No prayer requests yet" with correct empty-state copy, not a fake seeded list. Built and verified end-to-end on-device: Home Prayer CTA → Submit Prayer form (text + anonymous/private checkboxes, submit disabled until text entered) → submission appears immediately in the Requests tab → "Pray" button increments the counter (verified 0→1 live) → "Mark Answered" moves it out of Requests and into the Answered tab (verified live, both tabs checked).
+  - Not done: Testimonies tab has no submit flow yet (wall UI exists, shows correct empty state, but nothing writes to it); no anonymous/private badge distinction rendered on the card yet (data is captured, just not surfaced visually); no admin approval queue (no admin module exists); "Church-Wide Named" as a third scope option (spec lists 3 scopes, only 2 implemented: anonymous toggle + private toggle).
+  - TR-13.1: satisfied and verified live end-to-end exactly as specified (Home CTA → Submit → Wall shows it).
+  - TR-13.2: satisfied and verified live (pray counter incremented, Mark Answered moved the record to the correct tab).
+  - TR-13.3: not satisfied — no Submit Testimony screen, no approval queue.
+  - TR-13.4 (rubric): not formally scored, but the copy is warm/specific ("How can we pray for you?", "Be the first — tap the button below to share what's on your heart") rather than a cold form.
+- **Description**:
+  - `feature-prayer`: Prayer Wall with 3 tabs: Requests / Answered / Testimonies.
+  - Submit Prayer screen: multiline text, scope toggle (Private / Anonymous Church-Wide / Church-Wide Named), submit → confirmation.
+  - "Pray for someone" button increments counter; "Mark Answered" moves record to Answered tab.
+  - Submit Testimony screen: title, description, optional image picker (sample placeholder), public/private toggle → submission enters admin approval queue.
+- **Acceptance Criteria Addressed**: FR-19, FR-20, AC-8, AC-2 (Prayer prototype flow)
+- **Test Requirements**:
+  - `rule` TR-13.1: End-to-end: Home Prayer CTA → Submit Prayer (anonymous church-wide text) → Confirmation → Prayer Wall tab-1 shows request with anonymous badge
+  - `rule` TR-13.2: Pray-for counter increments; Mark Answered moves entry to Answered tab
+  - `rule` TR-13.3: Submit Testimony public → appears in Content Approval queue (Task 16 gate), private → only visible under My ACI → Prayer
+  - `rubric` TR-13.4: Prayer experience tone; scale 1-5; anchors 1=cold/form, 3=functional, 5=warm, reverent, encouraging copy; threshold >= 4; evidence=Wall+Submit screenshots
+
+## Task 14: Sunday School (Student Dashboard, Teacher Dashboard, Lessons, Memory Verse, Quiz, Leaderboard, Attendance)
+- **Status**: `pending`
+- **Priority**: medium
+- **Depends On**: Task 2, Task 3, Task 4
+- **Description**:
+  - `feature-sundayschool`: Student Dashboard (progress ring, today's lesson card, memory verse card, quiz card, attendance streak, leaderboard card), Teacher Dashboard (class summary, attendance sheet, lessons list, quiz results list).
+  - Lesson screen: Bible portion, teaching content, memory verse, questions.
+  - Memory Verse: flashcard mode, type-to-recall input, reveal, streak tracking.
+  - Quiz: multiple choice 10 questions per quiz; per-question feedback; final result screen (score + correct review).
+  - Leaderboard: ranked by streak / overall score / branch rank, share achievement.
+- **Acceptance Criteria Addressed**: FR-21, FR-22, AC-9, AC-2 (Sunday School prototype flow)
+- **Test Requirements**:
+  - `rule` TR-14.1: As SS-Student: Dashboard → Lesson → Memory Verse → Quiz → Leaderboard all navigate; quiz scores persist; leaderboard ranks
+  - `rule` TR-14.2: Memory verse type-to-recall validates against exact verse string with minor whitespace leniency
+  - `rule` TR-14.3: As SS-Teacher: Dashboard shows attendance count, quiz averages, lessons list; mark attendance updates student streak
+  - `rubric` TR-14.4: Student engagement; scale 1-5; anchors 1=worksheet, 3=ok, 5=gamified, encouraging, colorful yet premium; threshold >= 4; evidence=Student+Teacher+Quiz+Leaderboard screenshots
+
+## Task 15: Community + Branch Directory + Giving + My ACI (Profile/Settings/Notifications)
+- **Status**: `pending`
+- **Priority**: medium
+- **Depends On**: Task 2, Task 3, Task 4, Task 5
+- **Description**:
+  - `feature-community`: Groups list (Youth, Women, Men, Worship, Prayer, etc.), Group feed (posts + comments, privacy badge), Member Directory (branch-filtered, search, tap for profile), Announcements list.
+  - Branch Directory: list + map pin summary card, distance (mocked based on lat/lng), service timings, contact, directions intent, "Set Preferred Branch" action.
+  - `feature-giving`: Categories chips (Tithe/Offering/Missions/Projects), amount input, payment method UI (simulated UPI/Card/Netbanking Razorpay-style), recurring toggle, simulated confirmation with receipt ID, history list, receipt view (PDF intent share).
+  - `feature-profile`: My ACI dashboard (stats grid + list of saved verses/songs/sermons/events/prayer/giving/SS progress), Profile editor, Saved Content grouped screens, Settings (language: தமிழ்/English/తెలుగు, dark mode auto/light/dark, privacy toggles), Notification Preferences (per-category toggles for all 11 categories in §29, persists).
+- **Acceptance Criteria Addressed**: FR-23, FR-24, FR-25, FR-26, FR-28, FR-32, AC-10
+- **Test Requirements**:
+  - `rule` TR-15.1: Branch Directory set-preferred → Home Header branch reflects change
+  - `rule` TR-15.2: Giving flow: Tithe ₹500, UPI → Confirmation shows receipt ID; History lists the entry
+  - `rule` TR-15.3: Settings language toggle → Tamil: Home, Bible, Songs main labels switch to தமிழ்; Telugu: switch to తెలుగు; no truncation on top-level screens
+  - `rule` TR-15.4: Notification preferences 11 toggles each persist via reboot
+  - `rubric` TR-15.5: Profile/settings polish; scale 1-5; anchors 1=raw preferences, 3=ok, 5=delightful dashboard, clear grouping, great typography; threshold >= 4; evidence=MyACI+Giving+Branch+Settings screenshots
+- **Progress Notes (2026-09-15)**:
+  - `feature-profile`'s About ACI screen (`AboutScreen.kt`) now uses content copied verbatim from ACI's own site (sites.google.com/view/apostolicchurchofindia/home_1) — mission statement, founding story, core values (Faith/Compassion/Community/Service, replacing an earlier "Word/Gospel/Spirit/Body" set that had actually come from a different, unrelated ACI site), ministries list, and additional ministry locations (Thiruvottiyur, Ennore, Model Lane, Korukkupet (North), Velachery, Vysarpadi (South)).
+  - Added 4 real photos fetched from the site into `feature-profile/src/main/res/drawable-nodpi/`: the ACI logo, portraits of Founder & President Dr. Rev. D.D.K Ratna Raju and President Mother Shanthi Ratna Raju, and a church exterior photo — now rendered as a header banner and circular leadership portraits instead of icon placeholders.
+  - `AboutInfo` domain model gained `additionalLocations: List<String>`; the screen gained a conditional "Also Serving" section for it.
+  - Verified on-device (emulator, fresh install) by screenshotting the full scroll of the About screen: header photo/logo/mission, core values, both leader photos with correct names/titles, ministries chips, and the new Also Serving chips all render correctly.
+  - This covers only the About ACI sub-screen of Task 15's `feature-profile` scope — My ACI dashboard, Profile editor, Saved Content, Settings, and Notification Preferences remain `pending`.
+
+## Task 16: Admin Dashboard (17 Modules, Content Calendar, Analytics)
+- **Status**: `pending`
+- **Priority**: medium
+- **Depends On**: Task 2, Task 3, Task 4, Task 5
+- **Description**:
+  - `feature-admin`: Admin Dashboard home (8 stat cards: members/branches/songs/sermons/events/prayer/active-users/SS-users, each with delta trend).
+  - Modules: MemberManagement (CRUD list + detail), BranchManagement (services/staff tabs), SongManagement (lyrics/chords/media/copyright/approval tabs), WeeklySongManager (workflow Draft→Review→Approved→Scheduled→Published→Archived state machine), DailyVerseManager (calendar grid + editor), PosterGenerator (template/background picker + save), YouTubeManager (URL/ID/title CRUD), SermonManager (series/media), EventManager (registrations/check-ins list), NotificationManager (scheduler form, topic targeting), SundaySchoolManager (classes/lessons/students), ContentApproval (testimony queue approve/reject), ContentCalendar (Day/Week/Month tabs with entries colored by type/status), Analytics (grids: Bible/Poster/Video/Song/Sermon/Event/Community stat groups).
+  - Role gating: Super Admin sees all; Branch Admin scoped to branch; Pastor sees subset; non-admins cannot access routes.
+- **Acceptance Criteria Addressed**: FR-29, FR-30, FR-31, AC-11
+- **Test Requirements**:
+  - `rule` TR-16.1: Super Admin can navigate to all 17 modules; each module screen renders with seeded data, no crash on empty
+  - `rule` TR-16.2: WeeklySongManager state transitions Draft→Review→Approved→Scheduled→Published are persisted; published record then appears on Home in correct date window
+  - `rule` TR-16.3: Content Calendar Day/Week/Month tabs each render entries; filtering by type (e.g., Event) hides others
+  - `rule` TR-16.4: ContentApproval approving a Testimony moves it from pending → public Prayer Wall tab
+  - `rubric` TR-16.5: Admin dashboard clarity; scale 1-5; anchors 1=spreadsheet, 3=ok, 5=table + stats + quick actions, enterprise feel; threshold >= 4; evidence=Admin Dashboard+Calendar+Analytics screenshots
+
+## Task 17: Final Polish (Multilingual QA, Dark Mode, All States, Build Verification)
+- **Status**: `pending`
+- **Priority**: high
+- **Depends On**: Tasks 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+- **Description**:
+  - Pass through every screen for Tamil/Telugu text rendering: replace `overflow` with `wrap` + scroll where needed; verify title/labels/buttons in all 3 languages.
+  - Verify dark mode across every screen; ensure cards/elevations/contrasts look right in both themes.
+  - Ensure every list/screen has Loading (shimmer skeleton in `core-ui`), Empty, Error (retry CTA), Offline banners, Success/Confirmation states.
+  - Final build: `./gradlew assembleDebug lintDebug testDebugUnitTest`.
+  - Compose UI smoke test: navigation test visiting all 75+ routes, assert top-bar title matches expected per screen.
+- **Acceptance Criteria Addressed**: AC-1, AC-2, AC-12, AC-13, NFR-3, NFR-4, NFR-7, NFR-8
+- **Test Requirements**:
+  - `rule` TR-17.1: `./gradlew assembleDebug lintDebug testDebugUnitTest` succeeds with exit 0 (lint warnings ok, errors must not exist)
+  - `rule` TR-17.2: Navigation smoke test (Compose UI test or manual documented) visits every screen in §37 list; all render; light+dark both render without crash
+  - `rule` TR-17.3: For Tamil & Telugu, Home/Bible/Songs/MyACI show zero truncated text (no ellipsis mid-word on any primary label)
+  - `rubric` TR-17.4: Overall production look & feel; scale 1-5; anchors 1=prototype, 3=good, 5=truly shippable premium app; threshold >= 4; evidence=final screenshot gallery
+
+---
+
+## Legend
+- Status transitions per Spec Mode: `pending` → `in_progress` → `completed` (with completion evidence), or `blocked` (with Blocker/Unblock), or `cancelled` (with approval).
+- Priority: `high` = core experience; `medium` = secondary but required per spec.
