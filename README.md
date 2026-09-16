@@ -2,8 +2,6 @@
 
 A digital church platform for The Apostolic Church of India (ACI) — Kotlin, Jetpack Compose, Material 3, Room, multi-module Gradle.
 
-Full implementation plan and up-to-date task status: [`.trae/specs/aci-church-app/tasks.md`](.trae/specs/aci-church-app/tasks.md).
-
 ## Prerequisites
 
 - **JDK 17+** on your `PATH` (`java -version`)
